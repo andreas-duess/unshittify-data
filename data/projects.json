@@ -591,7 +591,7 @@
       "evidence": "public",
       "aiRole": "Built to be run by a coding agent (Claude Code, Codex, Cursor, Gemini) that follows the repo's agent instructions. The creator's first post credits Claude or DeepSeek.",
       "caveats": "Amazon-protected packages can be blocked but not disabled. YouTube ads are not blocked. A few users reported bricked or half-finished sets; a factory reset removes everything dumbtv did. Not affiliated with Amazon.",
-      "evidenceNote": "Public project (1.7K stars), owner reports from about twenty TVs and sticks, press coverage.",
+      "evidenceNote": "Public project (about 2,000 stars), owner reports from about twenty TVs and sticks, press coverage.",
       "links": [
         {
           "label": "repo",
@@ -606,7 +606,7 @@
           "url": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/"
         }
       ],
-      "reviewed": "2026-10-28",
+      "reviewed": "2026-11-05",
       "submittedBy": "unshittify",
       "draft": false,
       "summary": "Muzzammil Yasin Sabuwala's Fire TV Edition set had 129 MB of free memory and a home screen of mostly ads. A coding agent cleaned it up over ADB. dumbtv packages that cleanup with an undo for every step, its own home screen and an on-device DNS filter."
@@ -1509,7 +1509,7 @@
       "id": 53,
       "title": "CrossPoint Reader",
       "seoTitle": "CrossPoint Reader: open firmware for Xteink e-readers",
-      "device": "Xteink X4 and X3",
+      "device": "Xteink X4 and X3, plus X4Pro, X4Classic, Seeed reTerminal Sticky, M5PaperMono and other ESP32 e-readers",
       "category": "computer",
       "ai": "claude (agent files)",
       "evidence": "public",
@@ -1522,7 +1522,7 @@
           "url": "https://github.com/crosspoint-reader/crosspoint-reader"
         }
       ],
-      "reviewed": "2026-10-29",
+      "reviewed": "2026-11-05",
       "submittedBy": "unshittify",
       "draft": false,
       "summary": "A community project replaces Xteink's stock firmware with an open one: full EPUB rendering, KOReader progress sync, Calibre and OPDS libraries, custom fonts, Bluetooth page turners and over-the-air updates."
@@ -3298,7 +3298,7 @@
       "ai": "coding agent (agent files)",
       "evidence": "public",
       "aiRole": "The repo has an AGENTS.md with instructions for coding agents. No AI use is claimed for the firmware itself.",
-      "caveats": "Back up the stock firmware first. Use the stable branch unless you're a developer; master uses an experimental bootloader. UART access and unbricking skills are highly recommended. Check your exact camera, SoC and sensor variant on the supported-hardware list.",
+      "caveats": "Back up the stock firmware first. Use the stable \"ciao\" branch unless you're a developer; master uses an experimental bootloader. UART access and unbricking skills are highly recommended. Check your exact camera, SoC and sensor variant on the supported-hardware list.",
       "evidenceNote": "Public MIT repo, about 2,300 stars, very active.",
       "links": [
         {
@@ -3314,7 +3314,7 @@
           "url": "https://github.com/themactep/thingino-firmware/blob/master/docs/hardware/supported-hardware.md"
         }
       ],
-      "reviewed": "2026-11-04",
+      "reviewed": "2026-11-05",
       "submittedBy": "unshittify",
       "draft": false,
       "summary": "Cheap IP cameras ship with firmware that phones home to the vendor's cloud. Thingino replaces it with open firmware built on Buildroot for cameras with Ingenic chips, Wyze's included. The camera serves RTSP and ONVIF on your network, so any NVR or Home Assistant can use it with no vendor account."
