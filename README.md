@@ -21,6 +21,8 @@ Updated automatically each time the site is published. The live versions are alw
 | `aiRole` | What the AI did, in the builder's account |
 | `caveats` | What doesn't work, or what to know before trying it |
 | `evidenceNote` | What the evidence label is based on |
+| `repo` | The project's own GitHub repo (`owner/name`), when it has one |
+| `stars` | GitHub stars for that repo, counted when the site was last published. Shows interest, not safety |
 | `links` | Sources: the project's repo or site, write-ups, discussion |
 | `reviewed` | Date unshittify last checked the entry |
 | `submittedBy` | `unshittify` for editorial entries, otherwise the contributor |

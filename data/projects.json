@@ -14,6 +14,7 @@
       "aiRole": "Creator credits Claude Code with most of the implementation. Builds on Ink/Stitch and pystitch.",
       "caveats": "PP1 only. Check file, Bluetooth, browser and desktop requirements. Brother says the paid Artspira+ subscription is optional for the PP1, so what Respira replaces is the phone-app workflow.",
       "evidenceNote": "Public project + creator account.",
+      "repo": "jhbruhn/respira",
       "links": [
         {
           "label": "repo",
@@ -31,6 +32,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 113,
       "summary": "Sends embroidery designs from a computer to the PP1 and shows machine status, offline, without the phone-app workflow. Built by Jan-Henrik Bruhn."
     },
     {
@@ -62,6 +64,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": null,
       "summary": "Kath Korevec built replacement software for her PP1 and reported that it worked. Separate project from Respira."
     },
     {
@@ -77,6 +80,7 @@
       "aiRole": "A coding agent drives the inspection and changes. Creator uses Claude Code.",
       "caveats": "Android TV and Google TV are the main targets. Disabling the wrong package breaks features. A clean launcher does not mean tracking stopped. OS updates can undo changes.",
       "evidenceNote": "Public project + independent owner report (TCL).",
+      "repo": "Gathin23/cleanyourtv",
       "links": [
         {
           "label": "repo",
@@ -90,6 +94,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 52985,
       "summary": "Agent-guided debloat plus a simpler launcher for Android-based TVs. Inspects the device, takes backups, runs checks, and makes targeted changes per set instead of one script for all."
     },
     {
@@ -105,6 +110,7 @@
       "aiRole": "Built with Claude Code, per the creator.",
       "caveats": "One documented model. It replaces the home screen and nothing else. Tizen still runs underneath, and privacy is unchanged. Optional startup and Home-button changes touch undocumented settings.",
       "evidenceNote": "Public experimental project + creator account.",
+      "repo": "NelsonEU/arn0-tv",
       "links": [
         {
           "label": "repo",
@@ -118,6 +124,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 261,
       "summary": "Custom home screen that puts the owner's apps and consoles first, driven by the normal remote. Developed in a browser preview, then moved to the TV."
     },
     {
@@ -133,6 +140,7 @@
       "aiRole": "Coding agents for investigation and the dashboard build.",
       "caveats": "Lookalike frames ship different internals. Some mods need advanced device access. Repo uses sample data; wiring in real calendars and inboxes is on you, along with the security of doing so.",
       "evidenceNote": "Walkthrough, video, public code.",
+      "repo": "wesbos/photo-frame-dashboard",
       "links": [
         {
           "label": "write-up",
@@ -150,6 +158,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 1671,
       "summary": "Wes Bos repaired a Skylight frame's connectivity, then turned cheap Android frame hardware into a household dashboard on the kitchen counter."
     },
     {
@@ -165,6 +174,7 @@
       "aiRole": "Claude helped decode the protocol and write the server. The owner did the hardware work and testing.",
       "caveats": "Partial rescue. Map decoding and camera are unsolved. The author's unit is modified; don't assume a stock vacuum takes the same route.",
       "evidenceNote": "Public experimental project + creator account.",
+      "repo": "Gophercs/trifo_lucy_re",
       "links": [
         {
           "label": "repo",
@@ -178,6 +188,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 5,
       "summary": "The cloud went quiet, so an owner wrote a local server and browser UI. Cleaning, docking, suction, scheduling and status work."
     },
     {
@@ -192,6 +203,7 @@
       "aiRole": "Claude Code for firmware and hardware mapping, on top of open-yoto and Adafruit work.",
       "caveats": "Beta. Install can mean opening the case and soldering. Yoto's paid catalogue stays locked. No Bluetooth headphones in the documented version.",
       "evidenceNote": "Public project. Creator runs it daily on two players.",
+      "repo": "tomekent/yotwo",
       "links": [
         {
           "label": "repo",
@@ -205,6 +217,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 6,
       "summary": "Replacement firmware that points the Yoto's physical controls at your own Audiobookshelf library. Optional NFC, local downloads."
     },
     {
@@ -219,6 +232,7 @@
       "aiRole": "Claude helped develop the driver. Running on the creator's own machine.",
       "caveats": "One confirmed model; other generations use other protocols. Smart Control still has to be enabled on the machine. The washer link is local, but the rest of SmartThings may still use the cloud.",
       "evidenceNote": "Public project + creator account.",
+      "repo": "McArhony/smartthings-samsung-drc-washer",
       "links": [
         {
           "label": "repo",
@@ -232,6 +246,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 17,
       "summary": "The old app workflow was discontinued. The owner wrote a SmartThings Edge driver that talks to the washer locally through a compatible hub."
     },
     {
@@ -246,6 +261,7 @@
       "aiRole": "Claude Code for protocol analysis and the Rust implementation. Owner supplied packet captures and tested.",
       "caveats": "G3010 is the tested model. Other G-series machines are not automatically covered. Check current macOS requirements.",
       "evidenceNote": "Public project + development write-up.",
+      "repo": "pdrgds/pixma-rs",
       "links": [
         {
           "label": "repo",
@@ -259,6 +275,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 24,
       "summary": "A Rust bridge from the G3010's scan protocol to something macOS understands. Scans from the usual Mac apps."
     },
     {
@@ -274,6 +291,7 @@
       "aiRole": "Claude Code assisted. The fix adapts existing SpliX code rather than writing a driver from scratch.",
       "caveats": "Follow the exact model and macOS list in the repo. It fixes Mac compatibility. Ink and subscriptions are untouched.",
       "evidenceNote": "Public project with install and compatibility docs.",
+      "repo": "Kuberwastaken/hp-laser-1008a-macos",
       "links": [
         {
           "label": "repo",
@@ -283,6 +301,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 176,
       "summary": "A patched SpliX printing stack plus a USB helper gets HP Laser 100-series printers working on Apple Silicon Macs."
     },
     {
@@ -297,6 +316,7 @@
       "aiRole": "Claude on the redevelopment, alongside weeks of human investigation, hardware recovery and testing.",
       "caveats": "Expect weeks of work. Creator reports end-to-end function. Restored sleep scores are not medically validated.",
       "evidenceNote": "Detailed write-up + public code.",
+      "repo": "josephspurrier/hello-sense",
       "links": [
         {
           "label": "write-up",
@@ -310,6 +330,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 7,
       "summary": "Joseph Spurrier rebuilt a local stack for a dead sleep company's hardware: bedside orb, Sleep Pill and app, owner-run. Started from the company's own open-sourced code."
     },
     {
@@ -324,6 +345,7 @@
       "aiRole": "Claude Code for protocol research, implementation, tests and setup tooling. Earlier community reverse-engineering underneath.",
       "caveats": "Tested on Gen 1, firmware 22. Local commands have no authentication; lock down your network.",
       "evidenceNote": "Public project with a documented hardware test.",
+      "repo": "gtgaute/ha-smartercoffee",
       "links": [
         {
           "label": "repo",
@@ -333,6 +355,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 0,
       "summary": "Home Assistant integration with local control, status and Wi-Fi setup for a coffee machine whose app is obsolete."
     },
     {
@@ -356,6 +379,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": null,
       "summary": "Mertol Kasanan reverse-engineered his printer's Bluetooth protocol after existing libraries didn't match his variant. Basic image output works."
     },
     {
@@ -370,6 +394,7 @@
       "aiRole": "Built with Claude on openambit and opensportsync.",
       "caveats": "Strongest coverage: Ambit 3, Traverse, Kailash on Android and Linux Mint. Other watches and desktops need checking. Bluetooth reliability is a known issue.",
       "evidenceNote": "Public project + creator report.",
+      "repo": "skinnie/sommet",
       "links": [
         {
           "label": "repo",
@@ -383,6 +408,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 7,
       "summary": "Activities, routes, settings and training features for Suunto watches stranded when Movescount shut down."
     },
     {
@@ -397,6 +423,7 @@
       "aiRole": "Claude Code, on top of node-sonos-http-api and Sonos's local control.",
       "caveats": "Official app still needed for firmware updates and some services. Noncommercial licence.",
       "evidenceNote": "Public project + creator account.",
+      "repo": "tonypest0/sonos-controller",
       "links": [
         {
           "label": "repo",
@@ -410,6 +437,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 53,
       "summary": "Browser controller with volume, sound presets, schedules and the shortcuts the owner uses daily."
     },
     {
@@ -450,6 +478,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": null,
       "summary": "An opinionated Arch Linux desktop. On compatible Intel Macs it keeps the hardware in service with a different OS and workflow."
     },
     {
@@ -465,6 +494,7 @@
       "aiRole": "Claude Code compared USB captures of the vendor's driver, run in a virtual machine, with the Linux driver's traffic. Claude also wrote Negative Vibes. He published the method as hw-harness.",
       "caveats": "Verified on one scanner. One frame per start, film holder positioned by hand, 35 mm only. Upstream SANE added this scanner in September 2026; he calls his backend a proof of concept.",
       "evidenceNote": "Public code + detailed write-up.",
+      "repo": "cschalle/OpticFilm8200i-sane",
       "links": [
         {
           "label": "repo",
@@ -486,6 +516,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 3,
       "summary": "Christian Schaller wrote a Linux SANE backend for his Plustek film scanner: colour, gray, infrared and infrared dust removal, packaged for Fedora. He also built Negative Vibes, a GNOME app for scanning negatives and slides."
     },
     {
@@ -501,6 +532,7 @@
       "aiRole": "Ghidra with Claude Code and Opus to reverse engineer LG's native media libraries; Claude Code, Opus, Fable and Codex for implementation, debugging, tests and review. He says the agent's code needed heavy architecture refactoring.",
       "caveats": "Video won't play on some 2019 sets with LG's k5lp or k3lp chips in Developer Mode. Developer Mode needs renewing or LG removes the apps. Nightly builds are untested on a TV. Unofficial; not affiliated with Plex or LG.",
       "evidenceNote": "Public project (1.1K stars) + creator account.",
+      "repo": "GLinnik21/plx-native",
       "links": [
         {
           "label": "repo",
@@ -518,6 +550,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 1188,
       "summary": "GLinnik21's native Plex client for LG webOS TVs draws its interface on the GPU and plays video on the TV's own decoder. On his 2019 set the profile picker loads in about 3 seconds, against about 30 in the official app."
     },
     {
@@ -532,6 +565,7 @@
       "aiRole": "The creator says Claude wrote most of the code. It builds on Rockbox nwztools and Sony's GPL source.",
       "caveats": "Experimental, tested on one Japanese NW-A829. International NWZ models are untested and the installer can't reach them yet. Installer is Windows only. Charge the battery first; you do this at your own risk.",
       "evidenceNote": "Public project + creator account.",
+      "repo": "manuaguirre9/nw-a820-homebrew",
       "links": [
         {
           "label": "repo",
@@ -545,6 +579,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 4,
       "summary": "manuaguirre9 built a homebrew player that boots alongside Sony's firmware: drag-and-drop music, 24-bit FLAC, Bluetooth headphones, podcasts over phone tethering and retro emulators. Deleting one folder restores the stock Walkman."
     },
     {
@@ -560,6 +595,7 @@
       "aiRole": "ChatGPT first, then Claude, wrote the relay and the ESP32 firmware and read the protocol specs. The creator says the key ideas were his and both AIs gave up at the decision points.",
       "caveats": "Spotify, Amazon Music and other cloud services are gone for good; AirPlay still works. The relay runs on a server you host. The display can show the station name or the stream can be saved as a preset, but not both at once.",
       "evidenceNote": "Public project + creator account.",
+      "repo": "sergei-ponomarenko/bose-soundtouch",
       "links": [
         {
           "label": "repo",
@@ -577,6 +613,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 1,
       "summary": "Bose shut down the SoundTouch cloud in May 2026. Sergei Ponomarenko brought back internet radio and the six preset buttons with a small relay for the streams and ESP32 firmware that catches preset presses and replays them to the speaker."
     },
     {
@@ -592,6 +629,7 @@
       "aiRole": "Built to be run by a coding agent (Claude Code, Codex, Cursor, Gemini) that follows the repo's agent instructions. The creator's first post credits Claude or DeepSeek.",
       "caveats": "Amazon-protected packages can be blocked but not disabled. YouTube ads are not blocked. A few users reported bricked or half-finished sets; a factory reset removes everything dumbtv did. Not affiliated with Amazon.",
       "evidenceNote": "Public project (about 2,000 stars), owner reports from about twenty TVs and sticks, press coverage.",
+      "repo": "humblemuzzu/dumbtv",
       "links": [
         {
           "label": "repo",
@@ -609,6 +647,7 @@
       "reviewed": "2026-11-05",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 1965,
       "summary": "Muzzammil Yasin Sabuwala's Fire TV Edition set had 129 MB of free memory and a home screen of mostly ads. A coding agent cleaned it up over ADB. dumbtv packages that cleanup with an undo for every step, its own home screen and an on-device DNS filter."
     },
     {
@@ -623,6 +662,7 @@
       "aiRole": "The README credits \"significant collaboration from Claude\". The hardest part, a two-stage CRC chain, was cracked with help from a decompile of the Android app.",
       "caveats": "Alarm channels and several settings reports are logged but not parsed. No Wi-Fi path. Only one Bluetooth connection at a time, so the phone app can't connect while the bridge does.",
       "evidenceNote": "Public project; the creator reports weeks of daily use.",
+      "repo": "paul43210/inkbird-bw-ble",
       "links": [
         {
           "label": "repo",
@@ -632,6 +672,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 14,
       "summary": "Paul Faure documented his thermometer's Bluetooth protocol, including its authentication handshake, and built an ESPHome bridge that puts every probe and setting into Home Assistant."
     },
     {
@@ -647,6 +688,7 @@
       "aiRole": "Coding agents, mostly Codex, reverse engineered the Bluetooth spec: he captured packets while Razer's Windows software ran, then fed each capture to Codex to update the spec. He says he likely wouldn't have attempted it without one.",
       "caveats": "Support varies by device and connection; several devices are only contributor-validated. On some Bluetooth devices, settings reset when the mouse powers off.",
       "evidenceNote": "Public project + Show HN post.",
+      "repo": "gh123man/opensnek",
       "links": [
         {
           "label": "repo",
@@ -660,6 +702,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 91,
       "summary": "Razer offers no Mac software for this mouse. gh123man built a native macOS app that sets DPI, lighting, button remaps and onboard profiles over Bluetooth or USB."
     },
     {
@@ -674,6 +717,7 @@
       "aiRole": "Heavy AI pair-programming with Claude for the protocol reverse engineering, the NUT plumbing and Bluetooth debugging, per the creator.",
       "caveats": "The encrypted Bluetooth protocol is reverse engineered, so a firmware update could break it. DELTA 3 only. The handshake needs your EcoFlow user ID once, used locally. Use at your own risk.",
       "evidenceNote": "Public project + creator account.",
+      "repo": "alanstrok/ecoflow2nut-pibridge",
       "links": [
         {
           "label": "repo",
@@ -687,6 +731,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 7,
       "summary": "alanstrok made his power station act as a standard NUT UPS server over Bluetooth, so Unraid, Synology and other NUT clients shut down cleanly on low battery. No EcoFlow cloud."
     },
     {
@@ -701,6 +746,7 @@
       "aiRole": "Claude Code and Codex for the reverse engineering and the app, per the creator.",
       "caveats": "Shelf and pass filters are experimental. Editing doesn't work over Bluetooth, and the Audeze app must be closed. Xbox and Maxwell 2 versions are untested; Maxwell 2 ANC is not supported. Builds are unsigned.",
       "evidenceNote": "Public project + creator account.",
+      "repo": "Aquaspaces/maxwell-peq",
       "links": [
         {
           "label": "repo",
@@ -714,6 +760,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 1,
       "summary": "Aquaspaces writes a full parametric EQ, up to 10 filters, into the headset's own custom preset slots. It stays on the headset over the dongle, USB-C and Bluetooth, with no firmware flash."
     },
     {
@@ -728,6 +775,7 @@
       "aiRole": "Claude Code wrote the client from API calls he captured with HTTP Toolkit, then the integration, and debugged session-expiry and discovery bugs. He had started the library with ChatGPT two years earlier.",
       "caveats": "It works because the iOS app's traffic wasn't encrypted. No licence file in the repo, so check before reusing the code.",
       "evidenceNote": "Public project + creator account.",
+      "repo": "tomwilkie/ha-norman-shutters",
       "links": [
         {
           "label": "repo",
@@ -745,6 +793,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 3,
       "summary": "Tom Wilkie built a Home Assistant integration and Python client for his shutters: open or closed, tilt angle and battery, with the hub found automatically on the network."
     },
     {
@@ -776,6 +825,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": null,
       "summary": "Christian Schaller rebuilt Dell's Windows-only webcam settings app for Linux, integrated with PipeWire, and wrote a GNOME Shell extension with a settings app for his Elgato Key Light."
     },
     {
@@ -790,6 +840,7 @@
       "aiRole": "Claude Code replaced outdated kernel APIs by feeding compiler output back into itself and helped diagnose hardware communication from dmesg logs. He says it would not have been possible without his own kernel knowledge, and it took several manual fixes.",
       "caveats": "Works only with the same limited set of floppy-controller chipsets as the original driver. Verified on his own drives and still being tweaked.",
       "evidenceNote": "Public code + write-up.",
+      "repo": "dbrant/ftape",
       "links": [
         {
           "label": "write-up",
@@ -803,6 +854,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 105,
       "summary": "Dmitry Brant brought the 25-year-old Linux ftape driver up to date as a loadable module, so his old tape drives run on Xubuntu 24.04 for data recovery instead of a CentOS 3.5 machine."
     },
     {
@@ -817,6 +869,7 @@
       "aiRole": "From the README: \"The reverse engineering, hardware testing and decisions were mine; Claude wrote most of the code.\" A few hours of work.",
       "caveats": "The README lists which devices are tested on real hardware; others rely on the maker's own data. Linux builds are untested with a real cable. Windows shows an unknown-publisher warning.",
       "evidenceNote": "Public project + creator account.",
+      "repo": "EffectiveEquivalent/FreeDSP-Studio",
       "links": [
         {
           "label": "repo",
@@ -830,6 +883,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 19,
       "summary": "EffectiveEquivalent's desktop EQ editor writes straight to the cable's onboard DSP over USB. It gives fractional-dB gain where the stock app shows whole dB, and adds a preamp."
     },
     {
@@ -844,6 +898,7 @@
       "aiRole": "Most of the code was written with Claude Code, per the creator, who tested every claim against the real hardware.",
       "caveats": "Linux only (ALSA raw MIDI). The tutor mode he cares about most isn't built yet. Protocol claims are marked as verified or unverified.",
       "evidenceNote": "Public project + creator account.",
+      "repo": "ideaCompany/tr8s-studio",
       "links": [
         {
           "label": "repo",
@@ -857,6 +912,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 26,
       "summary": "ideaCompany's web studio talks to the TR-8S over its reverse-engineered SysEx protocol, mirrors the machine live, and includes an assistant that builds grooves on the hardware using your own Claude subscription."
     },
     {
@@ -872,6 +928,7 @@
       "aiRole": "Mostly Codex and Claude Code. Both sometimes refused work they saw as reverse engineering, so he also used Gemini.",
       "caveats": "Experimental and still buggy. Four-deck mode broke audio routing. Stems need the same USB setup as the CDJ mod that uses OverCue. The stem builder is a beta and not hardware-qualified.",
       "evidenceNote": "Public experimental project + creator account.",
+      "repo": "OpticMystic/XZ-Mods",
       "links": [
         {
           "label": "repo",
@@ -889,6 +946,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 23,
       "summary": "OpticMystic's custom firmware loads into RAM from a USB stick and adds stems playback and UI themes to the XDJ-XZ. A power cycle returns it to stock."
     },
     {
@@ -904,6 +962,7 @@
       "aiRole": "The README doesn't mention AI. The commit history lists Claude as co-author on 15 of 126 commits, and Copilot on others.",
       "caveats": "Firmware updates and schedules don't work; routines and scenes do. Camera streaming needs a TURN relay and is verified on two models. China-market units don't work outside China. Setup needs a domain you control, local DNS rewriting and an SSL certificate.",
       "evidenceNote": "Public project (1.2K stars) + Show HN post.",
+      "repo": "Python-roborock/local_roborock_server",
       "links": [
         {
           "label": "repo",
@@ -921,6 +980,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 1266,
       "summary": "Luke Lashley, who maintains the Roborock integration in Home Assistant, runs a copy of Roborock's cloud backend on your own network. Vacuums keep live maps and local control without the internet, and nothing has to be rooted or opened."
     },
     {
@@ -936,6 +996,7 @@
       "aiRole": "Not stated in the README or the creator's post. The commit history lists Claude as co-author on 258 of 366 commits.",
       "caveats": "Other Osmo models are untested or in progress; drone offload is verified on the Mavic 3 only. Not on Google Play; install from F-Droid or GitHub releases. Not affiliated with DJI.",
       "evidenceNote": "Public project + Show HN post + press review.",
+      "repo": "KonradIT/osmosis",
       "links": [
         {
           "label": "repo",
@@ -957,6 +1018,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 126,
       "summary": "Konrad Iturbe reverse engineered DJI's camera protocol to build an Android app that downloads photos and video from Osmo cameras without DJI's Mimo app, SDK, login or activation."
     },
     {
@@ -972,6 +1034,7 @@
       "aiRole": "The creator says about 90% was coded with Claude Code, which also helped decode the FitPro serial protocol between console and motor board.",
       "caveats": "Confirmed on one machine; other Gen 6 NordicTrack and ProForm consoles are likely but untested, and reports say the Gen 7 update closes the route. Likely voids the console warranty. A factory reset restores iFit. The physical safety key still cuts the motor.",
       "evidenceNote": "Public repo with signed releases + creator write-up.",
+      "repo": "keranm/strideApp",
       "links": [
         {
           "label": "repo",
@@ -985,6 +1048,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 22,
       "summary": "The treadmill's own screen nagged for an iFit subscription. keranm replaced the console app: belt and incline run with no login, no subscription and no internet, plus hill-profile walks, per-person profiles and optional Home Assistant control."
     },
     {
@@ -1000,6 +1064,7 @@
       "aiRole": "The creator used Claude Code to reverse engineer the clock's Bluetooth protocol and to build the Home Assistant integration and a kiosk satellite plugin.",
       "caveats": "New and small: tested on one clock with Home Assistant Container on a Raspberry Pi 3B. Needs a Bluetooth Classic adapter within about 10 m of the Home Assistant host; BLE proxies will not work. The clock works with one controller at a time.",
       "evidenceNote": "Public repos + creator post.",
+      "repo": "mpjanofsky/echo-wall-clock",
       "links": [
         {
           "label": "creator post",
@@ -1017,6 +1082,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 3,
       "summary": "The clock only works paired to an Echo. Mike Janofsky's integration lets Home Assistant drive it instead: the LED ring shows Assist and Home Assistant timers, and the time is re-synced every 30 minutes. Nothing on the clock is modified and nothing touches Amazon's servers."
     },
     {
@@ -1032,6 +1098,7 @@
       "aiRole": "Built with Claude Code in about eight hours of continuous work, from Bluetooth scanning to a working integration. Claude traced the decompiled app and extracted the keys; the owner cross-checked values against the app.",
       "caveats": "It does not remove Emaldo's cloud: it still needs an Emaldo account and internet access. What comes back is the owner's data and control inside Home Assistant.",
       "evidenceNote": "Public repo with protocol documentation + creator write-up.",
+      "repo": "wertigpar/ha-emaldo",
       "links": [
         {
           "label": "write-up",
@@ -1045,6 +1112,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 16,
       "summary": "Emaldo has no public API and no local access, only its app. The integration brings solar, grid, battery and load readings into Home Assistant every 10 seconds, plus daily energy totals and schedule, EV-charge and grid-export controls."
     },
     {
@@ -1060,6 +1128,7 @@
       "aiRole": "Built with Claude Code, which found the connector pinout in CBE documentation and forums, planned the measurements, wrote the firmware and CAD scripts and drafted the docs. The owner did every measurement and wire on the real van.",
       "caveats": "Pinout validated on one vehicle; measure yours first. This is 12 V vehicle wiring: fuse every +12 V wire. The replacement loses the original panel's low-voltage cut-off. Most screens need Home Assistant running in the van.",
       "evidenceNote": "Public repo with firmware, pinout and build guide.",
+      "repo": "danderik88/cbe-ds300-esphome-panel",
       "links": [
         {
           "label": "repo",
@@ -1069,6 +1138,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 0,
       "summary": "The original seven-button panel is hard to find and expensive to replace. danderik88 built a 10-inch ESPHome touch panel that plugs into the same cable: 12 V main switch, water pump, temperatures, grey-water alarm and a Home Assistant dashboard. The distribution unit stays untouched."
     },
     {
@@ -1084,6 +1154,7 @@
       "aiRole": "The README says the project is written and maintained by Claude Code. The owner verified the protocol on the real machine and set the safety rule: loading a recipe only arms the machine, starting is a separate step.",
       "caveats": "Verified on one machine and firmware; updates could break it. The machine allows one Bluetooth connection, so close the phone app first. Starting remotely dispenses near-boiling water; only start with the machine ready.",
       "evidenceNote": "Public repo + PyPI package.",
+      "repo": "Janczykkkko/xbloom-ble",
       "links": [
         {
           "label": "repo",
@@ -1097,6 +1168,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 8,
       "summary": "There is no official xBloom API; recipes lived only in the phone app. Janczykkkko's command-line tool loads recipes from YAML files, shows live weight from the machine's scale and programs the dial presets, so everyday coffees brew with no phone."
     },
     {
@@ -1125,6 +1197,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": null,
       "summary": "Adrian jailbroke his Kindle, removed Amazon's extra software and added Tailscale. Articles saved on his home server and his book library now sync straight to the reader."
     },
     {
@@ -1149,6 +1222,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": null,
       "summary": "The vendor app only worked sometimes. Hazrien's replacement handles lighting, key binds and macros, confirms every change with the pad, and adds app-aware keys that run different actions depending on the program in front."
     },
     {
@@ -1164,6 +1238,7 @@
       "aiRole": "The creator, an enthusiast rather than a professional programmer, says he built it with a lot of help from Claude. The protocol came from an open-source Android app plus probing the real fridge.",
       "caveats": "Confirmed on the MCMR43; other models untested. Battery-voltage scaling is a best guess. It holds a permanent Bluetooth connection, using one of an ESP32 proxy's three slots. Setup needs the fridge's pairing PIN.",
       "evidenceNote": "Public repo + creator post.",
+      "repo": "HeapsGoodTom/mycoolman-ha",
       "links": [
         {
           "label": "repo",
@@ -1177,6 +1252,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 0,
       "summary": "The fridge was only controllable from its vendor app. Tom's integration brings temperature, power, turbo, battery protection and display settings into Home Assistant over Bluetooth, with no cloud and no account."
     },
     {
@@ -1192,6 +1268,7 @@
       "aiRole": "No AI involvement documented. Builds on earlier open work it credits: omap_loader and the GTVHacker Nest research. Won a FULU Foundation bounty.",
       "caveats": "Flashing low-level firmware can brick the thermostat; keep a backup thermostat. The README says some firmware and server code is still to be open sourced. The project's cloud swaps one server for another; self-hosting is the cloud-free route. For Gen 2, Sett sells an open-source replacement board instead.",
       "evidenceNote": "Public repo + press coverage.",
+      "repo": "codykociemba/NoLongerEvil-Thermostat",
       "links": [
         {
           "label": "repo",
@@ -1209,6 +1286,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 1924,
       "summary": "Google ended support for the first two Nest generations on 25 October 2025: the apps, remote control and voice control stopped, leaving manual thermostats. Cody Kociemba's firmware points them at a new server, self-hosted or his, with remote control, schedules and a web dashboard."
     },
     {
@@ -1224,6 +1302,7 @@
       "aiRole": "No AI involvement documented.",
       "caveats": "The replacement server must stay online; dedicated always-on hardware is recommended. Gen2 Botvac Connected not yet supported. Setup differs by model and host system; check the README's tables. Notifications and a Home Assistant entity are still in progress.",
       "evidenceNote": "Public repo + press coverage.",
+      "repo": "vacuula/vacuula",
       "links": [
         {
           "label": "repo",
@@ -1241,6 +1320,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 215,
       "summary": "Vorwerk began shutting Neato's cloud in October 2025, taking away app control, schedules and maps. Vacuula is a self-hosted replacement server with an installer that points the robot at it: maps, schedules, zones and no-go lines work again."
     },
     {
@@ -1256,6 +1336,7 @@
       "aiRole": "No AI involvement documented. Builds on the Car Thing community's superbird-tool image and custom web app.",
       "caveats": "The Car Thing stays connected to a computer running the DeskThing server: a desk accessory, not standalone in-car use. Install from deskthing.app, not from the repo's main branch.",
       "evidenceNote": "Public repo + coverage.",
+      "repo": "ItsRiprod/DeskThing",
       "links": [
         {
           "label": "repo",
@@ -1273,6 +1354,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 1201,
       "summary": "Spotify ended Car Thing service in December 2024 and told owners to throw them away. Riprod's DeskThing turns it into a desk controller with community apps for music control, weather, Discord call status, clocks and remappable buttons."
     },
     {
@@ -1288,6 +1370,7 @@
       "aiRole": "No AI involvement documented. The project predates coding agents (2022) and credits its human contributors.",
       "caveats": "Needs a small board wired to the opener's terminals: follow the wiring docs, and it may affect the opener warranty. The board is a purchase (about $45 as a kit) or a DIY build. Check the compatibility docs for your opener.",
       "evidenceNote": "Public firmware and open hardware.",
+      "repo": "PaulWieland/ratgdo",
       "links": [
         {
           "label": "repo",
@@ -1301,6 +1384,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 1342,
       "summary": "In 2023 Chamberlain blocked third-party access to myQ, breaking Home Assistant and Homebridge control. Paul Wieland's ratgdo board restores local control with full status over MQTT, ESPHome or HomeKit. No cloud and no subscription; the myQ app can keep running."
     },
     {
@@ -1337,6 +1421,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": null,
       "summary": "Humane shut the Pin's servers down in February 2025 and the device stopped working. Adam Gastineau's SDK lets it run as a mostly normal Android device, with an assistant app that can use local, self-hosted or remote AI models."
     },
     {
@@ -1365,6 +1450,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": null,
       "summary": "Belkin shut down Wemo's cloud on 31 January 2026, and devices can no longer be set up through the Wemo app. Binary Boots' free app finds Wemo devices on the local network, switches and dims them, reads Insight energy use and can set them up on Wi-Fi again."
     },
     {
@@ -1401,6 +1487,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": null,
       "summary": "Weber shut down the June app and cloud on 22 September 2026. A volunteer group of June owners built a small replacement server that runs on the oven itself, so preheat, temperature control, timers, cook programs and the live camera work again on the home network."
     },
     {
@@ -1416,6 +1503,7 @@
       "aiRole": "No AI involvement documented in building it. The creator offers a ChatGPT bot for install help.",
       "caveats": "Needs a jailbreak: open the Pod and connect a serial adapter (about US$70 of tools). Ends Eight Sleep support. The guide's no-brick assurance does not cover the Pod 3 with SD card. Biometrics are mostly unvalidated; only heart rate was checked. Pods 1 and 2 are not compatible.",
       "evidenceNote": "Public repo with install guide.",
+      "repo": "throwaway31265/free-sleep",
       "links": [
         {
           "label": "repo",
@@ -1429,6 +1517,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 936,
       "summary": "The Pod depends on Eight Sleep's cloud and a paid subscription. Free Sleep installs a small server on the Pod's own Linux, so temperature, schedules, alarms and settings run from a local web app, and the Pod keeps working without internet."
     },
     {
@@ -1444,6 +1533,7 @@
       "aiRole": "No AI involvement documented in building it. The robot's conversation runs on the owner's own OpenAI account.",
       "caveats": "Needs a paid OpenAI account. Ocean Explorer, Animal Faces and Story Maker are missing, and there is no parent app. The default setup allows anonymous access to the hub; lock down your network. openmoxie.org and \"OpenMoxie 2.0\" are not affiliated.",
       "evidenceNote": "Public repo, actively maintained.",
+      "repo": "jbeghtol/openmoxie",
       "links": [
         {
           "label": "repo",
@@ -1453,6 +1543,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 97,
       "summary": "Embodied's cloud went dark in early 2025 and the US$800 robot stopped working. jbeghtol's local hub runs on a PC, Mac or Raspberry Pi and brings back daily missions, reading, workouts, schedules and custom conversations through a web console."
     },
     {
@@ -1468,6 +1559,7 @@
       "aiRole": "Commits are co-authored by Claude; the README does not describe the AI's role.",
       "caveats": "Never flashes firmware, so a factory reset returns the unit to stock. Wireless backhaul is experimental. Other Motorola mesh models untested. New and small.",
       "evidenceNote": "Public repo.",
+      "repo": "ramirezjhulian7/motorola-q11-freedom",
       "links": [
         {
           "label": "repo",
@@ -1477,6 +1569,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 2,
       "summary": "The Q11's MotoSync app and cloud stopped working after Minim lost the Motorola licence. ramirezjhulian7 turned each unit into a self-managed router with a local web panel served by the router itself: Wi-Fi settings, adding nodes, device controls and recovery after a reset."
     },
     {
@@ -1492,6 +1585,7 @@
       "aiRole": "No AI involvement documented.",
       "caveats": "Needs the device reflashed. No mobile app; apps are managed in a web UI. Built-in apps that rely on Tidbyt's cloud have limited support.",
       "evidenceNote": "Public repo.",
+      "repo": "tronbyt/server",
       "links": [
         {
           "label": "repo",
@@ -1501,6 +1595,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 228,
       "summary": "Tidbyt displays depend on the maker's servers. The Tronbyt community built a self-hosted server and firmware, so the displays run fully locally, keep working if Tidbyt's servers go away, and can use apps Tidbyt had blocked."
     },
     {
@@ -1516,6 +1611,7 @@
       "aiRole": "The repo ships Claude agent instructions; the maintainers do not say how much of the code AI wrote.",
       "caveats": "Some units sold through third parties are USB-locked and need the project's unlocker first; flashing a locked unit wrongly can leave it unrecoverable. You can return to the official firmware.",
       "evidenceNote": "Public repo, very active.",
+      "repo": "crosspoint-reader/crosspoint-reader",
       "links": [
         {
           "label": "repo",
@@ -1525,6 +1621,7 @@
       "reviewed": "2026-11-05",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 8671,
       "summary": "A community project replaces Xteink's stock firmware with an open one: full EPUB rendering, KOReader progress sync, Calibre and OPDS libraries, custom fonts, Bluetooth page turners and over-the-air updates."
     },
     {
@@ -1540,6 +1637,7 @@
       "aiRole": "Commits are co-authored by GitHub Copilot; the README does not describe the AI's role.",
       "caveats": "Works only on that one firmware build; later i.MX8 units are not supported. An optional privileged helper uses a device-specific flaw, and recovery may need Qualcomm EDL mode. Keep your own backup of the factory app.",
       "evidenceNote": "Public repo + press coverage.",
+      "repo": "TimStewartJ/lululemon-mirror-repurpose",
       "links": [
         {
           "label": "repo",
@@ -1553,6 +1651,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 23,
       "summary": "The fitness mirror lost its service. TimStewartJ installs a new home launcher over ADB, no hardware change: clock, weather and photo dashboards, Home Assistant pages, media playback, casting and phone-based controls."
     },
     {
@@ -1568,6 +1667,7 @@
       "aiRole": "No AI involvement documented in building it.",
       "caveats": "Sync the band's clock or it resets. Temperature readings need calibration. Not full feature parity with WHOOP, and a future WHOOP firmware update could block it.",
       "evidenceNote": "Public repo + press coverage.",
+      "repo": "OpenStrap/edge",
       "links": [
         {
           "label": "repo",
@@ -1585,6 +1685,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 878,
       "summary": "WHOOP's band works only with a paid subscription. OpenStrap reverse engineered its Bluetooth protocol and built an open app for Android and iOS: sleep, recovery, strain, heart rate and workouts, computed on the phone, with no data leaving it unless you opt in."
     },
     {
@@ -1600,6 +1701,7 @@
       "aiRole": "No AI involvement documented.",
       "caveats": "Setup means dumping the box's certificates and flashing a replacement CA; the CC3235 and ESP32 boards take more hands-on work. Toniebox 2 not supported.",
       "evidenceNote": "Public repo + community wiki.",
+      "repo": "toniebox-reverse-engineering/teddycloud",
       "links": [
         {
           "label": "repo",
@@ -1613,6 +1715,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 1095,
       "summary": "The Toniebox reports to Boxine's cloud. The community's teddyCloud is a local replacement: owners decide what reaches the maker, and can play their own audio from a home server on the figurines."
     },
     {
@@ -1628,6 +1731,7 @@
       "aiRole": "No AI involvement documented. Builds on Digital Dream Labs' open-sourced server code.",
       "caveats": "Setup and troubleshooting are in the project wiki. Runs on a machine you keep on.",
       "evidenceNote": "Public repo, maintained since 2022.",
+      "repo": "kercre123/wire-pod",
       "links": [
         {
           "label": "repo",
@@ -1637,6 +1741,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 843,
       "summary": "Vector's voice features depended on its maker's servers and a fee. kercre123's wire-pod runs that server on the owner's own machine, so voice commands work again with no subscription."
     },
     {
@@ -1652,6 +1757,7 @@
       "aiRole": "One commit is co-authored by Claude; the author makes no broader statement about AI use.",
       "caveats": "Depends on the hub's local API staying open; the docs advise blocking the hub's internet access so an update cannot close it. A hub whose trial expired may need a factory reset. Some hub services are not covered.",
       "evidenceNote": "Public repo.",
+      "repo": "adrianjagielak/home-assistant-futurehome",
       "links": [
         {
           "label": "repo",
@@ -1661,6 +1767,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 306,
       "summary": "After Futurehome went bankrupt in 2025, basic hub functions became subscription-only. Adrian Jagielak's add-on runs the hub from Home Assistant instead: discovery, state, control, pairing and house modes, free and local."
     },
     {
@@ -1676,6 +1783,7 @@
       "aiRole": "Commits are co-authored by Claude; the README does not describe the AI's role.",
       "caveats": "Calibration was worked out from one unit. The ring colour on the device is not reproduced. A local server becomes a dependency. New and small.",
       "evidenceNote": "Public repo.",
+      "repo": "kerosix/foobot-local",
       "links": [
         {
           "label": "repo",
@@ -1685,6 +1793,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 2,
       "summary": "With its cloud gone, the Foobot was a paperweight. kerosix points its data at a local server through the device's own settings, with no hardware change, and reworked the pollution index, so readings go to a dashboard and Home Assistant with no account."
     },
     {
@@ -1713,6 +1822,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": null,
       "summary": "Nintendo shut down Nintendo Network in 2024. The Pretendo team builds open replacements for Friends, SpotPass, accounts, Miiverse and per-game matchmaking, for consoles their owners already have."
     },
     {
@@ -1741,6 +1851,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": null,
       "summary": "Microsoft shut down Xbox Live for the original Xbox in 2010. Insignia runs replacement servers that bring back matchmaking, friends and leaderboards for over 200 games."
     },
     {
@@ -1769,6 +1880,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": null,
       "summary": "Xiaomi changed the humidifier's internal protocol and broke the earlier open firmware. Steffen Vogel wrote a new ESPHome component for its Wi-Fi module, so it runs locally in Home Assistant with no Xiaomi cloud."
     },
     {
@@ -1797,6 +1909,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": null,
       "summary": "Dídac Sabatés removed the scale's Wi-Fi so it can't upload to Withings and wrote an ESPHome component that receives each weigh-in over Bluetooth. Readings land in Home Assistant per person, with no cloud and no change to the scale."
     },
     {
@@ -1812,6 +1925,7 @@
       "aiRole": "Claude Code ran in an isolated VM with the SWD probe and a BLE adapter attached. It set a breakpoint in the encryption routine and matched plaintext in RAM to what went over the air. The builder credits it with about 80% of the protocol work and about 90% of the integration. All 3 commits carry a Claude co-author line.",
       "caveats": "Every owner has to open the case, solder to the SWD pads and pull their own AES key. The README calls it pre-MVP and working on one tested device. Mapping meter registers depends on the meter.",
       "evidenceNote": "Public code + creator post + community continuation.",
+      "repo": "grappeq/onemeter-ha-integration",
       "links": [
         {
           "label": "creator post",
@@ -1833,6 +1947,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 1,
       "summary": "OneMeter went bankrupt and switched off its cloud, which issued the device's keys, so the clip-on reader became a lump of plastic. Kacper Grabowski dumped its read-protected flash, recovered the encryption with Claude Code and wrote a local Home Assistant integration that works through ESPHome Bluetooth proxies."
     },
     {
@@ -1848,6 +1963,7 @@
       "aiRole": "Not stated by the author. One of 1,816 commits, by an outside contributor, carries a Claude co-author line.",
       "caveats": "Needs a bootloader unlock through the existing amonet exploit; no Echo made after 2021 has a public unlock. Show 5 owners need to raise their voice over music. The author calls it a hobby project, not a product.",
       "evidenceNote": "Public code (490 stars) + HN thread + HA forum thread.",
+      "repo": "HuskerMinion/techo5",
       "links": [
         {
           "label": "repo",
@@ -1865,6 +1981,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 562,
       "summary": "TECHO5 swaps Fire OS and Alexa for a small Alpine Linux image, so an Echo becomes a local Home Assistant voice satellite with its own touch screen. It adds on-device wake word, AirPlay 2, Spotify Connect and signed updates. HuskerMinion built it on Yuri Gelfand's EchoLocal."
     },
     {
@@ -1880,6 +1997,7 @@
       "aiRole": "The README doesn't mention AI. The commit history lists Claude as co-author on 819 of 1,045 commits, and the repo has a CLAUDE.md.",
       "caveats": "Updates and some features are only tested on a host machine. ADB has to be re-enabled over USB after each boot. Building needs Rust, Docker and cross. The vendor still supports the device; this is about privacy, not a dead cloud. A revert script restores stock.",
       "evidenceNote": "Public code + docs + Show HN post.",
+      "repo": "XavierGeerinck/insta360-custom-firmware",
       "links": [
         {
           "label": "repo",
@@ -1897,6 +2015,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 1,
       "summary": "According to the README, stock Wave firmware reports 35+ kinds of usage event to ByteDance's analytics, tagged with the serial number, and routes meeting audio and transcripts to Insta360's cloud. Xavier Geerinck replaced it with one Rust program: no telemetry, recordings stay on the device, and updates are signed with your own key."
     },
     {
@@ -1912,6 +2031,7 @@
       "aiRole": "The builder says all of the code was written by models: GPT-6 Astra and GPT-6.1 Sol for the launcher and blocking, Claude Opus 5.5 for the UI and video stream, and Argon for voice. He made the design decisions.",
       "caveats": "Tested on one TV and firmware; pins and offsets must be found again for others. Needs root, and the write-up doesn't cover getting it. Voice and the browser need a CUDA machine with about 10 GB of models. Weather works in the US only.",
       "evidenceNote": "Public code + creator post + Show HN post.",
+      "repo": "anubhavmalhotra/r2d2-tv",
       "links": [
         {
           "label": "creator post",
@@ -1929,6 +2049,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 68,
       "summary": "An unwanted webOS update brought apps nobody asked for, terms-gated voice and telemetry. Anubhav Malhotra rooted the TV, gave it his own launcher and push-to-talk voice through the remote's mic with local speech models, and blocks LG's telemetry and content-recognition servers around the clock."
     },
     {
@@ -1944,6 +2065,7 @@
       "aiRole": "GLM 5.3 Flash in Z Code, about 300M tokens across parallel sessions: one agent did recon and root, another the launcher. The post is labelled AI-assisted and the repo has an AGENTS.md.",
       "caveats": "One model and firmware. The boot hook needs a physical unplug to run. The local bridge has no authentication. Ad blocking by firewall rules is still to come. The write-up is a live log from late October 2026.",
       "evidenceNote": "Public code + creator post + HN thread.",
+      "repo": "carteakey/alvidaa",
       "links": [
         {
           "label": "creator post",
@@ -1961,6 +2083,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 36,
       "summary": "The TV kept sending telemetry with every toggle off, booted into an ad-filled home screen and had no developer mode. Kartikey Chauhan reverse-engineered the remote pairing, got root through a writable boot hook and now runs his own launcher, with updates and telemetry blocked. It also runs Doom."
     },
     {
@@ -1976,6 +2099,7 @@
       "aiRole": "The README doesn't mention AI. The commit history lists Claude as co-author on all 10 commits.",
       "caveats": "Mains appliance; soldering required. 2.4 GHz only. The timer and filter buttons aren't visible to the new firmware. Voice control goes through the Sinric Pro cloud. Same-board models are untested. An earlier, separate project did the same for the PU6080F0 XL.",
       "evidenceNote": "Public code, running on the builder's unit.",
+      "repo": "acvx93/rowenta-pure-air-cloud-rescue",
       "links": [
         {
           "label": "repo",
@@ -1989,6 +2113,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 0,
       "summary": "The Pure Air app stopped working, and connected Rowenta purifiers lost remote control and schedules. Alejandro Couso unplugged the stock Wi-Fi module and wired in a €12 ESP32 that serves a local web page, keeps a weekly schedule on the device and can still take Google Home voice commands."
     },
     {
@@ -2004,6 +2129,7 @@
       "aiRole": "The README doesn't mention AI. The commit history lists Claude as co-author on 79 of 88 commits.",
       "caveats": "Control only; the V7's built-in audio isn't implemented yet. Intel Macs untested; Linux and Windows planned. Part of the control map still needs hardware confirmation. Builds on the Ozzy project's work on the Ploytec protocol.",
       "evidenceNote": "Public code.",
+      "repo": "tejofjord/openv7",
       "links": [
         {
           "label": "repo",
@@ -2013,6 +2139,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 2,
       "summary": "Numark's USB driver was last updated for macOS 10.12 and is Intel-only, so on an Apple Silicon Mac the V7 is a brick. Michael Hadida wrote a userspace driver that shows it as a MIDI device; jog wheel, buttons, lights and the motor work in VirtualDJ, Mixxx and Ableton."
     },
     {
@@ -2045,6 +2172,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": null,
       "summary": "The box's YouTube streaming, cloud and app are all gone, and its firmware refused 640×480 input. Vladimir Smitka got root over the serial port and had Claude Code write new firmware: H.264 over RTSP into OBS, recording, a web UI, any resolution, and 60 fps at 640×480 instead of 3.6."
     },
     {
@@ -2060,6 +2188,7 @@
       "aiRole": "The README doesn't mention AI. Both commits carry a Claude co-author line.",
       "caveats": "One unit tested; not the original QardioBase. Some digits hadn't been seen yet, so the app asks you to label unknown ones.",
       "evidenceNote": "Public code.",
+      "repo": "sanchescom/qardiobase-ble",
       "links": [
         {
           "label": "repo",
@@ -2069,6 +2198,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 0,
       "summary": "Qardio shut its servers and pulled the app. The scale never sends weight as a number; it streams a picture of its own display over Bluetooth. Aleksandr Efimov reads the digits off that picture and ships an iPhone app with Apple Health export, plus a tool to stop the scale's Wi-Fi error pauses."
     },
     {
@@ -2084,6 +2214,7 @@
       "aiRole": "The README doesn't mention AI. The commit history lists Claude as co-author on 5 of 72 commits.",
       "caveats": "Needs a router that can override DNS and redirect traffic. A factory-reset base needs files extracted from your own unit. No creator post. Earlier prior art exists (gelee). The newer camera model is still research.",
       "evidenceNote": "Public code.",
+      "repo": "AidenShaw2020/gigaset_elements_emulator",
       "links": [
         {
           "label": "repo",
@@ -2097,6 +2228,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 1,
       "summary": "Gigaset's insolvency switched off the elements cloud in March 2024, and with no local mode the alarm kits were bricked. This gateway answers in place of Gigaset's server on stock firmware, so sensors, pairing and the siren work again, with alarm modes in Home Assistant over MQTT."
     },
     {
@@ -2112,6 +2244,7 @@
       "aiRole": "The README doesn't mention AI. All 8 commits carry a Claude co-author line.",
       "caveats": "Every press is reported as a single press; double and long presses aren't told apart. Builds on earlier bridge and plugin work. No creator post.",
       "evidenceNote": "Public code.",
+      "repo": "andy911850/ha-logi-pop",
       "links": [
         {
           "label": "repo",
@@ -2121,6 +2254,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 1,
       "summary": "Logitech shut down the POP cloud in October 2025 with about two weeks' notice, which bricked the hub. The buttons still broadcast over Bluetooth when pressed, so Andy van Spijkeren's Home Assistant integration picks them up directly, with no hub, cloud or MQTT."
     },
     {
@@ -2136,6 +2270,7 @@
       "aiRole": "The builder on HN: he used Codex to reverse-engineer the proprietary Sony USB protocol and build the driver, never having done that or used Rust before.",
       "caveats": "Only the HC24 is tested. USB streaming is 320×240; FireWire is still better for archiving tapes. Linux only.",
       "evidenceNote": "Public code + write-up in the repo + HN comment.",
+      "repo": "alexnorton/handycam-rs",
       "links": [
         {
           "label": "repo",
@@ -2149,6 +2284,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 0,
       "summary": "Sony only ever shipped a Windows XP driver for the camera's USB streaming mode. Alex Norton reverse-engineered the protocol and wrote a Rust driver for Linux: a virtual webcam, synced audio and video capture, and tape transport controls."
     },
     {
@@ -2164,6 +2300,7 @@
       "aiRole": "No AI involvement documented.",
       "caveats": "Units must already be on your Wi-Fi; early setup needed the vendor app, a later tool handles it locally. Some kits had trouble configuring the IR module, which has limited range.",
       "evidenceNote": "Public code + HA forum thread with user reports.",
+      "repo": "arpena/hpa4911",
       "links": [
         {
           "label": "repo",
@@ -2177,6 +2314,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 1,
       "summary": "BGH shut down the Smart Control cloud on 31 December 2025. Alfredo Peña reverse-engineered the kit's local protocol, and his Home Assistant integration controls mode, fan, swing and temperature without it."
     },
     {
@@ -2192,6 +2330,7 @@
       "aiRole": "Claude Code ran the job: an Opus session drove the hardware, a Sonnet subagent built the code, and separate Opus subagents audited each step. Nothing was flashed until an audit passed. The README says so.",
       "caveats": "Proven on one unit. Bluetooth, audio, IR, microSD and video decoding are not verified. Memory settings are hard-coded for this board; other H616 boxes aren't supported. One failure state has no software recovery.",
       "evidenceNote": "Public code + Reddit post.",
+      "repo": "itsmeorestis/dq10-h616-linux",
       "links": [
         {
           "label": "repo",
@@ -2205,6 +2344,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 6,
       "summary": "Sold as Android 13, the stick ran an older Android with open root access, a remote-command system and a hidden reverse-tunnel binary. itsmeorestis had Claude Code back it up, wipe it and install mainline U-Boot and Armbian over USB, with no soldering. The repo lists the malware's fingerprints."
     },
     {
@@ -2220,6 +2360,7 @@
       "aiRole": "Claude reverse-engineered the firmware and wrote the patch. Both commits carry a Claude co-author line; the builder later noted that a fallback model, Opus 4.8, did the reverse-engineering.",
       "caveats": "Firmware 5.22 only; flashing across major versions bricks the printer. Ships prebuilt binaries. One commenter says the label tag mainly reports label size.",
       "evidenceNote": "Public code (131 stars) + Reddit post.",
+      "repo": "ThreeDaPrint/niimbot",
       "links": [
         {
           "label": "repo",
@@ -2233,6 +2374,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 131,
       "summary": "The B1 reads a tag on Niimbot's own label rolls and prints lighter on anything else. The usual workaround was keeping an empty branded roll nearby. This patch prints at full darkness on any label, and connects the density setting to the print head, which the stock firmware never did."
     },
     {
@@ -2261,6 +2403,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": null,
       "summary": "The stereo came with ads, a paywalled always-listening assistant, a firmware updater on a third-party cloud and a root backdoor. Claude Code backed it all up, removed 18 apps, closed the backdoors and put on an open-source launcher and apps. CarPlay, Android Auto, radio and the reversing camera still work."
     },
     {
@@ -2276,6 +2419,7 @@
       "aiRole": "No AI involvement documented.",
       "caveats": "Hot-air rework and a mains appliance. The builder calls it another version of an earlier conversion.",
       "evidenceNote": "Public code + Reddit post.",
+      "repo": "drublin/SmartKettle-ESPHome",
       "links": [
         {
           "label": "repo",
@@ -2293,6 +2437,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 2,
       "summary": "Smarter dropped the iKettle 3's cloud, and in December 2025 the kettles stopped connecting. drublin desoldered the original chip, wired an ESP32 to the board and added a new weight sensor. It runs locally in Home Assistant, with a safety cut-off when the jug is lifted."
     },
     {
@@ -2308,6 +2453,7 @@
       "aiRole": "The builder on HN: he used Claude to make a macOS driver for an engraver that only ever worked with Windows. Claude is co-author on 27 of 55 commits.",
       "caveats": "The installer isn't notarised. The protocol code started as a port of LibLaserCut.",
       "evidenceNote": "Public code with signed releases + HN comment.",
+      "repo": "leftouterjoins/EpilogDriver",
       "links": [
         {
           "label": "repo",
@@ -2321,6 +2467,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 5,
       "summary": "The Zing only ever worked from Windows. This project adds a native macOS print driver and a layout-and-engrave app, so the laser runs straight from a Mac."
     },
     {
@@ -2336,6 +2483,7 @@
       "aiRole": "The README doesn't mention AI. The repo has had an AGENTS.md for AI agents since day one, and 1 of 204 commits carries a Claude co-author line.",
       "caveats": "Early beta. D8, D9 and D10 aren't supported because their serial port is locked. Needs wiring to the robot's debug port. Separate from Vacuula, which covers the same robots in software.",
       "evidenceNote": "Public code (211 stars) with releases and a demo.",
+      "repo": "renjfk/OpenNeato",
       "links": [
         {
           "label": "repo",
@@ -2345,6 +2493,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 212,
       "summary": "Neato shut down its cloud and app. OpenNeato puts an ESP32 on the robot's debug port and serves a local web page with manual drive, schedules, cleaning history and the LiDAR map."
     },
     {
@@ -2360,6 +2509,7 @@
       "aiRole": "The README doesn't mention AI. Claude is co-author on 17 of 151 commits and author of 11 more.",
       "caveats": "Low profile; no creator post.",
       "evidenceNote": "Public code.",
+      "repo": "mertemr/chsmartbulb",
       "links": [
         {
           "label": "repo",
@@ -2369,6 +2519,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 3,
       "summary": "The vendor app no longer runs on current phones, which left the bulbs stuck on their last colour. Mert Emirimam documented the protocol and wrote apps for Android, Linux and Windows, plus a web UI and a CLI, with colour, effects and music-following."
     },
     {
@@ -2401,6 +2552,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": null,
       "summary": "Joseph DiGiovanni replaced the firmware on the Litter-Robot's Wi-Fi chip with ESPHome, so it runs locally in Home Assistant with no app, cloud or telemetry. Safety logic stays on the mainboard, and new firmware adds better cat detection and flexible sleep schedules."
     },
     {
@@ -2416,6 +2568,7 @@
       "aiRole": "The README says Claude Code was used, with Opus 4.6, 4.7, 4.8 and 5. It adds that Fable refuses to work on the project.",
       "caveats": "You still need the Meta AI app once: the glasses only trust a key Meta's servers issue at first pairing, and you have to pull that key off your phone with a debugging tool. The builder calls that step work in progress. The newer Ray-Ban Meta glasses aren't supported. Meta still supports the Stories; this is about privacy and the app, not a dead cloud. Not affiliated with Meta or Ray-Ban.",
       "evidenceNote": "Public code + HN post.",
+      "repo": "KonradIT/storiesclient",
       "links": [
         {
           "label": "repo",
@@ -2429,6 +2582,7 @@
       "reviewed": "2026-11-01",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 33,
       "summary": "Meta turned the glasses' companion app into Meta AI, with a mandatory account, an AI video feed and paywalled features. Konrad Iturbe reverse-engineered the glasses' encrypted protocol and wrote an Android app that lists, downloads and deletes photos and video and shows battery and storage, with no Meta app or account in the loop."
     },
     {
@@ -2444,6 +2598,7 @@
       "aiRole": "Claude Code did the protocol research, wrote the CLI, gateway code and tests, drove the TV box over SSH and helped through the Google console. The owner handled the box physically and approved each step that touched the network, Google or a light.",
       "caveats": "Nothing starts automatically: after a restart, SSH, the gateway and the tunnel have to be started by hand. The free Cloudflare Quick Tunnel hostname changes on every restart, so the URLs in the Google console must be updated each time; a named tunnel on your own domain would fix this. Personal test integration without Report State, so changes made elsewhere show up late. You run a public OAuth endpoint on a home device. Tested on one box and two bulbs. The repo has no licence.",
       "evidenceNote": "Public code + write-up. One box, two bulbs.",
+      "repo": "MichaelBruck/briturn-google-home",
       "links": [
         {
           "label": "repo",
@@ -2457,6 +2612,7 @@
       "reviewed": "2026-11-01",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 0,
       "summary": "Linking the Briturn cloud to Google Home failed with OAuth errors, so the bulbs only worked from the vendor app. There was no Google hub for Matter, and current Home Assistant no longer runs on 32-bit ARM. Michael Bruck controls the bulbs over the LAN with flux_led and runs a small Google Home cloud-to-cloud gateway in Termux on a spare TV box, behind a Cloudflare tunnel. The Google Home app handles on/off, brightness, colour and white temperature, with no Briturn cloud, hub or subscription."
     },
     {
@@ -2472,6 +2628,7 @@
       "aiRole": "Built with Claude Code over about a day and a half, with a CLAUDE.md file as the project's running memory. The builder credits the QZ (qdomyos-zwift) project for the GlassOS motor-service access the app relies on.",
       "caveats": "Tested on one Commercial 2250 only; older iFit/ERU consoles won't work. Getting ADB on needs iFit's privileged mode, and recent builds ask for a customer-care response code. iFit's motor service listens on the whole Wi-Fi with a public client certificate, so anyone on the network can start the belt; keep the treadmill on a network you control. Removing iFit's eru app keeps ADB on after restarts. Netflix plays in SD (Widevine L3), the tablet is slow and there is no Google Play, so apps are sideloaded. Can void the warranty, and a factory reset or iFit update can undo it. The safety key and Stop button stay the real way to stop.",
       "evidenceNote": "Public MIT repo with setup, safety notes and an undo section + builder's Reddit post. One machine.",
+      "repo": "Crawler757/treadmill-home",
       "links": [
         {
           "label": "repo",
@@ -2481,6 +2638,7 @@
       "reviewed": "2026-11-03",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 27,
       "summary": "The treadmill's big screen was the selling point, until it turned out Netflix and everything else beyond basic workout controls sat behind an iFit subscription, with ads and a slow load in front of every run. The screen is an Android 9 tablet, so Crawler757 replaced the home screen: big tiles for sideloaded streaming apps, a top bar with speed, incline, time and distance over every app, on-screen start, stop, speed and incline controls, and a quarter-mile lap tracker. iFit's own motor service keeps driving the belt, so nothing talks to the motor board directly."
     },
     {
@@ -2517,6 +2675,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": null,
       "summary": "Fisker filed for Chapter 11 in June 2024. Owners founded the Fisker Owners Association the same month, and when the connection to Fisker's cloud went down in April 2025, the features that depended on it stopped. The association has since released PKC21, new phone-as-key software built with Chevalier, and runs its own app and eSIM connectivity for members."
     },
     {
@@ -2532,6 +2691,7 @@
       "aiRole": "No AI use documented in the repo or commits. The protocol code is a GPL port of openScale's Huawei handler.",
       "caveats": "Version 0.3.0. One real scale reading has gone through the manual profile flow; profile confirmation, household automations and the SparkyFitness export are not yet validated on hardware. Bluetooth proxies unverified. The scale takes one connection, so keep Huawei Health disconnected. Needs Home Assistant 2026.10 or newer. Gives weight, body fat and impedance only; no derived metrics.",
       "evidenceNote": "Public GPL-3.0 repo, installable via HACS. Builder's X post.",
+      "repo": "frankbrg/huawei-ah100",
       "links": [
         {
           "label": "repo",
@@ -2549,6 +2709,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 2,
       "summary": "Frank Berge wanted his weight data on his own server, not in Huawei Health. His Home Assistant integration talks to the scale over Bluetooth, handling its authentication and AES-encrypted frames, and gives each person in the house a profile with weight, body fat, impedance and last-measurement sensors. Readings can also sync to SparkyFitness. No cloud, no MQTT, no Docker."
     },
     {
@@ -2564,6 +2725,7 @@
       "aiRole": "No AI use documented in the repo or commits.",
       "caveats": "Tested on one installation and one IP module firmware (04.08.02). Other Bosch and IVT systems on the same protocol may work but are unverified. It controls heating equipment: check safety-critical behaviour at the appliance. Schedules and holiday settings are read-only. Needs Home Assistant 2026.8.3 or newer.",
       "evidenceNote": "Public MIT repo with changelog + builder's X post.",
+      "repo": "jarkkosyrjala/bosch-compress-local",
       "links": [
         {
           "label": "repo",
@@ -2577,6 +2739,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 0,
       "summary": "Bosch heat pumps reach Home Assistant through Bosch's cloud or an extra bridge. Jarkko Syrjälä's integration talks straight to the heat pump's IP module over the home network, AES-encrypted, and works out what the module offers instead of assuming a fixed list."
     },
     {
@@ -2592,6 +2755,7 @@
       "aiRole": "The README says it was built with Claude Code; the builder owns architecture, code review, hardware testing and what ships. Commits carry Claude co-author trailers. Tesserae also has an MCP API so an agent can build and push pages.",
       "caveats": "25 panels verified on hardware; check yours first. Its own firmware covers the reTerminal E-Series and XIAO ePaper, flashed from Chrome or Edge. The hosted cloud isn't open yet, and dashboards made there would need recreating on a self-hosted server. Seeed supplied sample hardware and some Seeed links are affiliate links.",
       "evidenceNote": "Public AGPL-3.0 repo, docs, firmware repo + builder's X post.",
+      "repo": "dmellok/tesserae",
       "links": [
         {
           "label": "site",
@@ -2617,6 +2781,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 1008,
       "summary": "E-ink panels and old Kindles tend to do one job, or none. dmellok's Tesserae is a local server: you compose dashboards in the browser as a grid, a freeform canvas or raw HTML, and it renders them and pushes them to the panels over REST or MQTT. Widgets cover Home Assistant, calendars, weather, transit, GitHub and news, with community plugins on top."
     },
     {
@@ -2649,6 +2814,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": null,
       "summary": "Apple Silicon Macs ship with macOS and no vendor support for anything else. Asahi Linux reverse-engineered the hardware, GPU included, and ships Fedora Asahi Remix, installed from macOS with one command. Audio, webcams and graphics acceleration work."
     },
     {
@@ -2664,6 +2830,7 @@
       "aiRole": "No AI use documented.",
       "caveats": "Check your exact model and hardware revision in the Table of Hardware first; flashing the wrong image can brick a router, and flashing usually voids the warranty. Some vendor features, like the vendor's app or cloud management, go away.",
       "evidenceNote": "Public code, community project since 2004.",
+      "repo": "openwrt/openwrt",
       "links": [
         {
           "label": "site",
@@ -2685,6 +2852,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 29111,
       "summary": "Router vendors stop shipping security updates long before the hardware wears out, and the stock firmware decides what you can configure. OpenWrt is a Linux distribution that replaces it: current kernels, security fixes, a package manager and full control over the network. The 24.10 release added initial Wi-Fi 7 support and Linux 6.6."
     },
     {
@@ -2700,6 +2868,7 @@
       "aiRole": "No AI use documented in the repo.",
       "caveats": "Still cloud-based: it polls the Ocean Pulse service, a third party, not the car. Needs an Ocean Pulse device fitted to the car. Beta; the builder has run it since mid-October 2026. Controls are not fully implemented. Entity names and sensor IDs changed when the integration was renamed from My Fisker in June 2026.",
       "evidenceNote": "Public Apache-2.0 repo, installable via HACS.",
+      "repo": "MichaelOE/homeassistant-ocean_pulse",
       "links": [
         {
           "label": "repo",
@@ -2709,6 +2878,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 34,
       "summary": "MichaelOE's Home Assistant integration reads a Fisker Ocean's data from Ocean Pulse, an aftermarket device fitted to the car. Pair it with the QR code digits, and every value the Ocean Pulse API exposes becomes a sensor, with the car's location as a device tracker."
     },
     {
@@ -2724,6 +2894,7 @@
       "aiRole": "4 of the last 30 commits carry a Co-Authored-By: Claude trailer. The builder's bus captures and register map are the ground truth.",
       "caveats": "Verified on FLB48314TG1 packs only (three in parallel). FLB48100, LPBF48 and LPBA48 packs use the same protocol family but are untested. Needs an RS485 adapter on RJ45 pins 5/6. The ESPHome component is planned, not built.",
       "evidenceNote": "Public MIT repo with protocol docs, register map, raw captures and a v1.0.0 Go daemon. Runs in production on the builder's Raspberry Pi 5.",
+      "repo": "KrzysztofHajdamowicz/felicity-battery-modbus",
       "links": [
         {
           "label": "repo",
@@ -2733,6 +2904,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 2,
       "summary": "Felicity's batteries speak Modbus RTU over RS485, with one quirk: the response carries a 16-bit register count where the byte count belongs, so pymodbus and ESPHome's Modbus component reject every frame. KrzysztofHajdamowicz documented the protocol, published the register map and raw bus captures, and wrote a Python reference decoder."
     },
     {
@@ -2748,6 +2920,7 @@
       "aiRole": "Recent commits carry a Co-authored-by: Claude trailer and a Generated with Claude Code line.",
       "caveats": "Needs Node 22+ and a Bluetooth adapter; Docker needs a Linux host with BlueZ. Body composition is computed locally from weight and impedance, so numbers can differ from the vendor app. Check your model on the supported-scales list.",
       "evidenceNote": "Public GPL-3.0 repo, docs site, CI and tagged releases. Actively maintained.",
+      "repo": "KristianP26/ble-scale-sync",
       "links": [
         {
           "label": "repo",
@@ -2765,6 +2938,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 216,
       "summary": "Every scale brand wants its own phone app. KristianP26's ble-scale-sync reads the scale over Bluetooth instead, either by connecting or by listening to its broadcasts, and computes body composition locally. Each reading goes to any of 13 targets, including Garmin Connect, Strava, MQTT and Home Assistant, InfluxDB, webhooks, ntfy and plain CSV or JSONL files."
     },
     {
@@ -2780,6 +2954,7 @@
       "aiRole": "Recent commits carry Co-authored-by: Claude trailers. The repo's AI_POLICY.md allows AI as a contributor's tool and bans autonomous agents.",
       "caveats": "Needs inverter firmware from 2023 or later, and Modbus TCP enabled on the inverter. Modbus allows one connection at a time, so it can clash with other local tools. The port can change after a firmware update. Battery and export control need \"elevated permissions\" and change how the system runs.",
       "evidenceNote": "Public AGPL-3.0 repo, in the HACS default store, about 940 stars, with a wiki.",
+      "repo": "wlcrs/huawei_solar",
       "links": [
         {
           "label": "repo",
@@ -2793,6 +2968,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 942,
       "summary": "Huawei's home solar systems report to the FusionSolar cloud. wlcrs's integration talks to the inverter over Modbus instead, by RS485 on the COM port or over the network, and brings inverter, battery, meter and optimizer data into Home Assistant and its Energy dashboard."
     },
     {
@@ -2808,6 +2984,7 @@
       "aiRole": "No AI use documented in the repo.",
       "caveats": "Tested on the Ender 3 V3 KE only; K1 and K2 series untested, WebRTC on K1C/K2 untested. Controls for hardware your model lacks can still appear. Unofficial weekend project, not endorsed by Creality. Energy and cost tracking is unfinished.",
       "evidenceNote": "Public MIT repo with tests. Very new.",
+      "repo": "filipeamorimdev/home-assistant-creality",
       "links": [
         {
           "label": "repo",
@@ -2817,6 +2994,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 0,
       "summary": "Creality's newer printers run Klipper underneath but steer owners to Creality Cloud. filipeamorimdev's integration skips the account: it uses the WebSocket, HTTP and camera endpoints the printer already serves on the LAN, with no root and no Moonraker install."
     },
     {
@@ -2832,6 +3010,7 @@
       "aiRole": "Recent commits carry Co-Authored-By: Claude trailers. Termux and the desktop environments it installs are not AI-built.",
       "caveats": "Use Termux from F-Droid; the Play Store build is outdated. Needs 5 to 10 GB free and 4 GB+ RAM for KDE Plasma. GPU acceleration is best on Snapdragon; Mali phones run slower. A phone left running as a server keeps its battery charged constantly, so watch for swelling.",
       "evidenceNote": "Public MIT repo, about 3,800 stars, with a video walkthrough on a OnePlus 5T.",
+      "repo": "mayukh4/linux-android",
       "links": [
         {
           "label": "repo",
@@ -2849,6 +3028,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 3847,
       "summary": "A phone that stopped getting updates still has a fast chip and plenty of RAM. mayukh4's scripts use Termux and Termux-X11 to install a GPU-accelerated Linux desktop (XFCE, KDE Plasma, LXQt or MATE) with no root and no PC. A second script turns the phone into a Home Assistant Core server."
     },
     {
@@ -2864,6 +3044,7 @@
       "aiRole": "No AI use documented.",
       "caveats": "Prototype tested; the validation batch is still under test, and boards are in pre-order on Crowd Supply. Replaces Google's electronics entirely, so Google Assistant is gone. Means opening the speaker. Needs Home Assistant for the voice assistant.",
       "evidenceNote": "Open hardware: public KiCad files and ESPHome config (CERN-OHL-S-2.0) + CNX Software coverage.",
+      "repo": "iMike78/home-mini-v1-drop-in-pcb",
       "links": [
         {
           "label": "repo",
@@ -2885,6 +3066,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 421,
       "summary": "The first Google Home Mini is a decent little speaker tied to Google Assistant. iMike78 designed a replacement circuit board that drops into the same shell: an ESP32-S3 and an XMOS audio processor running ESPHome, built like Home Assistant's own Voice Preview Edition. It becomes a local voice assistant and a Music Assistant speaker."
     },
     {
@@ -2917,6 +3099,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": null,
       "summary": "unu, the Berlin scooter maker, filed for insolvency in November 2023; Emco took over the brand and service in April 2024. LibreScoot is replacement firmware written by a volunteer community, mostly in Berlin, for the scooter's i.MX6 computer."
     },
     {
@@ -2932,6 +3115,7 @@
       "aiRole": "No AI use documented.",
       "caveats": "The project warns that installing the module may damage your vehicle and void its warranty. Features vary by car; check your model's page. On the Leaf, remote climate often means unplugging the car's telematics unit or cutting its CAN wires, which disables Nissan Connect; newer ZE1 Leafs need a custom CAN tap behind the instrument cluster and keep permanent error codes.",
       "evidenceNote": "Public code, about 880 stars, per-vehicle docs. Community project.",
+      "repo": "openvehicles/Open-Vehicle-Monitoring-System-3",
       "links": [
         {
           "label": "repo",
@@ -2961,6 +3145,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 877,
       "summary": "Carmakers' apps show a few numbers and stop when the maker drops the car. OVMS is an open module that plugs into the OBD2 port, with three CAN buses, 4G and GPS. It reads live charge, temperatures, tyre pressures and faults, and on some cars controls charging and climate."
     },
     {
@@ -2976,6 +3161,7 @@
       "aiRole": "No AI use documented in building it. The revived Pin runs an AI assistant, which is the product, not how it was made.",
       "caveats": "Installing still needs a DIY interposer: a small pogo-pin USB board ordered from a PCB maker and a 3D-printed cradle. No commits since May 2025. Humane warned owners to stop using the Pin's charging case over a fire risk.",
       "evidenceNote": "Public code + hardware files, press coverage.",
+      "repo": "MaxMaeder/OpenPin",
       "links": [
         {
           "label": "site",
@@ -2993,6 +3179,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 57,
       "summary": "Humane shut the Pin's servers down in February 2025. Max Maeder's OpenPin replaces the assistant with one owners can run, installed in a few clicks and without Humane's ADB certificates."
     },
     {
@@ -3008,6 +3195,7 @@
       "aiRole": "The maintainer's recent commits, including a kernel CVE fix, carry Co-Authored-By: Claude trailers. The project ran for more than a decade before that.",
       "caveats": "Check your exact model; older routers have a final build, e.g. RT-AC68U and RT-AC86U on 386.14_2, RT-N66U on 380.70. Flashing third-party firmware can void the warranty.",
       "evidenceNote": "Public GPL-based code, about 6,300 stars, maintained since 2012.",
+      "repo": "RMerl/asuswrt-merlin.ng",
       "links": [
         {
           "label": "site",
@@ -3025,6 +3213,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 6270,
       "summary": "Asus stops shipping firmware for a router long before the hardware dies. Eric Sauvageau (\"RMerlin\") builds Asuswrt-Merlin from Asus's own GPL code, adds features and fixes, and keeps shipping security updates for models Asus has moved on from."
     },
     {
@@ -3040,6 +3229,7 @@
       "aiRole": "Commits from both contributors carry Co-Authored-By: Claude trailers.",
       "caveats": "Verified end to end on one Kindle Voyage only; check the compatibility notes for other models. Needs a jailbroken Kindle with KUAL, KOReader and SSH. Building needs Go and Docker. Starting at boot needs one write to the root filesystem.",
       "evidenceNote": "Public MIT repo with protocol notes and a porting guide. New.",
+      "repo": "unrealJune/kindshare",
       "links": [
         {
           "label": "repo",
@@ -3053,6 +3243,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 27,
       "summary": "Getting a file onto a Kindle means Amazon's Send to Kindle service or a USB cable. June Philip wrote Quick Share from scratch in Go, so an Android phone can send books straight to the Kindle with nothing installed on the phone. It runs as a background daemon, switched on from a KOReader menu, and files land in the documents folder."
     },
     {
@@ -3068,6 +3259,7 @@
       "aiRole": "No AI use documented.",
       "caveats": "Still needs a Wyze account and, since May 2024, a Wyze API key and ID. Streams keep going without internet for a while but will probably stop eventually; for fully offline use the project points to the wz_mini_hacks firmware mod. Wyze Cam OG, OG Telephoto and Doorbell Pro aren't supported. Upstream has been quiet since September 2024; the most active fork is IDisposable's. Don't port-forward the bridge.",
       "evidenceNote": "Public AGPL-3.0 repo, about 3,300 stars.",
+      "repo": "mrlt8/docker-wyze-bridge",
       "links": [
         {
           "label": "repo",
@@ -3085,6 +3277,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 3285,
       "summary": "Wyze cameras stream to the Wyze app and nowhere else. mrlt8's Docker container uses the same SDK as the app to pull video straight from the cameras on your network, then serves it as RTSP, WebRTC, RTMP or low-latency HLS for Home Assistant, Frigate or any NVR. No firmware changes."
     },
     {
@@ -3100,6 +3293,7 @@
       "aiRole": "No AI use documented.",
       "caveats": "Mains electricity: never flash the board while it is connected to the panel. Flashing means opening the monitor and wiring a serial adapter to TX, RX and GPIO0. Replaces Emporia's firmware, so the Emporia app stops working.",
       "evidenceNote": "Public ESPHome fork, about 800 stars, with a flashing tutorial. Maintained since 2021.",
+      "repo": "emporia-vue-local/esphome",
       "links": [
         {
           "label": "repo",
@@ -3113,6 +3307,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 812,
       "summary": "The Emporia Vue clamps onto your electrical panel and reports every circuit to Emporia's cloud. It runs on an ESP32, so the emporia-vue-local project reflashes it with ESPHome and a custom component. Readings update every five seconds and go straight to Home Assistant. Nothing leaves your network."
     },
     {
@@ -3128,6 +3323,7 @@
       "aiRole": "The README says: \"A human designed Sonora and Claude Code built it.\"",
       "caveats": "S1 and S2 rooms show in one interface but still can't be grouped together. Remote access needs your own VPN. Not affiliated with Sonos. About a month old.",
       "evidenceNote": "Public AGPL-3.0 repo, very active.",
+      "repo": "Bretteroo/Sonora",
       "links": [
         {
           "label": "site",
@@ -3141,6 +3337,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 56,
       "summary": "Sonos split its speakers into S1 and S2 in 2020 and split them again in August 2025, and the current app leaves S1 speakers out. Sonora is a self-hosted web controller that talks to the speakers directly on your network, with Sonos sign-in optional, and runs both systems from one screen."
     },
     {
@@ -3156,6 +3353,7 @@
       "aiRole": "The README says \"Most of the code was written with an LLM\" and names no model. The protocol meaning came from the builder's own packet captures and from strings and functions in the firmware.",
       "caveats": "Five models confirmed; others are listed as should-work or untested. The builder notes that confirmed is not the same as complete, and the code grades each protocol fact as confirmed, inferred, unverified or conflicted. Patching a device changes its certificate trust and streaming settings.",
       "evidenceNote": "Public GPL-3.0 repo. New.",
+      "repo": "alex-so-3/petkit-local",
       "links": [
         {
           "label": "repo",
@@ -3165,6 +3363,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 38,
       "summary": "PetKit's litter boxes have a camera and a microphone, and everything they see goes through PetKit's servers. alex-so-3 \"wanted my litter box off a Chinese cloud\", so they wrote a local stand-in: one Python container, as a Home Assistant app or with Docker Compose, that keeps working with the internet unplugged."
     },
     {
@@ -3180,6 +3379,7 @@
       "aiRole": "The builder says \"the code itself was typed by Claude Code.\" Their part: deciding what the device should and must never do, reviewing the analysis, wiring the board and checking it against the real unit.",
       "caveats": "Version 0.1.0; the README says nothing has been accepted on a real ComfoAir Q yet, and the builder's own hardware checklist is unfinished. Means wiring into the unit's CAN bus. No TLS to the MQTT broker; 2.4 GHz Wi-Fi only.",
       "evidenceNote": "Public MIT repo + builder's Home Assistant forum post.",
+      "repo": "blade-running-man/zehnder-comfoair-q-firmware",
       "links": [
         {
           "label": "repo",
@@ -3193,6 +3393,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 3,
       "summary": "Zehnder's own way into a ComfoAir Q is the ComfoConnect LAN C gateway, about €330 and on its way out of the catalogue. blade-running-man wired an M5Stack NanoC6 and a CAN unit to the ventilation unit's bus instead, \"and four wires\"."
     },
     {
@@ -3217,6 +3418,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": null,
       "summary": "Existing open-source tools barely supported Bluetti's EP760 home battery inverter. Michael Still had Claude Code decompile and read the Bluetti app, then built a gateway from Bluetti's cloud to MQTT. The second step dropped the cloud: an ESP32 in a 3D-printed case talks to the inverter over Bluetooth, running bare-metal Rust, and reports to Home Assistant over MQTT."
     },
     {
@@ -3232,6 +3434,7 @@
       "aiRole": "No AI use documented.",
       "caveats": "The maintainers can't assure it works on every JuiceBox version, and not every firmware has telnet. Charger and proxy need static IPs. The offline max current is written to EEPROM, so don't change it often, and setting 0 A repeatedly may wear the contactor. Stay within your circuit's limits.",
       "evidenceNote": "Public Apache-2.0 repo + coverage of the shutdown.",
+      "repo": "JuiceRescue/juicepassproxy",
       "links": [
         {
           "label": "repo",
@@ -3249,6 +3452,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 132,
       "summary": "Enel X Way announced on October 2, 2024 that it was leaving North America nine days later. JuiceBox chargers kept charging, but the app, scheduling and monitoring went with the servers."
     },
     {
@@ -3264,6 +3468,7 @@
       "aiRole": "No AI use documented.",
       "caveats": "Replaces the hub's firmware; the original can be restored. Check your hub on pybricks.com first. Programs are Python, not LEGO's block language.",
       "evidenceNote": "Public MIT code, maintained since 2018.",
+      "repo": "pybricks/pybricks-micropython",
       "links": [
         {
           "label": "site",
@@ -3285,6 +3490,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 353,
       "summary": "LEGO discontinued the MINDSTORMS Robot Inventor app on October 1, 2026, with no further updates. Pybricks replaces the hub's firmware with MicroPython, installed from the browser at code.pybricks.com, and programs are written and run from the same page. The robot keeps working with no LEGO app at all."
     },
     {
@@ -3300,6 +3506,7 @@
       "aiRole": "The repo has an AGENTS.md with instructions for coding agents. No AI use is claimed for the firmware itself.",
       "caveats": "Back up the stock firmware first. Use the stable \"ciao\" branch unless you're a developer; master uses an experimental bootloader. UART access and unbricking skills are highly recommended. Check your exact camera, SoC and sensor variant on the supported-hardware list.",
       "evidenceNote": "Public MIT repo, about 2,300 stars, very active.",
+      "repo": "themactep/thingino-firmware",
       "links": [
         {
           "label": "site",
@@ -3317,6 +3524,7 @@
       "reviewed": "2026-11-05",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 2310,
       "summary": "Cheap IP cameras ship with firmware that phones home to the vendor's cloud. Thingino replaces it with open firmware built on Buildroot for cameras with Ingenic chips, Wyze's included. The camera serves RTSP and ONVIF on your network, so any NVR or Home Assistant can use it with no vendor account."
     },
     {
@@ -3332,6 +3540,7 @@
       "aiRole": "Recent commits carry Co-Authored-By: Claude trailers. The server itself dates back two decades.",
       "caveats": "Needs a machine on your network to run the server. Streaming services depend on community plugins.",
       "evidenceNote": "Public code, about 1,800 stars, community-maintained.",
+      "repo": "LMS-Community/slimserver",
       "links": [
         {
           "label": "site",
@@ -3345,6 +3554,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 1815,
       "summary": "Logitech announced in January 2024 that it would close mysqueezebox.com, the service Squeezebox players used for streaming and setup. The community had already taken over Logitech Media Server and renamed it Lyrion. Version 8.4, in February 2024, removed every MySqueezebox dependency, so streaming services run as plugins on your own server and the players keep playing."
     },
     {
@@ -3360,6 +3570,7 @@
       "aiRole": "The repo has a CLAUDE.md, and recent commits carry Co-Authored-By: Claude trailers.",
       "caveats": "GPL-3.0, with a paid commercial licence option from Core Devices. Core Devices is a company, not a community project.",
       "evidenceNote": "Public repo, about 940 stars, very active.",
+      "repo": "coredevices/libpebble3",
       "links": [
         {
           "label": "repo",
@@ -3369,6 +3580,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
+      "stars": 944,
       "summary": "Pebble shut down in 2016 and its app went with it; the community Rebble service kept watches alive in the years after. Core Devices, the revived Pebble company, has published the source of its new companion app for Android and iOS. It handles pairing, notifications, health data and installing watchfaces and apps, for every Pebble ever made."
     }
   ]
