@@ -94,7 +94,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 52985,
+      "stars": 52990,
       "summary": "Agent-guided debloat plus a simpler launcher for Android-based TVs. Inspects the device, takes backups, runs checks, and makes targeted changes per set instead of one script for all."
     },
     {
