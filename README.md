@@ -5,6 +5,8 @@ Every entry from [unshittify.dev](https://unshittify.dev): people making hardwar
 - `data/projects.json`: all entries, same fields as the site
 - `data/projects.csv`: the same, one row per entry, for spreadsheets
 
+Live GitHub star counts for each `repo`, refreshed hourly, are at <https://unshittify.dev/stars.json>. They change too often to belong in this dataset.
+
 Updated automatically each time the site is published. The live versions are always at <https://unshittify.dev/projects.json> and <https://unshittify.dev/projects.csv>.
 
 ## Fields
@@ -22,7 +24,7 @@ Updated automatically each time the site is published. The live versions are alw
 | `caveats` | What doesn't work, or what to know before trying it |
 | `evidenceNote` | What the evidence label is based on |
 | `repo` | The project's own GitHub repo (`owner/name`), when it has one |
-| `stars` | GitHub stars for that repo, counted when the site was last published. Shows interest, not safety |
+| `added` | Date the entry was first added to unshittify |
 | `links` | Sources: the project's repo or site, write-ups, discussion |
 | `reviewed` | Date unshittify last checked the entry |
 | `submittedBy` | `unshittify` for editorial entries, otherwise the contributor |

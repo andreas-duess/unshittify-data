@@ -32,7 +32,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 113,
+      "added": "2026-10-28",
       "summary": "Sends embroidery designs from a computer to the PP1 and shows machine status, offline, without the phone-app workflow. Built by Jan-Henrik Bruhn."
     },
     {
@@ -64,7 +64,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": null,
+      "added": "2026-10-28",
       "summary": "Kath Korevec built replacement software for her PP1 and reported that it worked. Separate project from Respira."
     },
     {
@@ -94,7 +94,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 52990,
+      "added": "2026-10-28",
       "summary": "Agent-guided debloat plus a simpler launcher for Android-based TVs. Inspects the device, takes backups, runs checks, and makes targeted changes per set instead of one script for all."
     },
     {
@@ -124,7 +124,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 261,
+      "added": "2026-10-28",
       "summary": "Custom home screen that puts the owner's apps and consoles first, driven by the normal remote. Developed in a browser preview, then moved to the TV."
     },
     {
@@ -158,7 +158,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 1671,
+      "added": "2026-10-28",
       "summary": "Wes Bos repaired a Skylight frame's connectivity, then turned cheap Android frame hardware into a household dashboard on the kitchen counter."
     },
     {
@@ -188,7 +188,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 5,
+      "added": "2026-10-28",
       "summary": "The cloud went quiet, so an owner wrote a local server and browser UI. Cleaning, docking, suction, scheduling and status work."
     },
     {
@@ -217,7 +217,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 6,
+      "added": "2026-10-28",
       "summary": "Replacement firmware that points the Yoto's physical controls at your own Audiobookshelf library. Optional NFC, local downloads."
     },
     {
@@ -246,7 +246,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 17,
+      "added": "2026-10-28",
       "summary": "The old app workflow was discontinued. The owner wrote a SmartThings Edge driver that talks to the washer locally through a compatible hub."
     },
     {
@@ -275,7 +275,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 24,
+      "added": "2026-10-28",
       "summary": "A Rust bridge from the G3010's scan protocol to something macOS understands. Scans from the usual Mac apps."
     },
     {
@@ -301,7 +301,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 176,
+      "added": "2026-10-28",
       "summary": "A patched SpliX printing stack plus a USB helper gets HP Laser 100-series printers working on Apple Silicon Macs."
     },
     {
@@ -330,7 +330,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 7,
+      "added": "2026-10-28",
       "summary": "Joseph Spurrier rebuilt a local stack for a dead sleep company's hardware: bedside orb, Sleep Pill and app, owner-run. Started from the company's own open-sourced code."
     },
     {
@@ -355,7 +355,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 0,
+      "added": "2026-10-28",
       "summary": "Home Assistant integration with local control, status and Wi-Fi setup for a coffee machine whose app is obsolete."
     },
     {
@@ -379,7 +379,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": null,
+      "added": "2026-10-28",
       "summary": "Mertol Kasanan reverse-engineered his printer's Bluetooth protocol after existing libraries didn't match his variant. Basic image output works."
     },
     {
@@ -408,7 +408,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 7,
+      "added": "2026-10-28",
       "summary": "Activities, routes, settings and training features for Suunto watches stranded when Movescount shut down."
     },
     {
@@ -437,7 +437,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 53,
+      "added": "2026-10-28",
       "summary": "Browser controller with volume, sound presets, schedules and the shortcuts the owner uses daily."
     },
     {
@@ -478,7 +478,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": null,
+      "added": "2026-10-28",
       "summary": "An opinionated Arch Linux desktop. On compatible Intel Macs it keeps the hardware in service with a different OS and workflow."
     },
     {
@@ -516,7 +516,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 3,
+      "added": "2026-10-28",
       "summary": "Christian Schaller wrote a Linux SANE backend for his Plustek film scanner: colour, gray, infrared and infrared dust removal, packaged for Fedora. He also built Negative Vibes, a GNOME app for scanning negatives and slides."
     },
     {
@@ -550,7 +550,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 1188,
+      "added": "2026-10-28",
       "summary": "GLinnik21's native Plex client for LG webOS TVs draws its interface on the GPU and plays video on the TV's own decoder. On his 2019 set the profile picker loads in about 3 seconds, against about 30 in the official app."
     },
     {
@@ -579,7 +579,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 4,
+      "added": "2026-10-28",
       "summary": "manuaguirre9 built a homebrew player that boots alongside Sony's firmware: drag-and-drop music, 24-bit FLAC, Bluetooth headphones, podcasts over phone tethering and retro emulators. Deleting one folder restores the stock Walkman."
     },
     {
@@ -613,7 +613,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 1,
+      "added": "2026-10-28",
       "summary": "Bose shut down the SoundTouch cloud in May 2026. Sergei Ponomarenko brought back internet radio and the six preset buttons with a small relay for the streams and ESP32 firmware that catches preset presses and replays them to the speaker."
     },
     {
@@ -647,7 +647,7 @@
       "reviewed": "2026-11-05",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 1965,
+      "added": "2026-10-28",
       "summary": "Muzzammil Yasin Sabuwala's Fire TV Edition set had 129 MB of free memory and a home screen of mostly ads. A coding agent cleaned it up over ADB. dumbtv packages that cleanup with an undo for every step, its own home screen and an on-device DNS filter."
     },
     {
@@ -672,7 +672,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 14,
+      "added": "2026-10-28",
       "summary": "Paul Faure documented his thermometer's Bluetooth protocol, including its authentication handshake, and built an ESPHome bridge that puts every probe and setting into Home Assistant."
     },
     {
@@ -702,7 +702,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 91,
+      "added": "2026-10-28",
       "summary": "Razer offers no Mac software for this mouse. gh123man built a native macOS app that sets DPI, lighting, button remaps and onboard profiles over Bluetooth or USB."
     },
     {
@@ -731,7 +731,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 7,
+      "added": "2026-10-28",
       "summary": "alanstrok made his power station act as a standard NUT UPS server over Bluetooth, so Unraid, Synology and other NUT clients shut down cleanly on low battery. No EcoFlow cloud."
     },
     {
@@ -760,7 +760,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 1,
+      "added": "2026-10-28",
       "summary": "Aquaspaces writes a full parametric EQ, up to 10 filters, into the headset's own custom preset slots. It stays on the headset over the dongle, USB-C and Bluetooth, with no firmware flash."
     },
     {
@@ -793,7 +793,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 3,
+      "added": "2026-10-28",
       "summary": "Tom Wilkie built a Home Assistant integration and Python client for his shutters: open or closed, tilt angle and battery, with the hub found automatically on the network."
     },
     {
@@ -825,7 +825,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": null,
+      "added": "2026-10-28",
       "summary": "Christian Schaller rebuilt Dell's Windows-only webcam settings app for Linux, integrated with PipeWire, and wrote a GNOME Shell extension with a settings app for his Elgato Key Light."
     },
     {
@@ -854,7 +854,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 105,
+      "added": "2026-10-28",
       "summary": "Dmitry Brant brought the 25-year-old Linux ftape driver up to date as a loadable module, so his old tape drives run on Xubuntu 24.04 for data recovery instead of a CentOS 3.5 machine."
     },
     {
@@ -883,7 +883,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 19,
+      "added": "2026-10-28",
       "summary": "EffectiveEquivalent's desktop EQ editor writes straight to the cable's onboard DSP over USB. It gives fractional-dB gain where the stock app shows whole dB, and adds a preamp."
     },
     {
@@ -912,7 +912,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 26,
+      "added": "2026-10-28",
       "summary": "ideaCompany's web studio talks to the TR-8S over its reverse-engineered SysEx protocol, mirrors the machine live, and includes an assistant that builds grooves on the hardware using your own Claude subscription."
     },
     {
@@ -946,7 +946,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 23,
+      "added": "2026-10-28",
       "summary": "OpticMystic's custom firmware loads into RAM from a USB stick and adds stems playback and UI themes to the XDJ-XZ. A power cycle returns it to stock."
     },
     {
@@ -980,7 +980,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 1266,
+      "added": "2026-10-28",
       "summary": "Luke Lashley, who maintains the Roborock integration in Home Assistant, runs a copy of Roborock's cloud backend on your own network. Vacuums keep live maps and local control without the internet, and nothing has to be rooted or opened."
     },
     {
@@ -1018,7 +1018,7 @@
       "reviewed": "2026-10-28",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 126,
+      "added": "2026-10-28",
       "summary": "Konrad Iturbe reverse engineered DJI's camera protocol to build an Android app that downloads photos and video from Osmo cameras without DJI's Mimo app, SDK, login or activation."
     },
     {
@@ -1048,7 +1048,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 22,
+      "added": "2026-10-29",
       "summary": "The treadmill's own screen nagged for an iFit subscription. keranm replaced the console app: belt and incline run with no login, no subscription and no internet, plus hill-profile walks, per-person profiles and optional Home Assistant control."
     },
     {
@@ -1082,7 +1082,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 3,
+      "added": "2026-10-29",
       "summary": "The clock only works paired to an Echo. Mike Janofsky's integration lets Home Assistant drive it instead: the LED ring shows Assist and Home Assistant timers, and the time is re-synced every 30 minutes. Nothing on the clock is modified and nothing touches Amazon's servers."
     },
     {
@@ -1112,7 +1112,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 16,
+      "added": "2026-10-29",
       "summary": "Emaldo has no public API and no local access, only its app. The integration brings solar, grid, battery and load readings into Home Assistant every 10 seconds, plus daily energy totals and schedule, EV-charge and grid-export controls."
     },
     {
@@ -1138,7 +1138,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 0,
+      "added": "2026-10-29",
       "summary": "The original seven-button panel is hard to find and expensive to replace. danderik88 built a 10-inch ESPHome touch panel that plugs into the same cable: 12 V main switch, water pump, temperatures, grey-water alarm and a Home Assistant dashboard. The distribution unit stays untouched."
     },
     {
@@ -1168,7 +1168,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 8,
+      "added": "2026-10-29",
       "summary": "There is no official xBloom API; recipes lived only in the phone app. Janczykkkko's command-line tool loads recipes from YAML files, shows live weight from the machine's scale and programs the dial presets, so everyday coffees brew with no phone."
     },
     {
@@ -1197,7 +1197,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": null,
+      "added": "2026-10-29",
       "summary": "Adrian jailbroke his Kindle, removed Amazon's extra software and added Tailscale. Articles saved on his home server and his book library now sync straight to the reader."
     },
     {
@@ -1222,7 +1222,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": null,
+      "added": "2026-10-29",
       "summary": "The vendor app only worked sometimes. Hazrien's replacement handles lighting, key binds and macros, confirms every change with the pad, and adds app-aware keys that run different actions depending on the program in front."
     },
     {
@@ -1252,7 +1252,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 0,
+      "added": "2026-10-29",
       "summary": "The fridge was only controllable from its vendor app. Tom's integration brings temperature, power, turbo, battery protection and display settings into Home Assistant over Bluetooth, with no cloud and no account."
     },
     {
@@ -1286,7 +1286,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 1924,
+      "added": "2026-10-29",
       "summary": "Google ended support for the first two Nest generations on 25 October 2025: the apps, remote control and voice control stopped, leaving manual thermostats. Cody Kociemba's firmware points them at a new server, self-hosted or his, with remote control, schedules and a web dashboard."
     },
     {
@@ -1320,7 +1320,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 215,
+      "added": "2026-10-29",
       "summary": "Vorwerk began shutting Neato's cloud in October 2025, taking away app control, schedules and maps. Vacuula is a self-hosted replacement server with an installer that points the robot at it: maps, schedules, zones and no-go lines work again."
     },
     {
@@ -1354,7 +1354,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 1201,
+      "added": "2026-10-29",
       "summary": "Spotify ended Car Thing service in December 2024 and told owners to throw them away. Riprod's DeskThing turns it into a desk controller with community apps for music control, weather, Discord call status, clocks and remappable buttons."
     },
     {
@@ -1384,7 +1384,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 1342,
+      "added": "2026-10-29",
       "summary": "In 2023 Chamberlain blocked third-party access to myQ, breaking Home Assistant and Homebridge control. Paul Wieland's ratgdo board restores local control with full status over MQTT, ESPHome or HomeKit. No cloud and no subscription; the myQ app can keep running."
     },
     {
@@ -1421,7 +1421,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": null,
+      "added": "2026-10-29",
       "summary": "Humane shut the Pin's servers down in February 2025 and the device stopped working. Adam Gastineau's SDK lets it run as a mostly normal Android device, with an assistant app that can use local, self-hosted or remote AI models."
     },
     {
@@ -1450,7 +1450,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": null,
+      "added": "2026-10-29",
       "summary": "Belkin shut down Wemo's cloud on 31 January 2026, and devices can no longer be set up through the Wemo app. Binary Boots' free app finds Wemo devices on the local network, switches and dims them, reads Insight energy use and can set them up on Wi-Fi again."
     },
     {
@@ -1487,7 +1487,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": null,
+      "added": "2026-10-29",
       "summary": "Weber shut down the June app and cloud on 22 September 2026. A volunteer group of June owners built a small replacement server that runs on the oven itself, so preheat, temperature control, timers, cook programs and the live camera work again on the home network."
     },
     {
@@ -1517,7 +1517,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 936,
+      "added": "2026-10-29",
       "summary": "The Pod depends on Eight Sleep's cloud and a paid subscription. Free Sleep installs a small server on the Pod's own Linux, so temperature, schedules, alarms and settings run from a local web app, and the Pod keeps working without internet."
     },
     {
@@ -1543,7 +1543,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 97,
+      "added": "2026-10-29",
       "summary": "Embodied's cloud went dark in early 2025 and the US$800 robot stopped working. jbeghtol's local hub runs on a PC, Mac or Raspberry Pi and brings back daily missions, reading, workouts, schedules and custom conversations through a web console."
     },
     {
@@ -1569,7 +1569,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 2,
+      "added": "2026-10-29",
       "summary": "The Q11's MotoSync app and cloud stopped working after Minim lost the Motorola licence. ramirezjhulian7 turned each unit into a self-managed router with a local web panel served by the router itself: Wi-Fi settings, adding nodes, device controls and recovery after a reset."
     },
     {
@@ -1595,7 +1595,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 228,
+      "added": "2026-10-29",
       "summary": "Tidbyt displays depend on the maker's servers. The Tronbyt community built a self-hosted server and firmware, so the displays run fully locally, keep working if Tidbyt's servers go away, and can use apps Tidbyt had blocked."
     },
     {
@@ -1621,7 +1621,7 @@
       "reviewed": "2026-11-05",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 8671,
+      "added": "2026-10-29",
       "summary": "A community project replaces Xteink's stock firmware with an open one: full EPUB rendering, KOReader progress sync, Calibre and OPDS libraries, custom fonts, Bluetooth page turners and over-the-air updates."
     },
     {
@@ -1651,7 +1651,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 23,
+      "added": "2026-10-29",
       "summary": "The fitness mirror lost its service. TimStewartJ installs a new home launcher over ADB, no hardware change: clock, weather and photo dashboards, Home Assistant pages, media playback, casting and phone-based controls."
     },
     {
@@ -1685,7 +1685,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 878,
+      "added": "2026-10-29",
       "summary": "WHOOP's band works only with a paid subscription. OpenStrap reverse engineered its Bluetooth protocol and built an open app for Android and iOS: sleep, recovery, strain, heart rate and workouts, computed on the phone, with no data leaving it unless you opt in."
     },
     {
@@ -1715,7 +1715,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 1095,
+      "added": "2026-10-29",
       "summary": "The Toniebox reports to Boxine's cloud. The community's teddyCloud is a local replacement: owners decide what reaches the maker, and can play their own audio from a home server on the figurines."
     },
     {
@@ -1741,7 +1741,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 843,
+      "added": "2026-10-29",
       "summary": "Vector's voice features depended on its maker's servers and a fee. kercre123's wire-pod runs that server on the owner's own machine, so voice commands work again with no subscription."
     },
     {
@@ -1767,7 +1767,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 306,
+      "added": "2026-10-29",
       "summary": "After Futurehome went bankrupt in 2025, basic hub functions became subscription-only. Adrian Jagielak's add-on runs the hub from Home Assistant instead: discovery, state, control, pairing and house modes, free and local."
     },
     {
@@ -1793,7 +1793,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 2,
+      "added": "2026-10-29",
       "summary": "With its cloud gone, the Foobot was a paperweight. kerosix points its data at a local server through the device's own settings, with no hardware change, and reworked the pollution index, so readings go to a dashboard and Home Assistant with no account."
     },
     {
@@ -1822,7 +1822,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": null,
+      "added": "2026-10-29",
       "summary": "Nintendo shut down Nintendo Network in 2024. The Pretendo team builds open replacements for Friends, SpotPass, accounts, Miiverse and per-game matchmaking, for consoles their owners already have."
     },
     {
@@ -1851,7 +1851,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": null,
+      "added": "2026-10-29",
       "summary": "Microsoft shut down Xbox Live for the original Xbox in 2010. Insignia runs replacement servers that bring back matchmaking, friends and leaderboards for over 200 games."
     },
     {
@@ -1880,7 +1880,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": null,
+      "added": "2026-10-29",
       "summary": "Xiaomi changed the humidifier's internal protocol and broke the earlier open firmware. Steffen Vogel wrote a new ESPHome component for its Wi-Fi module, so it runs locally in Home Assistant with no Xiaomi cloud."
     },
     {
@@ -1909,7 +1909,7 @@
       "reviewed": "2026-10-29",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": null,
+      "added": "2026-10-29",
       "summary": "Dídac Sabatés removed the scale's Wi-Fi so it can't upload to Withings and wrote an ESPHome component that receives each weigh-in over Bluetooth. Readings land in Home Assistant per person, with no cloud and no change to the scale."
     },
     {
@@ -1947,7 +1947,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 1,
+      "added": "2026-11-01",
       "summary": "OneMeter went bankrupt and switched off its cloud, which issued the device's keys, so the clip-on reader became a lump of plastic. Kacper Grabowski dumped its read-protected flash, recovered the encryption with Claude Code and wrote a local Home Assistant integration that works through ESPHome Bluetooth proxies."
     },
     {
@@ -1981,7 +1981,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 562,
+      "added": "2026-11-01",
       "summary": "TECHO5 swaps Fire OS and Alexa for a small Alpine Linux image, so an Echo becomes a local Home Assistant voice satellite with its own touch screen. It adds on-device wake word, AirPlay 2, Spotify Connect and signed updates. HuskerMinion built it on Yuri Gelfand's EchoLocal."
     },
     {
@@ -2015,7 +2015,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 1,
+      "added": "2026-11-01",
       "summary": "According to the README, stock Wave firmware reports 35+ kinds of usage event to ByteDance's analytics, tagged with the serial number, and routes meeting audio and transcripts to Insta360's cloud. Xavier Geerinck replaced it with one Rust program: no telemetry, recordings stay on the device, and updates are signed with your own key."
     },
     {
@@ -2049,7 +2049,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 68,
+      "added": "2026-11-01",
       "summary": "An unwanted webOS update brought apps nobody asked for, terms-gated voice and telemetry. Anubhav Malhotra rooted the TV, gave it his own launcher and push-to-talk voice through the remote's mic with local speech models, and blocks LG's telemetry and content-recognition servers around the clock."
     },
     {
@@ -2083,7 +2083,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 36,
+      "added": "2026-11-01",
       "summary": "The TV kept sending telemetry with every toggle off, booted into an ad-filled home screen and had no developer mode. Kartikey Chauhan reverse-engineered the remote pairing, got root through a writable boot hook and now runs his own launcher, with updates and telemetry blocked. It also runs Doom."
     },
     {
@@ -2113,7 +2113,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 0,
+      "added": "2026-11-01",
       "summary": "The Pure Air app stopped working, and connected Rowenta purifiers lost remote control and schedules. Alejandro Couso unplugged the stock Wi-Fi module and wired in a €12 ESP32 that serves a local web page, keeps a weekly schedule on the device and can still take Google Home voice commands."
     },
     {
@@ -2139,7 +2139,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 2,
+      "added": "2026-11-01",
       "summary": "Numark's USB driver was last updated for macOS 10.12 and is Intel-only, so on an Apple Silicon Mac the V7 is a brick. Michael Hadida wrote a userspace driver that shows it as a MIDI device; jog wheel, buttons, lights and the motor work in VirtualDJ, Mixxx and Ableton."
     },
     {
@@ -2172,7 +2172,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": null,
+      "added": "2026-11-01",
       "summary": "The box's YouTube streaming, cloud and app are all gone, and its firmware refused 640×480 input. Vladimir Smitka got root over the serial port and had Claude Code write new firmware: H.264 over RTSP into OBS, recording, a web UI, any resolution, and 60 fps at 640×480 instead of 3.6."
     },
     {
@@ -2198,7 +2198,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 0,
+      "added": "2026-11-01",
       "summary": "Qardio shut its servers and pulled the app. The scale never sends weight as a number; it streams a picture of its own display over Bluetooth. Aleksandr Efimov reads the digits off that picture and ships an iPhone app with Apple Health export, plus a tool to stop the scale's Wi-Fi error pauses."
     },
     {
@@ -2228,7 +2228,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 1,
+      "added": "2026-11-01",
       "summary": "Gigaset's insolvency switched off the elements cloud in March 2024, and with no local mode the alarm kits were bricked. This gateway answers in place of Gigaset's server on stock firmware, so sensors, pairing and the siren work again, with alarm modes in Home Assistant over MQTT."
     },
     {
@@ -2254,7 +2254,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 1,
+      "added": "2026-11-01",
       "summary": "Logitech shut down the POP cloud in October 2025 with about two weeks' notice, which bricked the hub. The buttons still broadcast over Bluetooth when pressed, so Andy van Spijkeren's Home Assistant integration picks them up directly, with no hub, cloud or MQTT."
     },
     {
@@ -2284,7 +2284,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 0,
+      "added": "2026-11-01",
       "summary": "Sony only ever shipped a Windows XP driver for the camera's USB streaming mode. Alex Norton reverse-engineered the protocol and wrote a Rust driver for Linux: a virtual webcam, synced audio and video capture, and tape transport controls."
     },
     {
@@ -2314,7 +2314,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 1,
+      "added": "2026-11-01",
       "summary": "BGH shut down the Smart Control cloud on 31 December 2025. Alfredo Peña reverse-engineered the kit's local protocol, and his Home Assistant integration controls mode, fan, swing and temperature without it."
     },
     {
@@ -2344,7 +2344,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 6,
+      "added": "2026-11-01",
       "summary": "Sold as Android 13, the stick ran an older Android with open root access, a remote-command system and a hidden reverse-tunnel binary. itsmeorestis had Claude Code back it up, wipe it and install mainline U-Boot and Armbian over USB, with no soldering. The repo lists the malware's fingerprints."
     },
     {
@@ -2374,7 +2374,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 131,
+      "added": "2026-11-01",
       "summary": "The B1 reads a tag on Niimbot's own label rolls and prints lighter on anything else. The usual workaround was keeping an empty branded roll nearby. This patch prints at full darkness on any label, and connects the density setting to the print head, which the stock firmware never did."
     },
     {
@@ -2403,7 +2403,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": null,
+      "added": "2026-11-01",
       "summary": "The stereo came with ads, a paywalled always-listening assistant, a firmware updater on a third-party cloud and a root backdoor. Claude Code backed it all up, removed 18 apps, closed the backdoors and put on an open-source launcher and apps. CarPlay, Android Auto, radio and the reversing camera still work."
     },
     {
@@ -2437,7 +2437,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 2,
+      "added": "2026-11-01",
       "summary": "Smarter dropped the iKettle 3's cloud, and in December 2025 the kettles stopped connecting. drublin desoldered the original chip, wired an ESP32 to the board and added a new weight sensor. It runs locally in Home Assistant, with a safety cut-off when the jug is lifted."
     },
     {
@@ -2467,7 +2467,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 5,
+      "added": "2026-11-01",
       "summary": "The Zing only ever worked from Windows. This project adds a native macOS print driver and a layout-and-engrave app, so the laser runs straight from a Mac."
     },
     {
@@ -2493,7 +2493,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 212,
+      "added": "2026-11-01",
       "summary": "Neato shut down its cloud and app. OpenNeato puts an ESP32 on the robot's debug port and serves a local web page with manual drive, schedules, cleaning history and the LiDAR map."
     },
     {
@@ -2519,7 +2519,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 3,
+      "added": "2026-11-01",
       "summary": "The vendor app no longer runs on current phones, which left the bulbs stuck on their last colour. Mert Emirimam documented the protocol and wrote apps for Android, Linux and Windows, plus a web UI and a CLI, with colour, effects and music-following."
     },
     {
@@ -2552,7 +2552,7 @@
       "reviewed": "2026-10-31",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": null,
+      "added": "2026-11-01",
       "summary": "Joseph DiGiovanni replaced the firmware on the Litter-Robot's Wi-Fi chip with ESPHome, so it runs locally in Home Assistant with no app, cloud or telemetry. Safety logic stays on the mainboard, and new firmware adds better cat detection and flexible sleep schedules."
     },
     {
@@ -2582,7 +2582,7 @@
       "reviewed": "2026-11-01",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 33,
+      "added": "2026-11-01",
       "summary": "Meta turned the glasses' companion app into Meta AI, with a mandatory account, an AI video feed and paywalled features. Konrad Iturbe reverse-engineered the glasses' encrypted protocol and wrote an Android app that lists, downloads and deletes photos and video and shows battery and storage, with no Meta app or account in the loop."
     },
     {
@@ -2612,7 +2612,7 @@
       "reviewed": "2026-11-01",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 0,
+      "added": "2026-11-01",
       "summary": "Linking the Briturn cloud to Google Home failed with OAuth errors, so the bulbs only worked from the vendor app. There was no Google hub for Matter, and current Home Assistant no longer runs on 32-bit ARM. Michael Bruck controls the bulbs over the LAN with flux_led and runs a small Google Home cloud-to-cloud gateway in Termux on a spare TV box, behind a Cloudflare tunnel. The Google Home app handles on/off, brightness, colour and white temperature, with no Briturn cloud, hub or subscription."
     },
     {
@@ -2638,7 +2638,7 @@
       "reviewed": "2026-11-03",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 27,
+      "added": "2026-11-03",
       "summary": "The treadmill's big screen was the selling point, until it turned out Netflix and everything else beyond basic workout controls sat behind an iFit subscription, with ads and a slow load in front of every run. The screen is an Android 9 tablet, so Crawler757 replaced the home screen: big tiles for sideloaded streaming apps, a top bar with speed, incline, time and distance over every app, on-screen start, stop, speed and incline controls, and a quarter-mile lap tracker. iFit's own motor service keeps driving the belt, so nothing talks to the motor board directly."
     },
     {
@@ -2675,7 +2675,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": null,
+      "added": "2026-11-04",
       "summary": "Fisker filed for Chapter 11 in June 2024. Owners founded the Fisker Owners Association the same month, and when the connection to Fisker's cloud went down in April 2025, the features that depended on it stopped. The association has since released PKC21, new phone-as-key software built with Chevalier, and runs its own app and eSIM connectivity for members."
     },
     {
@@ -2709,7 +2709,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 2,
+      "added": "2026-11-04",
       "summary": "Frank Berge wanted his weight data on his own server, not in Huawei Health. His Home Assistant integration talks to the scale over Bluetooth, handling its authentication and AES-encrypted frames, and gives each person in the house a profile with weight, body fat, impedance and last-measurement sensors. Readings can also sync to SparkyFitness. No cloud, no MQTT, no Docker."
     },
     {
@@ -2739,7 +2739,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 0,
+      "added": "2026-11-04",
       "summary": "Bosch heat pumps reach Home Assistant through Bosch's cloud or an extra bridge. Jarkko Syrjälä's integration talks straight to the heat pump's IP module over the home network, AES-encrypted, and works out what the module offers instead of assuming a fixed list."
     },
     {
@@ -2781,7 +2781,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 1008,
+      "added": "2026-11-04",
       "summary": "E-ink panels and old Kindles tend to do one job, or none. dmellok's Tesserae is a local server: you compose dashboards in the browser as a grid, a freeform canvas or raw HTML, and it renders them and pushes them to the panels over REST or MQTT. Widgets cover Home Assistant, calendars, weather, transit, GitHub and news, with community plugins on top."
     },
     {
@@ -2814,7 +2814,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": null,
+      "added": "2026-11-04",
       "summary": "Apple Silicon Macs ship with macOS and no vendor support for anything else. Asahi Linux reverse-engineered the hardware, GPU included, and ships Fedora Asahi Remix, installed from macOS with one command. Audio, webcams and graphics acceleration work."
     },
     {
@@ -2852,7 +2852,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 29111,
+      "added": "2026-11-04",
       "summary": "Router vendors stop shipping security updates long before the hardware wears out, and the stock firmware decides what you can configure. OpenWrt is a Linux distribution that replaces it: current kernels, security fixes, a package manager and full control over the network. The 24.10 release added initial Wi-Fi 7 support and Linux 6.6."
     },
     {
@@ -2878,7 +2878,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 34,
+      "added": "2026-11-04",
       "summary": "MichaelOE's Home Assistant integration reads a Fisker Ocean's data from Ocean Pulse, an aftermarket device fitted to the car. Pair it with the QR code digits, and every value the Ocean Pulse API exposes becomes a sensor, with the car's location as a device tracker."
     },
     {
@@ -2904,7 +2904,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 2,
+      "added": "2026-11-04",
       "summary": "Felicity's batteries speak Modbus RTU over RS485, with one quirk: the response carries a 16-bit register count where the byte count belongs, so pymodbus and ESPHome's Modbus component reject every frame. KrzysztofHajdamowicz documented the protocol, published the register map and raw bus captures, and wrote a Python reference decoder."
     },
     {
@@ -2938,7 +2938,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 216,
+      "added": "2026-11-04",
       "summary": "Every scale brand wants its own phone app. KristianP26's ble-scale-sync reads the scale over Bluetooth instead, either by connecting or by listening to its broadcasts, and computes body composition locally. Each reading goes to any of 13 targets, including Garmin Connect, Strava, MQTT and Home Assistant, InfluxDB, webhooks, ntfy and plain CSV or JSONL files."
     },
     {
@@ -2968,7 +2968,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 942,
+      "added": "2026-11-04",
       "summary": "Huawei's home solar systems report to the FusionSolar cloud. wlcrs's integration talks to the inverter over Modbus instead, by RS485 on the COM port or over the network, and brings inverter, battery, meter and optimizer data into Home Assistant and its Energy dashboard."
     },
     {
@@ -2994,7 +2994,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 0,
+      "added": "2026-11-04",
       "summary": "Creality's newer printers run Klipper underneath but steer owners to Creality Cloud. filipeamorimdev's integration skips the account: it uses the WebSocket, HTTP and camera endpoints the printer already serves on the LAN, with no root and no Moonraker install."
     },
     {
@@ -3028,7 +3028,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 3847,
+      "added": "2026-11-04",
       "summary": "A phone that stopped getting updates still has a fast chip and plenty of RAM. mayukh4's scripts use Termux and Termux-X11 to install a GPU-accelerated Linux desktop (XFCE, KDE Plasma, LXQt or MATE) with no root and no PC. A second script turns the phone into a Home Assistant Core server."
     },
     {
@@ -3066,7 +3066,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 421,
+      "added": "2026-11-04",
       "summary": "The first Google Home Mini is a decent little speaker tied to Google Assistant. iMike78 designed a replacement circuit board that drops into the same shell: an ESP32-S3 and an XMOS audio processor running ESPHome, built like Home Assistant's own Voice Preview Edition. It becomes a local voice assistant and a Music Assistant speaker."
     },
     {
@@ -3099,7 +3099,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": null,
+      "added": "2026-11-04",
       "summary": "unu, the Berlin scooter maker, filed for insolvency in November 2023; Emco took over the brand and service in April 2024. LibreScoot is replacement firmware written by a volunteer community, mostly in Berlin, for the scooter's i.MX6 computer."
     },
     {
@@ -3145,7 +3145,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 877,
+      "added": "2026-11-04",
       "summary": "Carmakers' apps show a few numbers and stop when the maker drops the car. OVMS is an open module that plugs into the OBD2 port, with three CAN buses, 4G and GPS. It reads live charge, temperatures, tyre pressures and faults, and on some cars controls charging and climate."
     },
     {
@@ -3179,7 +3179,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 57,
+      "added": "2026-11-04",
       "summary": "Humane shut the Pin's servers down in February 2025. Max Maeder's OpenPin replaces the assistant with one owners can run, installed in a few clicks and without Humane's ADB certificates."
     },
     {
@@ -3213,7 +3213,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 6270,
+      "added": "2026-11-04",
       "summary": "Asus stops shipping firmware for a router long before the hardware dies. Eric Sauvageau (\"RMerlin\") builds Asuswrt-Merlin from Asus's own GPL code, adds features and fixes, and keeps shipping security updates for models Asus has moved on from."
     },
     {
@@ -3243,7 +3243,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 27,
+      "added": "2026-11-04",
       "summary": "Getting a file onto a Kindle means Amazon's Send to Kindle service or a USB cable. June Philip wrote Quick Share from scratch in Go, so an Android phone can send books straight to the Kindle with nothing installed on the phone. It runs as a background daemon, switched on from a KOReader menu, and files land in the documents folder."
     },
     {
@@ -3277,7 +3277,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 3285,
+      "added": "2026-11-04",
       "summary": "Wyze cameras stream to the Wyze app and nowhere else. mrlt8's Docker container uses the same SDK as the app to pull video straight from the cameras on your network, then serves it as RTSP, WebRTC, RTMP or low-latency HLS for Home Assistant, Frigate or any NVR. No firmware changes."
     },
     {
@@ -3307,7 +3307,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 812,
+      "added": "2026-11-04",
       "summary": "The Emporia Vue clamps onto your electrical panel and reports every circuit to Emporia's cloud. It runs on an ESP32, so the emporia-vue-local project reflashes it with ESPHome and a custom component. Readings update every five seconds and go straight to Home Assistant. Nothing leaves your network."
     },
     {
@@ -3337,7 +3337,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 56,
+      "added": "2026-11-04",
       "summary": "Sonos split its speakers into S1 and S2 in 2020 and split them again in August 2025, and the current app leaves S1 speakers out. Sonora is a self-hosted web controller that talks to the speakers directly on your network, with Sonos sign-in optional, and runs both systems from one screen."
     },
     {
@@ -3363,7 +3363,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 38,
+      "added": "2026-11-04",
       "summary": "PetKit's litter boxes have a camera and a microphone, and everything they see goes through PetKit's servers. alex-so-3 \"wanted my litter box off a Chinese cloud\", so they wrote a local stand-in: one Python container, as a Home Assistant app or with Docker Compose, that keeps working with the internet unplugged."
     },
     {
@@ -3393,7 +3393,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 3,
+      "added": "2026-11-04",
       "summary": "Zehnder's own way into a ComfoAir Q is the ComfoConnect LAN C gateway, about €330 and on its way out of the catalogue. blade-running-man wired an M5Stack NanoC6 and a CAN unit to the ventilation unit's bus instead, \"and four wires\"."
     },
     {
@@ -3418,7 +3418,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": null,
+      "added": "2026-11-04",
       "summary": "Existing open-source tools barely supported Bluetti's EP760 home battery inverter. Michael Still had Claude Code decompile and read the Bluetti app, then built a gateway from Bluetti's cloud to MQTT. The second step dropped the cloud: an ESP32 in a 3D-printed case talks to the inverter over Bluetooth, running bare-metal Rust, and reports to Home Assistant over MQTT."
     },
     {
@@ -3452,7 +3452,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 132,
+      "added": "2026-11-04",
       "summary": "Enel X Way announced on October 2, 2024 that it was leaving North America nine days later. JuiceBox chargers kept charging, but the app, scheduling and monitoring went with the servers."
     },
     {
@@ -3490,7 +3490,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 353,
+      "added": "2026-11-04",
       "summary": "LEGO discontinued the MINDSTORMS Robot Inventor app on October 1, 2026, with no further updates. Pybricks replaces the hub's firmware with MicroPython, installed from the browser at code.pybricks.com, and programs are written and run from the same page. The robot keeps working with no LEGO app at all."
     },
     {
@@ -3524,7 +3524,7 @@
       "reviewed": "2026-11-05",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 2310,
+      "added": "2026-11-04",
       "summary": "Cheap IP cameras ship with firmware that phones home to the vendor's cloud. Thingino replaces it with open firmware built on Buildroot for cameras with Ingenic chips, Wyze's included. The camera serves RTSP and ONVIF on your network, so any NVR or Home Assistant can use it with no vendor account."
     },
     {
@@ -3554,7 +3554,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 1815,
+      "added": "2026-11-04",
       "summary": "Logitech announced in January 2024 that it would close mysqueezebox.com, the service Squeezebox players used for streaming and setup. The community had already taken over Logitech Media Server and renamed it Lyrion. Version 8.4, in February 2024, removed every MySqueezebox dependency, so streaming services run as plugins on your own server and the players keep playing."
     },
     {
@@ -3580,7 +3580,7 @@
       "reviewed": "2026-11-04",
       "submittedBy": "unshittify",
       "draft": false,
-      "stars": 944,
+      "added": "2026-11-04",
       "summary": "Pebble shut down in 2016 and its app went with it; the community Rebble service kept watches alive in the years after. Core Devices, the revived Pebble company, has published the source of its new companion app for Android and iOS. It handles pairing, notifications, health data and installing watchfaces and apps, for every Pebble ever made."
     }
   ]
