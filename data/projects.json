@@ -1,6 +1,6 @@
 {
   "source": "https://unshittify.dev",
-  "count": 117,
+  "count": 134,
   "projects": [
     {
       "slug": "respira",
@@ -3608,6 +3608,499 @@
       "draft": false,
       "added": "2026-11-08",
       "summary": "The roughly $20 thermal \"cat printer\" from AliExpress only prints through its vendor's phone app. rbaron reverse-engineered the app's Bluetooth protocol and wrote a Python script that prints any image straight from Linux or macOS, with a choice of dithering algorithms and print darkness. It finds the printer on its own."
+    },
+    {
+      "slug": "open500-mpc500",
+      "url": "https://unshittify.dev/p/open500-mpc500/",
+      "id": 118,
+      "title": "Open500",
+      "seoTitle": "Open500: add-ons for the Akai MPC500, loaded from a CompactFlash card",
+      "device": "Akai MPC500 sampler and sequencer (2006, last official OS 1.31)",
+      "category": "audio",
+      "ai": "claude code",
+      "evidence": "public",
+      "aiRole": "The repo ships a Claude Code skill that designs, writes and tests a new add-on in an MPC500 emulator and hands back the WAV file, so owners who do not code can build tools. Whether the loader itself was written with AI is not stated.",
+      "caveats": "Tested on one MPC500 with OS 1.31. Does not work on the MPC1000 or MPC2500. Reserves 896 KB of sample memory. USB MIDI and the browser screen are beta. The bootloader is untouched, so reflashing the stock OS restores the machine.",
+      "evidenceNote": "Public code, GPL-3.0, first commit September 2026.",
+      "repo": "M45K/open500",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/M45K/open500"
+        },
+        {
+          "label": "site",
+          "url": "https://m45k.github.io/open500/"
+        }
+      ],
+      "reviewed": "2026-11-12",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": null,
+      "summary": "Akai stopped developing the MPC500's operating system almost twenty years ago. M45K patches a small loader into the owner's own OS 1.31; after that, new pages load as WAV files from the CompactFlash card: auto chop, master effects, a 16-step grid sequencer, sample effects, USB MIDI. Nothing is soldered and the stock OS can go back on at any time."
+    },
+    {
+      "slug": "octabam-octatrack",
+      "url": "https://unshittify.dev/p/octabam-octatrack/",
+      "id": 119,
+      "title": "Octabam",
+      "seoTitle": "Octabam: a community operating system for the Elektron Octatrack",
+      "device": "Elektron Octatrack MKI (2010) and MKII (2017), OS 1.40C",
+      "category": "audio",
+      "ai": "claude (commits)",
+      "evidence": "public",
+      "aiRole": "The README does not mention AI. Recent commits carry a Claude Co-Authored-By trailer or \"claude\" as committer, and the repo has CLAUDE.md and AGENTS.md files.",
+      "caveats": "From the README: writing an unofficial OS to an Octatrack can leave it unusable and puts the warranty in question. Many modules are tested only in an emulator. Coverage differs between MKI and MKII. Built images must not be shared; each owner builds from their own 1.40C. Elektron banned sharing modified firmware on its forum in September 2026.",
+      "evidenceNote": "Public code, MIT for the project's own code, about 300 stars, over 4,000 commits since August 2026.",
+      "repo": "sambanks/octabam",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/sambanks/octabam"
+        }
+      ],
+      "reviewed": "2026-11-12",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": null,
+      "summary": "Elektron's Octatrack OS is closed and 1.40C is the last version. Sam Banks's Octabam takes the owner's own OS file and composes a new image from about ninety modules: send-bus reverb and delay, per-track inserts, parameter locks on MIDI tracks, bug fixes. Many of the modules are ports of earlier community mods, and the effects are written in the machine's own DSP assembly."
+    },
+    {
+      "slug": "mdx-machinedrum",
+      "url": "https://unshittify.dev/p/mdx-machinedrum/",
+      "id": 120,
+      "title": "MDX firmware and MCL",
+      "seoTitle": "MDX: extended firmware for the Elektron Machinedrum, with Elektron's permission",
+      "device": "Elektron Machinedrum SPS-1 and SPS-1UW (2001 to 2016, last official OS 1.63)",
+      "category": "audio",
+      "ai": "none documented",
+      "evidence": "public",
+      "aiRole": "No AI use documented in either repo.",
+      "caveats": "X.14 is the stable build; X.20 is a preview and one owner reports crashes on an MK1 UW. The MDX repo has no licence file. MCL needs the open MegaCommand or RP2040 hardware. Elektron has said MDX is the one mod it authorises.",
+      "evidenceNote": "Public code. MCL is BSD-3-Clause, about 90 stars; MDX about 65 stars, releases September and November 2026.",
+      "repo": "jmamma/MDX",
+      "links": [
+        {
+          "label": "MDX repo",
+          "url": "https://github.com/jmamma/MDX"
+        },
+        {
+          "label": "MCL repo",
+          "url": "https://github.com/jmamma/MCL"
+        }
+      ],
+      "reviewed": "2026-11-12",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": null,
+      "summary": "Elektron discontinued the Machinedrum in 2016 and stopped OS work at 1.63. Justin Mammarella and Yatao Li have kept it going since: MDX adds a new machine class, lower MIDI latency and an extended SysEx mode, and MCL is companion firmware for an open controller board that turns the Machinedrum into a sequencing hub. Elektron's September 2026 statement on mods names MDX as the project it allows."
+    },
+    {
+      "slug": "ems-monomachine-firmware",
+      "url": "https://unshittify.dev/p/ems-monomachine-firmware/",
+      "id": 121,
+      "title": "Monomachine community firmware",
+      "seoTitle": "Community firmware for the Elektron Monomachine: trig conditions, per-track length, bug fixes",
+      "device": "Elektron Monomachine SFX-6 and SFX-60, MKI and MKII (2004 to 2015)",
+      "category": "audio",
+      "ai": "none documented",
+      "evidence": "public",
+      "aiRole": "The builder documents no AI use. Forum commenters speculate about LLM help; that is not a credit.",
+      "caveats": "Beta. The changelog warns that builds may contain destructive changes. Song slots 13 to 24 are removed and any data in them is corrupted on boot, so back up over SysEx first. No licence file. Apply with the builder's patcher to your own OS file.",
+      "evidenceNote": "Public patches and changelog, about 70 stars, first release May 2026, still updated November 2026.",
+      "repo": "emuyia/ems-monomachine-firmware",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/emuyia/ems-monomachine-firmware"
+        },
+        {
+          "label": "patcher",
+          "url": "https://junes.website/goodies/fw-patcher"
+        }
+      ],
+      "reviewed": "2026-11-12",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": null,
+      "summary": "The Monomachine has been out of production for a decade and its last OS is older than that. June's firmware adds what owners asked Elektron for and never got: trig conditions, per-track length and speed, a pattern setup menu, quick kit reload, control-all, and fixes for factory bugs. It runs on every Monomachine model and needs no extra hardware."
+    },
+    {
+      "slug": "op1r-teenage-engineering-op-1",
+      "url": "https://unshittify.dev/p/op1r-teenage-engineering-op-1/",
+      "id": 122,
+      "title": "op1r",
+      "seoTitle": "op1r: custom firmware for the original Teenage Engineering OP-1",
+      "device": "Teenage Engineering OP-1 original (2011, last official firmware R246)",
+      "category": "audio",
+      "ai": "none documented",
+      "evidence": "public",
+      "aiRole": "No AI use documented. The support link reads \"Buy some tokens for the Clanker\", which may hint at it.",
+      "caveats": "From the README: use at your own risk. Plugins have full access to the machine, so install only trusted ones. Windows USB outputs are untested. The bootloader is untouched, so stock firmware can be flashed back. The hidden Lander game is gone.",
+      "evidenceNote": "Public code, GPL-3.0 with an extra permission to combine with the OP-1 firmware, about 120 stars, release 67 in November 2026.",
+      "repo": "pcppcp/op1r",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/pcppcp/op1r"
+        }
+      ],
+      "reviewed": "2026-11-12",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": null,
+      "summary": "Teenage Engineering moved on to the OP-1 Field in 2022 and left the original OP-1 at firmware R246. op1r is a Python patcher that turns the owner's R246 image into a new firmware: extra synth engines including ports of Mutable Instruments code, new effects and sequencers, a second tape machine, MIDI CC and six-channel USB audio."
+    },
+    {
+      "slug": "hacktribe-korg-electribe",
+      "url": "https://unshittify.dev/p/hacktribe-korg-electribe/",
+      "id": 123,
+      "title": "Hacktribe",
+      "seoTitle": "Hacktribe: sampling and new engines on the Korg Electribe 2",
+      "device": "Korg Electribe 2 and Electribe 2 Sampler (2014)",
+      "category": "audio",
+      "ai": "none documented",
+      "evidence": "public",
+      "aiRole": "No AI use documented.",
+      "caveats": "The repo was archived by its owner on 2 November 2026 and is read-only; no reason is given. Flashing can brick the unit, and the README has a debrick page for that. The patch directory is excluded from the open licence.",
+      "evidenceNote": "Public code, AGPL-3.0, about 280 stars, developed 2021 to 2025, archived November 2026.",
+      "repo": "bangcorrupt/hacktribe",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/bangcorrupt/hacktribe"
+        }
+      ],
+      "reviewed": "2026-11-12",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": null,
+      "summary": "Korg sold two Electribes with the same hardware and different firmware, then stopped updating both. bangcorrupt's Hacktribe builds on the sampler firmware and runs on both models, so the synth gets sampling, plus new filters, oscillators, effects, grooves, scales and a fuller MIDI implementation. The project is now archived, but the releases and the write-ups stay up."
+    },
+    {
+      "slug": "superos-808",
+      "url": "https://unshittify.dev/p/superos-808/",
+      "id": 124,
+      "title": "SuperOS-808",
+      "seoTitle": "SuperOS-808: open replacement firmware for the Roland TR-808 CPU",
+      "device": "Roland TR-808 drum machine (1980 to 1983)",
+      "category": "audio",
+      "ai": "claude (press report)",
+      "evidence": "public",
+      "aiRole": "Synth Anatomy reports that Bjorn Lustic developed the firmware with help from Claude. The README and changelog do not say so, so the credit rests on the press report.",
+      "caveats": "Version 0.4. A CPU replacement in a 45-year-old machine; the analog voices are untouched. Needs an ISP programmer for a fresh board, and the rotary controls need calibrating per machine. Stock behaviour needs a program dump from your own CPU. No licence file.",
+      "evidenceNote": "Public code, about 15 stars, first commit August 2026. The sibling OS-303 for the TB-303 is MIT, about 50 stars.",
+      "repo": "bjornlustic/SuperOS-808",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/bjornlustic/SuperOS-808"
+        },
+        {
+          "label": "manual",
+          "url": "https://superos303.com/doc/808"
+        },
+        {
+          "label": "OS-303 for the TB-303",
+          "url": "https://github.com/djphazer/OS-303"
+        }
+      ],
+      "reviewed": "2026-11-12",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": null,
+      "summary": "The 808's mask-ROM CPU is a single point of failure with no MIDI. SuperOS-808 runs on a small AVR board that sits in the original CPU socket and adds MIDI in, out and clock, 64-step patterns with probability and ratchets, and a browser editor over SysEx. A combined build can also boot the owner's own dump of the 1981 program for stock behaviour. Nicholas Michalek's OS-303 does the same job for the TB-303."
+    },
+    {
+      "slug": "plug-fender-mustang",
+      "url": "https://unshittify.dev/p/plug-fender-mustang/",
+      "id": 125,
+      "title": "Plug",
+      "seoTitle": "Plug: edit Fender Mustang amps after Fender discontinued FUSE",
+      "device": "Fender Mustang I to V (v1 and v2), Bronco, Mini and Floor USB modelling amps (2010 to 2017)",
+      "category": "audio",
+      "ai": "none documented",
+      "evidence": "public",
+      "aiRole": "No AI use documented.",
+      "caveats": "Linux-first (udev rule); packaged for Fedora, Debian multimedia and the AUR. Some Mustang v2 features are incomplete. No support for the later Mustang GT and LT, which use Bluetooth and the Fender Tone app.",
+      "evidenceNote": "Public code, GPL-3.0, about 85 stars, maintained since 2017, release 1.5.0 in December 2025.",
+      "repo": "offa/plug",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/offa/plug"
+        }
+      ],
+      "reviewed": "2026-11-12",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": null,
+      "summary": "Fender's FUSE software was the only way to edit presets on a generation of Mustang amps, and Fender discontinued it in March 2020. Plug, offa's continuation of piorekf's PLUG, is a desktop editor and preset librarian that talks to the amp over USB: amp models, effects, presets, saved to the amp or to disk."
+    },
+    {
+      "slug": "nord-modular-g2-editor",
+      "url": "https://unshittify.dev/p/nord-modular-g2-editor/",
+      "id": 126,
+      "title": "Nord Modular G2 Editor",
+      "seoTitle": "NordModularG2-Editor: a new editor for the Clavia Nord Modular G2 on current Macs and Windows",
+      "device": "Clavia Nord Modular G2, G2X and G2 Engine (2004 to 2009)",
+      "category": "audio",
+      "ai": "claude (agent files)",
+      "evidence": "public",
+      "aiRole": "The repo has a CLAUDE.md with coding rules for the agent, and the project site says donations help cover coding-agent subscriptions. No vendor is named in the README.",
+      "caveats": "Version 0.8.0. Some parts of the sound engine are still being investigated. Windows needs a USB driver step. No Linux build yet.",
+      "evidenceNote": "Public code, AGPL-3.0, about 1,450 commits since April 2026.",
+      "repo": "JanBurp/NordModularG2-Editor",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/JanBurp/NordModularG2-Editor"
+        },
+        {
+          "label": "site",
+          "url": "https://janburp.github.io/NordModularG2-Editor/"
+        }
+      ],
+      "reviewed": "2026-11-12",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": null,
+      "summary": "Clavia's last G2 editor is an old 32-bit application that no longer runs on current macOS, and without an editor a Nord Modular is a very expensive preset player. Jan den Besten rewrote the editor from scratch: a C USB daemon and an Electron front end, editing patches offline or live on the synth, with builds for macOS 11 and later and Windows 10."
+    },
+    {
+      "slug": "autocrap-novation-nocturn",
+      "url": "https://unshittify.dev/p/autocrap-novation-nocturn/",
+      "id": 127,
+      "title": "autocrap",
+      "seoTitle": "autocrap: the Novation Nocturn as a plain MIDI controller after Automap",
+      "device": "Novation Nocturn USB controller (2008)",
+      "category": "audio",
+      "ai": "none documented",
+      "evidence": "public",
+      "aiRole": "No AI use documented.",
+      "caveats": "Windows needs a WinUSB driver via Zadig and a virtual MIDI port. The crossfader is 7-bit over MIDI. Other Automap devices are on the wish list only.",
+      "evidenceNote": "Public code, LGPL-3.0, about 30 stars, last release October 2025. Write-up on CDM, August 2024.",
+      "repo": "ahihi/autocrap",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/ahihi/autocrap"
+        },
+        {
+          "label": "write-up",
+          "url": "https://cdm.link/novation-nocturn-reborn/"
+        }
+      ],
+      "reviewed": "2026-11-12",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": null,
+      "summary": "The Nocturn only ever worked through Novation's Automap software, which Novation now lists as no longer supported and not recommended for use. miranda's autocrap is a userspace driver in Rust that turns the Nocturn into an ordinary MIDI or OSC device with JSON mappings, on macOS, Linux and Windows."
+    },
+    {
+      "slug": "modded-cycles-elektron",
+      "url": "https://unshittify.dev/p/modded-cycles-elektron/",
+      "id": 128,
+      "title": "Modded Cycles",
+      "seoTitle": "Modded Cycles: a community OS for the Elektron Model:Cycles, built in the browser",
+      "device": "Elektron Model:Cycles groovebox (2020, last official OS May 2021)",
+      "category": "audio",
+      "ai": "claude code",
+      "evidence": "public",
+      "aiRole": "The README points to DEVELOPMENT.md, which names pi as the coding agent, routes it through a Claude Max subscription via Claude Code, and lists the Claude models its subagents use. Several commits list \"claude\" as author. The Verge quotes the builder saying the first hack, six-track USB audio, was done with Claude Code.",
+      "caveats": "From the README: at your own risk, may void the warranty. Some machines are marked experimental, and OS 2.0 had not run on a real machine at review time. Recovery from a bad flash needs a USB MIDI interface. Elektron still sells the Model:Cycles and banned sharing modified firmware on its forum in September 2026.",
+      "evidenceNote": "Public code, MIT for the project's own code, about 140 stars since September 2026.",
+      "repo": "18nelli18/Modded-Cycles",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/18nelli18/Modded-Cycles"
+        },
+        {
+          "label": "site",
+          "url": "https://18nelli18.github.io/Modded-Cycles/"
+        },
+        {
+          "label": "Model-TG sampler",
+          "url": "https://github.com/TinyGregAudio/Model-TG"
+        }
+      ],
+      "reviewed": "2026-11-12",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": null,
+      "summary": "Elektron stopped updating the Model:Cycles in 2021. 18nelli's browser flasher takes the owner's own OS files and builds a modded one: a sampler machine (TinyGregAudio's Model-TG), Syntakt engines, a Braids-based macro machine, a 303-style acid machine, an arpeggiator, extra LFOs and six-track USB audio. It is reversible."
+    },
+    {
+      "slug": "deep88-mpc3000-os",
+      "url": "https://unshittify.dev/p/deep88-mpc3000-os/",
+      "id": 129,
+      "title": "MPC3000 OS 3.4 Track Mute Edition",
+      "seoTitle": "MPC3000 OS 3.4: an unofficial Akai MPC3000 operating system made with ChatGPT",
+      "device": "Akai MPC3000 sampler and sequencer (1994, last official OS 3.12)",
+      "category": "audio",
+      "ai": "chatgpt",
+      "evidence": "report",
+      "aiRole": "From the page: \"A free unofficial OS modification by Deep88 with help from ChatGPT\", made \"with ChatGPT's honestly insane help and a whole lot of trial and error\". Developed and first tested in MAME's MPC3000 emulator.",
+      "caveats": "Binaries only, no source. The author calls it experimental: back everything up, save settings to the boot floppy, and expect mute groups to be ignored by other OS versions. The filter and drive effects slow the machine down.",
+      "evidenceNote": "Detailed write-up with downloads, no code. Covered by Matrixsynth, November 2026.",
+      "links": [
+        {
+          "label": "write-up and download",
+          "url": "https://www.deep88.com/vibecod/mpc3000/"
+        },
+        {
+          "label": "Matrixsynth",
+          "url": "https://www.matrixsynth.com/2026/11/mpc3000-os-3400.html"
+        }
+      ],
+      "reviewed": "2026-11-12",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": null,
+      "summary": "Deep88 wanted a track mute page on the MPC3000 for about twenty years. Akai's last OS is 3.12, so he built one himself on top of it: track mute, note repeat, sampling while the sequencer runs, incremental chop, bit crush, normalize, mute groups and a setup menu. It boots from a floppy or a Gotek drive and leaves the stock OS alone. Free, as is, \"in the spirit of the old internet\"."
+    },
+    {
+      "slug": "yamaha-dx9-dx7-firmware",
+      "url": "https://unshittify.dev/p/yamaha-dx9-dx7-firmware/",
+      "id": 130,
+      "title": "DX9/7 firmware ROM",
+      "seoTitle": "DX9/7: a replacement ROM that gives the Yamaha DX9 the six operators of the DX7",
+      "device": "Yamaha DX9 synthesizer (1983)",
+      "category": "audio",
+      "ai": "none documented",
+      "evidence": "public",
+      "aiRole": "No AI use documented in the README or the commit history.",
+      "caveats": "Needs an EPROM burner and a chip swap. Only about ten DX7 patches fit in the DX9's memory. Some DX7 SysEx functions are missing, so some editors break. Velocity and aftertouch are limited by the DX9's keybed. Cassette save corrupts DX7-specific data.",
+      "evidenceNote": "Public code, GPL-3.0, about 40 stars, considered ready for everyday use by its author; last change September 2024.",
+      "repo": "ajxs/yamaha_dx97",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/ajxs/yamaha_dx97"
+        },
+        {
+          "label": "DX7 ROM disassembly",
+          "url": "https://github.com/ajxs/yamaha_dx7_rom_disassembly"
+        }
+      ],
+      "reviewed": "2026-11-12",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": null,
+      "summary": "The DX9 is a DX7 that Yamaha cut down at the factory to four operators, and Yamaha never sold an upgrade. ajxs built a new firmware ROM from the DX9 code and the DX7 v1.8 code that restores six operators, makes the DX9 patch-compatible with the DX7, and adds a pitch envelope, MIDI velocity and DX7-style scaling."
+    },
+    {
+      "slug": "ensoniq-eps16-browser-uploader",
+      "url": "https://unshittify.dev/p/ensoniq-eps16-browser-uploader/",
+      "id": 131,
+      "title": "EPS-16 Plus browser uploader",
+      "seoTitle": "Load WAV samples into an Ensoniq EPS-16 Plus from a browser over MIDI",
+      "device": "Ensoniq EPS-16 Plus sampler (1990)",
+      "category": "audio",
+      "ai": "none documented",
+      "evidence": "public",
+      "aiRole": "No AI use documented in the README, the commits or the source.",
+      "caveats": "Mono WAV only, and large files are slow. A known transfer bug sometimes needs a browser refresh and a retry. Needs a browser with Web MIDI, so Chrome or Edge.",
+      "evidenceNote": "Public code, MIT, hosted copy linked from the README, maintained since 2023.",
+      "repo": "summitt/EnsoniqEPS16Plus",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/summitt/EnsoniqEPS16Plus"
+        }
+      ],
+      "reviewed": "2026-11-12",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": null,
+      "summary": "The old tools for getting samples into an EPS-16 Plus stopped running on current machines, Apple Silicon Macs among them. summitt's single-page web app pushes WAV files into the sampler over SysEx, pulls samples back out, and creates the instrument and layer on the machine if they do not exist yet."
+    },
+    {
+      "slug": "blackbox-mod-1010music",
+      "url": "https://unshittify.dev/p/blackbox-mod-1010music/",
+      "id": 132,
+      "title": "blackbox-mod",
+      "seoTitle": "blackbox-mod: a patched OS for the original 1010music Blackbox",
+      "device": "1010music Blackbox original (2019, last official firmware 3.1.9)",
+      "category": "audio",
+      "ai": "claude (commits)",
+      "evidence": "public",
+      "aiRole": "The README does not mention AI. Seventeen of nineteen commits carry a Claude Opus Co-Authored-By trailer and a Claude session link.",
+      "caveats": "From the README: has run on few units. The CPU can overload with some effect combinations, and tempo detection can be wrong. Two-file install. Flash the stock OS back before asking 1010music for support.",
+      "evidenceNote": "Public code, MIT, about 35 stars, October 2026.",
+      "repo": "j3threejay/blackbox-mod",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/j3threejay/blackbox-mod"
+        },
+        {
+          "label": "site",
+          "url": "https://justinjoe.com/blackbox-mod"
+        }
+      ],
+      "reviewed": "2026-11-12",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": null,
+      "summary": "1010music replaced the Blackbox with the Blackbox 2 and left the original at firmware 3.1.9. Justin Joe's patch applies to the owner's own OS file and adds auto chop, time-stretch models, tempo detection, new effects, note repeat, groove, Elektron-style step conditions and a lower CPU load."
+    },
+    {
+      "slug": "p600fw-prophet-600",
+      "url": "https://unshittify.dev/p/p600fw-prophet-600/",
+      "id": 133,
+      "title": "p600fw",
+      "seoTitle": "p600fw: a new brain for the Sequential Circuits Prophet 600",
+      "device": "Sequential Circuits Prophet 600 synthesizer (1982)",
+      "category": "audio",
+      "ai": "none documented",
+      "evidence": "public",
+      "aiRole": "No AI use documented.",
+      "caveats": "A hardware modification of a vintage synth: a lightly modified Teensy++ replaces the Z80. The toolchain references date from 2012. Version 2.0 is the last stable release; 2.1 never left release candidate. Dozens of open issues.",
+      "evidenceNote": "Public code, GPL-3.0 per the README, about 50 stars, maintained since 2013.",
+      "repo": "gligli/p600fw",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/gligli/p600fw"
+        }
+      ],
+      "reviewed": "2026-11-12",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": null,
+      "summary": "The Prophet 600 was the first MIDI synth, and its Z80 operating system is famously sluggish. gligli replaced the CPU and the firmware with a Teensy++ that plugs into the Z80 socket: a new voice assigner, a MIDI-clocked arpeggiator, unison detune, SysEx patch dumps, and knobs that send MIDI."
+    },
+    {
+      "slug": "maschine-mk1-midi-linux",
+      "url": "https://unshittify.dev/p/maschine-mk1-midi-linux/",
+      "id": 134,
+      "title": "Maschine Mk1 pads to MIDI",
+      "seoTitle": "Keep a Native Instruments Maschine Mk1 useful on Linux after Maschine 3 dropped it",
+      "device": "Native Instruments Maschine Mk1 controller (2009)",
+      "category": "audio",
+      "ai": "none documented",
+      "evidence": "experimental",
+      "aiRole": "No AI use documented.",
+      "caveats": "Pads only: no LEDs, no screens. Needs root for the input device. Written against one Mk1, so pad codes may need editing. A very small project.",
+      "evidenceNote": "Public code, AGPL-3.0, one release in October 2025.",
+      "repo": "devcomputer/python-maschine-mk1-midi",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/devcomputer/python-maschine-mk1-midi"
+        },
+        {
+          "label": "NI end-of-support notice",
+          "url": "https://support.native-instruments.com/support/solutions/articles/69000879556-ending-software-support-for-earlier-generations-of-maschine"
+        }
+      ],
+      "reviewed": "2026-11-12",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": null,
+      "summary": "Native Instruments says the Maschine Mk1 and Mk2 do not work with Maschine 3, and the last Mk1 Mac driver is from 2015. devcomputer's script reads the Mk1 pads as a Linux input device and sends them out as MIDI, with a layout for Bespoke Synth. The tagline is \"stop e-waste\"."
     }
   ]
 }
