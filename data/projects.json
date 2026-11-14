@@ -1,6 +1,6 @@
 {
   "source": "https://unshittify.dev",
-  "count": 141,
+  "count": 159,
   "projects": [
     {
       "slug": "respira",
@@ -716,19 +716,19 @@
       "evidence": "public",
       "aiRole": "Heavy AI pair-programming with Claude for the protocol reverse engineering, the NUT plumbing and Bluetooth debugging, per the creator.",
       "caveats": "The encrypted Bluetooth protocol is reverse engineered, so a firmware update could break it. DELTA 3 only. The handshake needs your EcoFlow user ID once, used locally. Use at your own risk.",
-      "evidenceNote": "Public project + creator account.",
-      "repo": "alanstrok/ecoflow2nut-pibridge",
+      "evidenceNote": "Public project + creator account. The repo moved from alanstrok to n0de0ne on GitHub.",
+      "repo": "n0de0ne/ecoflow2nut-pibridge",
       "links": [
         {
           "label": "repo",
-          "url": "https://github.com/alanstrok/ecoflow2nut-pibridge"
+          "url": "https://github.com/n0de0ne/ecoflow2nut-pibridge"
         },
         {
           "label": "creator post",
           "url": "https://www.reddit.com/r/homelab/comments/1tyij86/"
         }
       ],
-      "reviewed": "2026-10-28",
+      "reviewed": "2026-11-14",
       "submittedBy": "unshittify",
       "draft": false,
       "added": "2026-10-28",
@@ -1956,18 +1956,26 @@
       "id": 65,
       "title": "TECHO5",
       "seoTitle": "TECHO5: Echo Show and Echo Dot as local Home Assistant voice satellites",
-      "device": "Echo Show 5 and 8 (gen 1/2), Echo Spot gen 1, Echo Dot gen 2/3, Echo gen 2",
+      "device": "Echo Show 5 and 8 (gen 1/2), Echo Spot gen 1, Echo Dot gen 2/3, Echo gen 2, Echo Input",
       "category": "home",
       "ai": "none documented",
       "evidence": "public",
       "aiRole": "Not stated by the author. One of 1,816 commits, by an outside contributor, carries a Claude co-author line.",
-      "caveats": "Needs a bootloader unlock through the existing amonet exploit; no Echo made after 2021 has a public unlock. Show 5 owners need to raise their voice over music. The author calls it a hobby project, not a product.",
-      "evidenceNote": "Public code (490 stars) + HN thread + HA forum thread.",
+      "caveats": "Needs a bootloader unlock through the existing amonet exploit; no Echo made after 2021 has a public unlock. Show 5 owners need to raise their voice over music. The author calls it a hobby project, not a product. The README lists the Echo gen 2 as working on one unit, the Echo Dot gen 3 on two, and the Echo Input as not yet tried on a unit.",
+      "evidenceNote": "Public code (about 660 stars; the Echo Dot repo about 260) + HN thread + HA forum thread.",
       "repo": "HuskerMinion/techo5",
       "links": [
         {
           "label": "repo",
           "url": "https://github.com/HuskerMinion/techo5"
+        },
+        {
+          "label": "echo dot repo",
+          "url": "https://github.com/HuskerMinion/techo5-dot"
+        },
+        {
+          "label": "echo spot repo",
+          "url": "https://github.com/HuskerMinion/techo5-spot"
         },
         {
           "label": "hn",
@@ -1978,11 +1986,11 @@
           "url": "https://community.home-assistant.io/t/techo5-upgraded-fork-echo-show-5-as-an-ha-voice-satellite-now-with-xiaozhi-voice-an-android-cast-app-and-a-stream-deck/1026977"
         }
       ],
-      "reviewed": "2026-10-31",
+      "reviewed": "2026-11-14",
       "submittedBy": "unshittify",
       "draft": false,
       "added": "2026-11-01",
-      "summary": "TECHO5 swaps Fire OS and Alexa for a small Alpine Linux image, so an Echo becomes a local Home Assistant voice satellite with its own touch screen. It adds on-device wake word, AirPlay 2, Spotify Connect and signed updates. HuskerMinion built it on Yuri Gelfand's EchoLocal."
+      "summary": "TECHO5 swaps Fire OS and Alexa for a small Alpine Linux image, so an Echo becomes a local Home Assistant voice satellite with its own touch screen. It adds on-device wake word, AirPlay 2, Spotify Connect and signed updates. The Echo Dot, Echo gen 2 and Echo Spot builds now have their own repos. HuskerMinion built it on Yuri Gelfand's EchoLocal."
     },
     {
       "slug": "insta360-wave-open-firmware",
@@ -2058,13 +2066,13 @@
       "id": 68,
       "title": "alvidaa",
       "seoTitle": "Hisense TV ads gone: alvidaa roots VIDAA for a clean launcher",
-      "device": "Hisense 50A51HUV (MediaTek MTK9602, VIDAA OS)",
+      "device": "Hisense and other VIDAA OS TVs; first built on a Hisense 50A51HUV (MediaTek MTK9602)",
       "category": "tv",
       "ai": "glm via z code",
       "evidence": "public",
       "aiRole": "GLM 5.3 Flash in Z Code, about 300M tokens across parallel sessions: one agent did recon and root, another the launcher. The post is labelled AI-assisted and the repo has an AGENTS.md.",
-      "caveats": "One model and firmware. The boot hook needs a physical unplug to run. The local bridge has no authentication. Ad blocking by firewall rules is still to come. The write-up is a live log from late October 2026.",
-      "evidenceNote": "Public code + creator post + HN thread.",
+      "caveats": "Root is specific to a model and a firmware version: the README says the chain that works on a 50A51HUV does nothing on a 100U7Q. Version 2.0 (9 November 2026) lists 16 model guides across five chip families. The launcher can also run from a Raspberry Pi or NAS without root. The creator post describes the first TV only, as it stood in late October 2026.",
+      "evidenceNote": "Public code (v1.0 on 3 November 2026, v2.0 on 9 November) + creator post + HN thread.",
       "repo": "carteakey/alvidaa",
       "links": [
         {
@@ -2080,11 +2088,11 @@
           "url": "https://news.ycombinator.com/item?id=50303340"
         }
       ],
-      "reviewed": "2026-10-31",
+      "reviewed": "2026-11-14",
       "submittedBy": "unshittify",
       "draft": false,
       "added": "2026-11-01",
-      "summary": "The TV kept sending telemetry with every toggle off, booted into an ad-filled home screen and had no developer mode. Kartikey Chauhan reverse-engineered the remote pairing, got root through a writable boot hook and now runs his own launcher, with updates and telemetry blocked. It also runs Doom."
+      "summary": "The TV kept sending telemetry with every toggle off, booted into an ad-filled home screen and had no developer mode. Kartikey Chauhan reverse-engineered the remote pairing, got root through a writable boot hook and now runs his own launcher, with updates and telemetry blocked. It also runs Doom. Since then the project has grown to other VIDAA TVs, and version 2.0 can replace the home screen inside the TV's own software instead of redirecting the browser."
     },
     {
       "slug": "rowenta-pure-air-rescue",
@@ -3561,27 +3569,27 @@
       "slug": "pebble-app-libpebble3",
       "url": "https://unshittify.dev/p/pebble-app-libpebble3/",
       "id": 116,
-      "title": "Pebble app (libpebble3)",
-      "seoTitle": "libpebble3: the open-source Pebble companion app from Core Devices",
+      "title": "Pebble mobile app",
+      "seoTitle": "Pebble mobile app: the open-source companion app from Core Devices",
       "device": "All Pebble smartwatches, plus Pebble Index 01 rings",
       "category": "audio",
       "ai": "claude (agent files)",
       "evidence": "public",
       "aiRole": "The repo has a CLAUDE.md, and recent commits carry Co-Authored-By: Claude trailers.",
       "caveats": "GPL-3.0, with a paid commercial licence option from Core Devices. Core Devices is a company, not a community project.",
-      "evidenceNote": "Public repo, about 940 stars, very active.",
-      "repo": "coredevices/libpebble3",
+      "evidenceNote": "Public repo, about 950 stars, very active. Renamed on GitHub from libpebble3 to mobileapp; the README says it is a copy of the company's internal repo, synced by hand.",
+      "repo": "coredevices/mobileapp",
       "links": [
         {
           "label": "repo",
-          "url": "https://github.com/coredevices/libpebble3"
+          "url": "https://github.com/coredevices/mobileapp"
         }
       ],
-      "reviewed": "2026-11-04",
+      "reviewed": "2026-11-14",
       "submittedBy": "unshittify",
       "draft": false,
       "added": "2026-11-04",
-      "summary": "Pebble shut down in 2016 and its app went with it; the community Rebble service kept watches alive in the years after. Core Devices, the revived Pebble company, has published the source of its new companion app for Android and iOS. It handles pairing, notifications, health data and installing watchfaces and apps, for every Pebble ever made."
+      "summary": "Pebble shut down in 2016 and its app went with it; the community Rebble service kept watches alive in the years after. Core Devices, the revived Pebble company, has published the source of its new companion app for Android and iOS. It handles pairing, notifications, health data and installing watchfaces and apps, for every Pebble ever made. The watch protocol code sits in a module called libpebble3, the repo's former name."
     },
     {
       "slug": "catprinter-python",
@@ -4125,7 +4133,7 @@
       "reviewed": "2026-11-12",
       "submittedBy": "unshittify",
       "draft": false,
-      "added": null,
+      "added": "2026-11-12",
       "summary": "Clavia's editor for the first Nord Modular is long gone, and the community's Java replacement, Nomad, needs an old Java runtime. Javier Melgar reimplemented Nomad in C++ with JUCE: patch and bank editing over SysEx, backups, module presets, DSP cost display and a patch mutator, on macOS, Windows and Linux."
     },
     {
@@ -4159,7 +4167,7 @@
       "reviewed": "2026-11-12",
       "submittedBy": "unshittify",
       "draft": false,
-      "added": null,
+      "added": "2026-11-12",
       "summary": "Axoloti was a board for sketching DSP patches that run on their own hardware. Its creator stopped around 2019 and the patcher stopped getting updates. Ksoloti is a community fork of the patcher and firmware that keeps the original Axoloti Core boards working, alongside the team's own replacement board."
     },
     {
@@ -4185,7 +4193,7 @@
       "reviewed": "2026-11-12",
       "submittedBy": "unshittify",
       "draft": false,
-      "added": null,
+      "added": "2026-11-12",
       "summary": "The JD-990's patch memory is battery-backed RAM from 1993, and the editors that once served it, Emagic's SoundDiver among them, are dead. André Motz's editor gives every SysEx parameter a native macOS interface: draggable envelopes, an effects page, a patch library and a performance view, built with JUCE and Rust."
     },
     {
@@ -4215,7 +4223,7 @@
       "reviewed": "2026-11-12",
       "submittedBy": "unshittify",
       "draft": false,
-      "added": null,
+      "added": "2026-11-12",
       "summary": "Akai's last OS for the MPC2000XL is version 1.20 from the early 2000s. Dariusz Chynek wrote eight assembly-level modifications: wider tuning, program transpose, mute groups, folders, a trim slider, track programs and sample regions. A macOS or Windows installer patches the owner's own OS file into a new boot image; the MPC itself is untouched and the original stays."
     },
     {
@@ -4245,7 +4253,7 @@
       "reviewed": "2026-11-12",
       "submittedBy": "unshittify",
       "draft": false,
-      "added": null,
+      "added": "2026-11-12",
       "summary": "E-mu never documented the disk format its samplers use, so the only way to manage their banks from a computer was a Windows tool. David García Goñi's emu3fs is a Linux kernel module that mounts EIII, ESI and EIV media, including SD cards behind a SCSI2SD adapter, for reading and writing. emu3bm is the companion command-line bank manager for presets and sample import and export."
     },
     {
@@ -4275,7 +4283,7 @@
       "reviewed": "2026-11-12",
       "submittedBy": "unshittify",
       "draft": false,
-      "added": null,
+      "added": "2026-11-12",
       "summary": "In July 2025 a Tracker owner published an open letter to Polyend about slow bug fixes, no firmware archive and no SDK, and started RETracker-REWrite, a clean-room firmware. The rewrite went nowhere. In November 2026 Polyend published the full firmware source for all three Trackers as a Community Edition, with build instructions, a plugin SDK and the bootloader's recovery button to fall back on. Listed because the ending is the point: pressure from owners produced an open firmware."
     },
     {
@@ -4309,8 +4317,592 @@
       "reviewed": "2026-11-12",
       "submittedBy": "unshittify",
       "draft": false,
-      "added": null,
+      "added": "2026-11-12",
       "summary": "M-Vave opened the firmware of its cheap FM-1 sampler in October 2026, and Leo Kuroshita's Felucca is the community firmware that grew around it, the most starred of the 2026 custom-firmware wave. What sets it apart for this log is the README: a plain statement of what AI agents did (code, tests, docs, translation, maintenance) and what they did not (design, sounds, artwork)."
+    },
+    {
+      "slug": "unfr0zen-nest-thermostat",
+      "url": "https://unshittify.dev/p/unfr0zen-nest-thermostat/",
+      "id": 142,
+      "title": "unfr0zen",
+      "seoTitle": "unfr0zen: local control for Nest Learning Thermostats, 1st to 3rd gen",
+      "device": "Nest Learning Thermostat, 1st, 2nd and 3rd generation",
+      "category": "home",
+      "ai": "claude code",
+      "evidence": "public",
+      "aiRole": "From the README: \"Claude Code has been used to speed up the app's GUI, the documentation and the tests.\" The repo also has CLAUDE.md and AGENTS.md files. None of the latest 100 commits carries an AI co-author trailer.",
+      "caveats": "From the README: it rewrites the flash of the device that runs the heating, and a failed run or a bad patch can leave the thermostat unbootable or running without controlling heating or cooling. Back up the NAND first and have another way to heat or cool the house while testing. Modifying the thermostat voids its warranty and may break Google's services for it. Matter uses a test vendor ID, so controllers treat the unit as uncertified. Only these three models are supported; the Nest Thermostat E is not. The 1st generation has to be opened up and gets no Zigbee or Thread. Tested firmware is listed for the 2nd and 3rd generation only. On European models, Zigbee or Thread replaces the wireless Heat Link connection. NoLongerEvil, also on this site, covers the 1st and 2nd generation and points the thermostat at a replacement server, self-hosted or the project's own; unfr0zen runs its stand-in for Nest's cloud on the thermostat and also covers the 3rd generation.",
+      "evidenceNote": "Public code, GPL-3.0, about 75 stars, created 26 October 2026, release v0.5.0 on 13 November 2026.",
+      "repo": "unfr0zen/unfr0zen",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/unfr0zen/unfr0zen"
+        },
+        {
+          "label": "project site",
+          "url": "https://unfr0zen.com/"
+        }
+      ],
+      "reviewed": "2026-11-14",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": "2026-11-14",
+      "summary": "A stock Nest Learning Thermostat is controlled from the Nest or Google Home app through Google's cloud and needs internet access. unfr0zen, whose commits are mostly by the handle will-tm, is a desktop app that roots the thermostat over USB and installs nestlocal, a program that stands in for Nest's cloud on the thermostat itself. The thermostat can then be controlled from Home Assistant or any MQTT client, a Matter controller or a Zigbee coordinator on the home network, and an option blocks Nest's and Google's servers. The app can back up the whole NAND before patching and restore it to go back to stock."
+    },
+    {
+      "slug": "coway-local-airmega",
+      "url": "https://unshittify.dev/p/coway-local-airmega/",
+      "id": 143,
+      "title": "Coway Local",
+      "seoTitle": "Coway Local: Home Assistant control of a Coway air purifier, no cloud",
+      "device": "Coway Airmega IconS air purifier (AP-1022K), discontinued",
+      "category": "home",
+      "ai": "chatgpt",
+      "evidence": "experimental",
+      "aiRole": "From the author's post: \"An LLM can set up everything you need for a MitM environment\". Claude declined that request (\"Claude will not oblige the request, not even for… uhh… testing purposes. Luckily, ChatGPT has no such compunctions.\"), so ChatGPT wrote the firewall rules for the test network. The rest is credited to \"the AI\" without a name: it generated a mitmproxy plugin, mapped app buttons to MQTT commands, and worked out the Bluetooth setup protocol from Android logs and the decompiled app (\"It took the AI about 20 minutes.\"). The README does not mention AI and no commit carries an AI trailer.",
+      "caveats": "From the README: \"This is experimental. It implements the protocol observed on one AP-1022K, and no other model or firmware has been tested.\" The Coway mobile app no longer controls a fan set up this way. Home Assistant needs a fixed LAN address, and the fan must be set up again if it changes. One-time setup needs Chrome on a Mac or Android device within Bluetooth range. The setup page is hosted on GitHub Pages by default and can be self-hosted. Not implemented: PM10 and other air-quality metrics, filter notification flags, firmware updates. The author's model is discontinued but Coway's cloud still runs, so this is a move off a working cloud.",
+      "evidenceNote": "Public code and a detailed write-up, MIT, about 20 stars, created 11 November 2026, release v0.5.2 on 12 November 2026.",
+      "repo": "scottjg/coway-local",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/scottjg/coway-local"
+        },
+        {
+          "label": "author's write-up",
+          "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/"
+        },
+        {
+          "label": "hacker news",
+          "url": "https://news.ycombinator.com/item?id=50474959"
+        }
+      ],
+      "reviewed": "2026-11-14",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": "2026-11-14",
+      "summary": "The Airmega IconS can only be controlled remotely through Coway's cloud, and the existing Home Assistant integration works by polling that cloud. Scott J. Goldman writes that it broke once or twice a year and that Coway once banned his account for weeks. He found that the fan downloads its root certificate over plain HTTP and takes its server addresses from the Bluetooth setup message. Coway Local uses that: a setup page sends the fan the address of Home Assistant over Web Bluetooth, and the integration runs its own MQTT broker that the fan connects to instead of Coway's."
+    },
+    {
+      "slug": "samsung-tv-root",
+      "url": "https://unshittify.dev/p/samsung-tv-root/",
+      "id": 144,
+      "title": "Samsung TV root",
+      "seoTitle": "Samsung TV root: root access on QN90B and QN90F Tizen TVs, built with Codex",
+      "device": "Samsung QN90B (bought 2022) and QN90F (bought 2026) Tizen TVs",
+      "category": "tv",
+      "ai": "codex",
+      "evidence": "public",
+      "aiRole": "From the README: \"The QN90B took about a day with Codex in May 2026. The QN90F took about three hours with a newer version of Codex in July 2026, right out of the box.\" The README does not say more about what Codex did. No commit carries an AI trailer.",
+      "caveats": "The routes are tested on two exact TVs and firmware versions, QN55QN90BAFXZA and QN75QN90FAFXZA. The README warns: \"Do not substitute a different TV just because its model name looks similar.\" It uses a Samsung SDB flaw (SVE-2025-50109) and kernel exploits, including CVE-2025-0072 on the QN90F. It needs Developer Mode, Samsung's sdb tool and a controller computer on the same network. Root does not survive a power cycle; the host controller regains it and installs nothing on the TV to run at boot. The archive route's probe command is a full root attempt, and an interrupted attempt may leave files on the TV's user storage. From the README: \"UID 0 does not remove every Samsung security boundary.\" The author keeps his TVs blocked from the internet. The repo contains no Samsung firmware, binaries or extracted keys, but it documents recovering firmware keys on the two tested models. The README gives no statement on warranty or legal position. A feature project on TVs that still work as sold.",
+      "evidenceNote": "Public code, Unlicense, about 575 stars, created 17 August 2026, release v0.0.13 on 14 November 2026.",
+      "repo": "chris-ritsen/samsung-tv-root",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/chris-ritsen/samsung-tv-root"
+        },
+        {
+          "label": "compatibility record",
+          "url": "https://github.com/chris-ritsen/samsung-tv-root/blob/master/docs/user/COMPATIBILITY.md"
+        }
+      ],
+      "reviewed": "2026-11-14",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": "2026-11-14",
+      "summary": "Samsung's Tizen TVs give the owner no root access. Christopher Ritsen built root exploits for the two Samsung TVs he owns, in his words \"to make the TVs less annoying\". A controller program on a computer on the same network regains root each time a TV powers on. He uses it to remap the remote to whichever computer is connected, control playback in YouTube and Plex, and collect diagnostics from the TV."
+    },
+    {
+      "slug": "roomba-cloud",
+      "url": "https://unshittify.dev/p/roomba-cloud/",
+      "id": 145,
+      "title": "Roomba Cloud",
+      "seoTitle": "Roomba Cloud: a self-hosted replacement for iRobot's cloud, Roomba 505",
+      "device": "iRobot Roomba 505 and 507 (V4 robots)",
+      "category": "home",
+      "ai": "copilot (commits)",
+      "evidence": "public",
+      "aiRole": "The README does not mention AI. 21 of the repo's 49 commits carry a \"Co-authored-by: Copilot\" trailer, and 6 of 13 in the companion Home Assistant repo.",
+      "caveats": "One model is listed as physically tested, the Roomba 505/507 on one firmware version. From the README: \"Other V4 models have not been verified.\" It needs a domain name you control with a publicly trusted TLS certificate (Let's Encrypt support is built in), a server with ports 443 and 8883 free, and a Bluetooth computer near the robot for setup. The robot needs an NTP server to keep working. Provisioning disconnects the robot from iRobot's cloud; the README says Matter integrations keep working and the Roomba Home app's Change Wi-Fi process reconnects it. Map edits change the robot's saved map and cannot be reverted, and the emulator cannot restore maps to a robot. The author on whether iRobot could stop this: \"I can't guarantee they won't block this provisioning process in the future.\" Cleaning controls come through the companion Home Assistant integration. A move off a working cloud on a current robot.",
+      "evidenceNote": "Public code, MIT, about 12 stars, created 16 October 2026, release v1.0.12 on 13 November 2026.",
+      "repo": "carbon198/roomba-cloud",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/carbon198/roomba-cloud"
+        },
+        {
+          "label": "home assistant integration",
+          "url": "https://github.com/carbon198/ha-roomba-local"
+        }
+      ],
+      "reviewed": "2026-11-14",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": "2026-11-14",
+      "summary": "iRobot's V4 Roombas send their telemetry and maps to iRobot's cloud, and the README says the robot's own MQTT server is not for local control. Stephen Basile's Roomba Cloud is a server you run yourself that takes the place of those cloud services. A Bluetooth tool sets the robot's Wi-Fi and cloud address, the same way the Roomba Home app's Change Wi-Fi feature does, so the robot firmware is not changed. Telemetry and maps then stay on the home network, and a companion integration controls the robot from Home Assistant."
+    },
+    {
+      "slug": "rosetta-os-akai-s2000",
+      "url": "https://unshittify.dev/p/rosetta-os-akai-s2000/",
+      "id": 146,
+      "title": "Akai S2000 Rosetta OS",
+      "seoTitle": "Rosetta OS: effects for the Akai S2000 sampler without the EB16 board",
+      "device": "Akai S2000 sampler, stock OS 2.0",
+      "category": "audio",
+      "ai": "claude",
+      "evidence": "experimental",
+      "aiRole": "From the README: \"Made by JunkSmithWizard (JSW) together with Claude (Anthropic's AI). Claude wrote the code and did the reverse engineering: NEC V53 disassembly, a whole-OS emulator, and the hidden delay engine measured over MIDI. JSW ran every build on a real S2000, built the measurement rig, and made the calls by ear.\" All 30 commits carry a Claude Co-Authored-By trailer.",
+      "caveats": "The README calls it work in progress: \"Expect rough edges.\" Known issue: the moving effects (CHORUS, FLANGER, JUNO, TAPE) crackle on held chords. Some features are marked as tested in the emulator only. The reverbs use one delay line and the README describes them as metallic. You build the boot disk yourself from your own OS 2.0 floppy and need Python, NASM and a Gotek floppy emulator with FlashFloppy; no Akai code is in the repo and there are no releases. Nothing is written to ROM or flash, and booting the stock disk returns the sampler to stock. From the README: \"Build at your own risk; always keep your stock OS disk.\" A feature project on an old sampler.",
+      "evidenceNote": "Public code, MIT, about 5 stars, created 13 October 2026, last commit 6 November 2026.",
+      "repo": "yuyoi/Akai-S2000-Rosetta-OS",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/yuyoi/Akai-S2000-Rosetta-OS"
+        },
+        {
+          "label": "landing page",
+          "url": "https://yuyoi.github.io/Akai-S2000-Rosetta-OS/"
+        }
+      ],
+      "reviewed": "2026-11-14",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": "2026-11-14",
+      "summary": "An Akai S2000 has no effects unless the EB16 effects board is fitted. JunkSmithWizard (yuyoi on GitHub) and Claude found that the sampler's voice chip has a delay engine that the stock OS barely uses, and mapped it from a PC over MIDI. Rosetta OS is a patch kit for the stock OS 2.0 that boots from a Gotek floppy emulator and turns that engine into reverb, echo and reverse delay, for played notes and for the live input. It also adds new menus, one-button sampling and a synth layer."
+    },
+    {
+      "slug": "freeplay-polyend-play",
+      "url": "https://unshittify.dev/p/freeplay-polyend-play/",
+      "id": 147,
+      "title": "FreePlay",
+      "seoTitle": "FreePlay: custom firmware for the Polyend Play+ with a slicer and LFOs",
+      "device": "Polyend Play+ and original Polyend Play (RT processor)",
+      "category": "audio",
+      "ai": "claude",
+      "evidence": "experimental",
+      "aiRole": "From the README: \"FreePlay was built with a lot of help from AI (Claude, an AI coding tool), and tested on my own Play+. You'll see that in the commit history too.\" The repo has one commit, and it carries a Claude Co-Authored-By trailer.",
+      "caveats": "From the README: \"This is beta firmware.\" It is version 0.1 and the author says it will have bugs. It is tested on the author's own Play+ only; on the original Play with the RT processor it has run only on a virtual device, and the K66 version of the Play is not supported. Not made or supported by Polyend. The installer accepts only official firmware 1.3.0 (Play+) or 1.6.0 (Play) and patches the owner's own copy in the browser, so no Polyend firmware is distributed. The bootloader is untouched, and flashing the official file or using the reset button goes back to stock. LFOs, sustain and release work on sample tracks only. The LICENSE file is MIT with an exception: the MIDI CC preset data is CC BY-SA 4.0. A feature project on a supported instrument.",
+      "evidenceNote": "Public code, MIT with a CC BY-SA 4.0 exception for preset data, about 9 stars, single commit on 6 November 2026, no releases.",
+      "repo": "sloppyjoo/freeplay",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/sloppyjoo/freeplay"
+        },
+        {
+          "label": "browser installer",
+          "url": "https://sloppyjoo.github.io/freeplay/"
+        }
+      ],
+      "reviewed": "2026-11-14",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": "2026-11-14",
+      "summary": "FreePlay is unofficial custom firmware for the Polyend Play+ and Play. The GitHub user sloppyjoo wrote it to add things they wanted on their own Play+: a sample slicer, two LFOs with a modulation matrix, sustain and release on samples, a moving playhead and MIDI CC presets for 43 synths. A browser page takes the official firmware file the owner downloads from Polyend, adds FreePlay to it and checks the result byte for byte against the tested build."
+    },
+    {
+      "slug": "midistomp-zoom-multistomp",
+      "url": "https://unshittify.dev/p/midistomp-zoom-multistomp/",
+      "id": 148,
+      "title": "MIDISTOMP",
+      "seoTitle": "MIDISTOMP: MIDI control, routing and a looper for Zoom MultiStomp pedals",
+      "device": "Zoom MS-50G, MS-60B and MS-70CDR MultiStomp pedals (the original models)",
+      "category": "audio",
+      "ai": "claude (commits)",
+      "evidence": "public",
+      "aiRole": "The README does not mention AI. 83 of the latest 100 commits carry a Co-Authored-By trailer for Claude Opus 5.5.",
+      "caveats": "From the README: \"Not affiliated with or supported by Zoom. Flashing modified firmware can brick a pedal.\" The release contains no Zoom firmware. It is a builder for Windows and Mac: the owner downloads Zoom's official MS-70CDR 2.10 updater, and the builder writes a modified updater from that copy. The README says the updater never rewrites the bootloader and that Zoom's original updater restores the stock firmware. One build runs on all three pedals, so each reports itself as an MS-70CDR over USB afterwards. The MS-60B is listed as tested with v1.2. The MS-50G+, MS-70CDR+, MS-200D+ and the Four series are not supported. The README describes the project as \"made by one person with one pedal\". A feature project; MIDI runs over USB only.",
+      "evidenceNote": "Public code, MIT, about 40 stars, repo created October 2026, release v2.0.3 on 13 November 2026.",
+      "repo": "matujuice/zoom-ms-midistomp",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/matujuice/zoom-ms-midistomp"
+        },
+        {
+          "label": "user guide",
+          "url": "https://github.com/matujuice/zoom-ms-midistomp/blob/main/docs/user-guide.md"
+        },
+        {
+          "label": "custom effects pack",
+          "url": "https://github.com/matujuice/zoom-ms-zdl-effects-pack"
+        }
+      ],
+      "reviewed": "2026-11-14",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": "2026-11-14",
+      "summary": "matujuice's MIDISTOMP replaces the operating system of the original Zoom MS-50G, MS-60B and MS-70CDR pedals. It adds MIDI control over USB (program change, control change for every knob, clock sync), parallel effect routing, a tempo-synced looper, a Perform mode and level meters, and raises the DSP limit from 225 to 300. Patches and installed effects are kept, and the pedal can be returned to stock with Zoom's own updater."
+    },
+    {
+      "slug": "elekloader-elektron",
+      "url": "https://unshittify.dev/p/elekloader-elektron/",
+      "id": 149,
+      "title": "elekloader",
+      "seoTitle": "elekloader: a mod loader that builds custom OS files for Elektron instruments",
+      "device": "Elektron Digitakt and Digitone (mk1), Digitone Keys, Octatrack MKI and MKII, Model:Cycles, Model:Samples, Analog Rytm MKI and MKII, Analog Four MKII, Digitakt II, Digitone II",
+      "category": "audio",
+      "ai": "claude (commits)",
+      "evidence": "public",
+      "aiRole": "The README does not say AI was used; its documentation table links AGENTS.md for \"coding agents\". 63 of the latest 100 commits carry a Claude Co-Authored-By trailer, most of them for Claude Opus 5.5. The repo root has CLAUDE.md, AGENTS.md and a .claude folder.",
+      "caveats": "From the README: \"elekloader is not affiliated with Elektron. Flashing custom firmware is at your own risk.\" It also says \"Nothing from Elektron is distributed\": the owner supplies Elektron's stock OS file and the custom OS is built on their own machine or in their browser. The bootloader is not touched, and the stock OS file recovers the device; most devices need 5-pin DIN MIDI for that. Digitakt II, Digitone II, Analog Four MKII and Analog Rytm MKI are marked experimental, and the Octatrack core has not been tried on an MKI. The same devices are covered on this site by Octabam (Octatrack) and Modded Cycles (Model:Cycles), which are each one custom OS; elekloader is a loader that combines separate mods and credits Octabam for its Octatrack facts. A feature project.",
+      "evidenceNote": "Public code, GPL-2.0-or-later, about 130 stars, repo created September 2026, release 0.10.0 on 9 November 2026.",
+      "repo": "elekloader/elekloader",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/elekloader/elekloader"
+        },
+        {
+          "label": "mod shop",
+          "url": "https://elekloader.github.io/shop/"
+        },
+        {
+          "label": "browser builder",
+          "url": "https://elekloader.github.io/elekloader/"
+        }
+      ],
+      "reviewed": "2026-11-14",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": "2026-11-14",
+      "summary": "elekloader, by irpina and contributors, is a mod loader for Elektron firmware that covers the Digitakt, Digitone, Octatrack, Model:Cycles, Model:Samples and Analog Rytm, with experimental support for newer machines. The owner picks mods, supplies the stock OS file Elektron publishes for the device, and the tool builds a custom OS file that is flashed like any OS update. Mods are checked against each other before the build, and a shop lists mods that other authors publish from their own repositories."
+    },
+    {
+      "slug": "lanovo-lenovo-smart-display",
+      "url": "https://unshittify.dev/p/lanovo-lenovo-smart-display/",
+      "id": 150,
+      "title": "LANovo",
+      "seoTitle": "LANovo: Lenovo Smart Displays as local Home Assistant voice panels",
+      "device": "Lenovo Smart Display 7, 8 and 10, JBL Link View, Lenovo ThinkSmart View",
+      "category": "home",
+      "ai": "codex (commits)",
+      "evidence": "public",
+      "aiRole": "The README and the documentation site do not mention AI, and the maintainer's commits carry no AI trailers. Three of the latest 100 commits, from a contributor, end with \"Prepared with OpenAI Codex for ygelfand/LANovo#6.\"",
+      "caveats": "The display must be unlocked first. For the Smart Display 7, 8, 10 and JBL Link View the README points to community guides on XDA and says to flash the \"Android 8.1 Debug Firmware\"; the ThinkSmart View is flashed whole over EDL with LANovo's boot image. LANovo replaces Google Assistant on the device, and Home Assistant is required. The README calls its Chromecast receiver experimental. The Wi-Fi setup supports WPA2 or open networks, not WPA3-only or enterprise networks. The README does not say what Google has done to support for these displays. Version 0.0.7.",
+      "evidenceNote": "Public code, AGPL-3.0, about 50 stars, repo created October 2026, release 0.0.7 on 10 November 2026.",
+      "repo": "ygelfand/LANovo",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/ygelfand/LANovo"
+        },
+        {
+          "label": "docs",
+          "url": "https://www.lanovo.link"
+        },
+        {
+          "label": "echolocal (sister project)",
+          "url": "https://github.com/ygelfand/echolocal"
+        }
+      ],
+      "reviewed": "2026-11-14",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": "2026-11-14",
+      "summary": "Lenovo's Smart Displays and the JBL Link View were built around Google Assistant. ygelfand's LANovo replaces it with software that Home Assistant discovers through the ESPHome native API. The display becomes a voice satellite with on-device wake words, a dashboard for lights, cameras and alarms, a media player for Home Assistant and Music Assistant, a Bluetooth proxy and an RTSP camera, using the display's existing microphones, speakers, camera and sensors."
+    },
+    {
+      "slug": "pulsar-yandex-station",
+      "url": "https://unshittify.dev/p/pulsar-yandex-station/",
+      "id": 151,
+      "title": "pulsar",
+      "seoTitle": "pulsar: Yandex Station speakers as local Home Assistant voice satellites",
+      "device": "Yandex Station Midi, Station 2, Lite 2, Mini 2, Mini 3, Mini 3 Pro and first-generation Mini smart speakers",
+      "category": "home",
+      "ai": "coding agents",
+      "evidence": "public",
+      "aiRole": "The README does not say which tools wrote the code. Its developer section points to AGENTS.md and .agents/skills/ as the repository rules and procedures for developers and agents (the text is in Russian). AGENTS.md mentions Codex and Claude Code, and a .claude/skills link exists for Claude Code. AGENTS.md forbids AI names in commit authors and trailers, so the commits show none.",
+      "caveats": "The README and docs are in Russian. The speaker must already have root access over adb; the README says rooting is not part of the project. No Yandex libraries are in the repository: the daemon loads Yandex's proprietary libraries from the speaker at run time. From the README's limits section: the speaker still uses the firmware's DNS and NTP, which point at Yandex servers, and stays tied to the Yandex account; pulsar does not block Yandex firmware updates, and an update can remove pulsar's autostart; the Windows and macOS installer is untested on real computers; optional SSH logs in as root with no password. Only the Midi and the Lite 2 (plum board) are tested by the maintainer; the other models are experimental or rest on contributors' reports. Zigbee on the Midi is experimental. The README says the project is not connected to Yandex and use is at the owner's risk. Yandex's software can be restored with one command.",
+      "evidenceNote": "Public code, AGPL-3.0, about 110 stars, repo created October 2026, release v0.6.1 on 10 November 2026.",
+      "repo": "Morvex885/pulsar",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/Morvex885/pulsar"
+        },
+        {
+          "label": "agents.md",
+          "url": "https://github.com/Morvex885/pulsar/blob/main/AGENTS.md"
+        }
+      ],
+      "reviewed": "2026-11-14",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": "2026-11-14",
+      "summary": "Yandex Station speakers run Yandex's own software and depend on Yandex's cloud. Morvex885's pulsar is a small Rust daemon that runs on a rooted speaker in place of that software and speaks the ESPHome native API, so Home Assistant sees the speaker as a voice satellite and media player, and Music Assistant sees a Sendspin player. It keeps the \"Alisa\" and \"Yandex\" wake words and drives the speaker's LEDs, clock, buttons and microphone switch. On the Station Midi the built-in Zigbee radio can work as a coordinator or router."
+    },
+    {
+      "slug": "centauri-carbon-2-community-firmware",
+      "url": "https://unshittify.dev/p/centauri-carbon-2-community-firmware/",
+      "id": 152,
+      "title": "Centauri Carbon 2 Community Firmware",
+      "seoTitle": "Centauri Carbon 2 Community Firmware: local control for ELEGOO's printer",
+      "device": "ELEGOO Centauri Carbon 2 3D printer",
+      "category": "make",
+      "ai": "claude (commits)",
+      "evidence": "public",
+      "aiRole": "The README does not say AI was used; it points contributors to AGENTS.md, whose rules apply to \"contributors and coding agents\". 8 of the latest 100 commits (8 to 13 November 2026) carry Claude Co-Authored-By trailers, all squashed pull requests from one contributor, and 2 carry a Cursor Agent trailer.",
+      "caveats": "A feature project on a working printer. The release is a complete firmware image. NOTICE.md says it \"is derived from the ELEGOO Centauri Carbon 2 stock package 02.01.01.13\" and \"includes vendor and third-party components, including an SSH implementation\". The README says: \"Community code and vendor firmware have distinct licensing scopes.\" It also says the GPL-3.0 licence covers the project's own code and \"does not relicense ELEGOO firmware images, modified vendor executables, embedded third-party software, trademarks or signing keys\", and that the project \"does not yet contain a complete component license/source inventory and does not certify compliance with all redistribution requirements\". From the README: the separate Recovery package is not released, and \"do not assume a universal reset or guaranteed loss-free recovery exists for every unknown state\". RFID support is optional and not tested with every tag brand.",
+      "evidenceNote": "Public code, GPL-3.0 for the project's own code, about 140 stars, repo created September 2026, release V4.4.4 (Universal 07) on 12 November 2026.",
+      "repo": "Neme77/centauri-carbon-2-community",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/Neme77/centauri-carbon-2-community"
+        },
+        {
+          "label": "licensing notice",
+          "url": "https://github.com/Neme77/centauri-carbon-2-community/blob/develop/NOTICE.md"
+        },
+        {
+          "label": "elegoo's public repo",
+          "url": "https://github.com/elegooofficial/CentauriCarbon2"
+        }
+      ],
+      "reviewed": "2026-11-14",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": "2026-11-14",
+      "summary": "Neme77 maintains a community firmware for the ELEGOO Centauri Carbon 2, with contributions and printer testing from other owners. It is built on ELEGOO's own firmware and installed from USB through the printer's Offline Update. The repo describes SSH and root access, LAN and WAN working side by side, object exclusion, local MQTT and webcam, and OrcaSlicer integration. It also adds CC2 Control, a web panel with a print queue, bed mesh and screw tramming tools, spool tracking and optional reading of filament RFID tags beyond the original producer filter."
+    },
+    {
+      "slug": "repriseos-ipod-classic",
+      "url": "https://unshittify.dev/p/repriseos-ipod-classic/",
+      "id": 153,
+      "title": "RepriseOS",
+      "seoTitle": "RepriseOS: new features for Apple's own iPod Classic firmware",
+      "device": "Apple iPod Classic 6G, 6.5G and 7G",
+      "category": "audio",
+      "ai": "claude (commits)",
+      "evidence": "public",
+      "aiRole": "Neither README mentions AI. 5 of the latest 100 commits in osos-lab carry a Co-Authored-By trailer for Claude Opus 5.5. None of the installer repo's 40 commits do.",
+      "caveats": "The owner must supply Apple's firmware file iPod_38.2.0.5.ipsw; the installer applies the patches to it. The README says the release bundle is built \"without Apple firmware inputs\" and contains \"compiled patches, assembly recipes, the NOR installer, and the USB helper\"; the v0.3.1 package is under 1 MB. Installation goes through DFU mode, uses the wInd3x BootROM exploit and installs a patched Rockbox bootloader; the installer backs up the iPod's NOR and SysCfg first. Holding Menu at boot starts Apple's OS. FAT32 storage is required. The README says not to copy a personalised build between devices. The game SDK, Doom and NES ports are unfinished. Version 0.3.1.",
+      "evidenceNote": "Public code, GPL-3.0, about 90 stars, repo created September 2026, release v0.3.1 on 3 November 2026.",
+      "repo": "lgreitis/osos-lab",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/lgreitis/osos-lab"
+        },
+        {
+          "label": "installer",
+          "url": "https://github.com/lgreitis/repriseos-installer"
+        },
+        {
+          "label": "site",
+          "url": "https://repriseos.com"
+        }
+      ],
+      "reviewed": "2026-11-14",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": "2026-11-14",
+      "summary": "lgreitis's RepriseOS patches Apple's original iPod Classic firmware, version 2.0.5, and keeps its interface and playback system. It adds a five-band graphic EQ, Play Next and Play Last, Album Artists browsing, a dark mode, clicker output options and Apple's EU Volume Limit setting with full volume when it is off. A desktop installer for Windows, macOS and Linux builds and installs it from the owner's own copy of Apple's firmware file."
+    },
+    {
+      "slug": "echopod-snowsky-echo-mini",
+      "url": "https://unshittify.dev/p/echopod-snowsky-echo-mini/",
+      "id": 154,
+      "title": "EchoPod",
+      "seoTitle": "EchoPod: replacement firmware with Cover Flow for the Snowsky Echo Mini",
+      "device": "Snowsky (FiiO) Echo Mini 8 GB music player",
+      "category": "audio",
+      "ai": "claude",
+      "evidence": "experimental",
+      "aiRole": "From CREDITS.md, on the interface translations: \"The other language files were written by Claude and no native speaker has reviewed them.\" From the release notes for 0.9.1: \"Most of this comes from a comparison with FiiO's 4.0.0 firmware that velppa's Claude Code made (issue 12).\" The README does not mention AI, none of the roughly 420 commits carries a Co-Authored-By trailer, and the repo has no agent files. The sources do not say whether AI wrote firmware code.",
+      "caveats": "From the known issues file: \"EchoPod is early firmware made by one person and tested on one player. It comes with no warranty: use it at your own risk.\" Custom firmware left Echo Mini players unable to start during development; all were recovered through the chip's maskrom mode, which needs a patched tool. A power cut during an install is a risk. Installing from a Mac is unproven. The 512 MB Echo Mini is not supported. FiiO's firmware can be put back by file copy, checked with FiiO's 3.7.0 to 4.0.0 images. EchoPod is a feature project: the sources do not describe the Echo Mini as abandoned, and the release notes compare against FiiO firmware 4.0.0. Not made or supported by FiiO.",
+      "evidenceNote": "Public code, GPL-3.0-or-later, about 100 stars, 17 releases from v0.1.0 on 24 October 2026 to v0.12.0 on 11 November 2026.",
+      "repo": "BasilSkyWalk/echopod",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/BasilSkyWalk/echopod"
+        },
+        {
+          "label": "known issues",
+          "url": "https://github.com/BasilSkyWalk/echopod/blob/main/docs/known-issues.md"
+        },
+        {
+          "label": "rechord (hardware research)",
+          "url": "https://github.com/brnomt/ReChord"
+        }
+      ],
+      "reviewed": "2026-11-14",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": "2026-11-14",
+      "summary": "The Snowsky Echo Mini is a small music player from FiiO that runs FiiO's own closed firmware. BasilSkyWalk's EchoPod replaces that firmware on the 8 GB model. It adds an iPod-style Cover Flow browser, a music library that the player builds itself, favorites, M3U playlists, an Up Next queue, and separate shelves for audiobooks and podcasts. The hardware knowledge comes largely from the ReChord project, and the player can go back to FiiO's firmware by file copy."
+    },
+    {
+      "slug": "scooter-display-egret-gt",
+      "url": "https://unshittify.dev/p/scooter-display-egret-gt/",
+      "id": 155,
+      "title": "scooter-display",
+      "seoTitle": "scooter-display: custom Rust display firmware for the Egret GT e-scooter",
+      "device": "Egret GT and GTS e-scooter, display unit (AT32F415 microcontroller)",
+      "category": "vehicle",
+      "ai": "none documented",
+      "evidence": "public",
+      "aiRole": "No AI use documented in the README, the blog post or the commits.",
+      "caveats": "From the blog post: \"The update mechanism directly writes over the application image in flash, so a failed update will brick the display.\" The post adds that the bootloader checks for update packets at every power-up, so a new update can be started even when the application does not run. Flashing needs an ESP32 wired to two CAN transceivers, with the firmware compiled into the flasher; the flasher repo has no licence file. The features include a speed limit control and an arbitrary speed limit; the README does not discuss road rules. The post reports that the stock update process accepts firmware without authentication. This is one owner's project on his own scooter; the sources name no other tested units.",
+      "evidenceNote": "Public code, GPL-3.0, about 18 stars, 93 commits from March to October 2026; blog post dated 9 August 2026.",
+      "repo": "simmsb/scooter-display",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/simmsb/scooter-display"
+        },
+        {
+          "label": "blog post",
+          "url": "https://bensimms.moe/reverse-engineering-scooter/"
+        },
+        {
+          "label": "can flasher",
+          "url": "https://github.com/simmsb/egret-can-flasher"
+        },
+        {
+          "label": "hacker news",
+          "url": "https://news.ycombinator.com/item?id=49638071"
+        }
+      ],
+      "reviewed": "2026-11-14",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": "2026-11-14",
+      "summary": "Ben Simms found that holding a button while powering on his Egret GT e-scooter opened a firmware update menu, and that leaving the menu let him ride without entering the PIN. He also found that the Egret app sends driving time, odometer and charge history to the manufacturer. Over more than six months he traced the scooter's CAN bus, which runs over two pins of the display's USB-C port, dumped the firmware of the display and motor controller, and wrote replacement display firmware in Rust. His firmware closes the PIN bypass and shows battery voltage, current and the time on a new HUD. He published the code, documentation of the scooter's components and a flasher that sends the firmware over CAN."
+    },
+    {
+      "slug": "petlibro-local",
+      "url": "https://unshittify.dev/p/petlibro-local/",
+      "id": 156,
+      "title": "Petlibro Local",
+      "seoTitle": "Petlibro Local: Petlibro feeders and fountains in Home Assistant, no cloud",
+      "device": "Petlibro pet feeders and fountains: Dockstream 2, Dockstream 2 Cordless and Dockstream RFID fountains; One RFID, Granary, Granary Camera and Polar feeders",
+      "category": "home",
+      "ai": "claude",
+      "evidence": "experimental",
+      "aiRole": "From the changelog for 2026.10.2: \"I ran Claude's ultra code review over the add-on and fixed the issues it found\". One of the repo's 38 commits carries a \"Co-Authored-By: Claude Sonnet 5.5\" trailer. The README does not mention AI.",
+      "caveats": "From the README: \"this is still a young project, though it has been running my own devices since mid-August.\" It also says the redirect \"may void your device warranty\" and that owners must keep a care routine for their pets that does not depend on the software. A new device still needs the official Petlibro app and an account once, to join Wi-Fi. Setup needs Home Assistant OS or Supervised, the Mosquitto broker and a local DNS override. Some firmware falls back to Petlibro's cloud unless the device is blocked from the internet. Restarting Mosquitto reboots the feeders and fountains. Several models are marked beta. The Polar feeder is early beta and the author does not own one. The Granary Camera Feeder has no camera video. Petlibro's cloud is still running, so this is a local-control project on supported gear.",
+      "evidenceNote": "Public code, MIT, about 30 stars, 25 releases from v2026.08.1 on 21 August 2026 to v2026.11.2 on 10 November 2026.",
+      "repo": "smcneece/petlibro-local",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/smcneece/petlibro-local"
+        },
+        {
+          "label": "ha_petlibro (cloud integration it builds on)",
+          "url": "https://github.com/jjjonesjr33/ha_petlibro"
+        }
+      ],
+      "reviewed": "2026-11-14",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": "2026-11-14",
+      "summary": "Petlibro's smart feeders and fountains are controlled through Petlibro's app and cloud. Shawn McNeece's Petlibro Local is a Home Assistant app that keeps them on the local network. The devices connect to Petlibro's MQTT server by name, so a local DNS override sends them to the owner's Mosquitto broker, and the app captures each device's login during setup. After that it offers feeding schedules, Feed Now, water level, pump and light controls, pet profiles and Home Assistant entities with no Petlibro cloud traffic."
+    },
+    {
+      "slug": "eyefireceiver-eye-fi-x2",
+      "url": "https://unshittify.dev/p/eyefireceiver-eye-fi-x2/",
+      "id": 157,
+      "title": "EyeFiReceiver",
+      "seoTitle": "EyeFiReceiver: a local photo receiver for Eye-Fi X2 Wi-Fi SD cards",
+      "device": "Eye-Fi X2 Wi-Fi SD cards",
+      "category": "computer",
+      "ai": "none documented",
+      "evidence": "public",
+      "aiRole": "No AI use documented in the README or the four commits.",
+      "caveats": "Almost no adoption: one star and no forks. Windows only, with Python 3.12 or newer. The README lists 40 offline unit tests that run without a physical card and does not say which cards were tested. Cards on firmware 5.0 and older do not reveal their upload key; the app then looks for the key in an old Eye-Fi Center or X2 Utility install, and a card whose key cannot be found works through a card reader only. Eye-Fi's update server is gone, so card firmware can no longer be updated. The LICENSE file is MIT with a note that a bundled protocol reference (eyefi-config by Dave Hansen) is GPLv2; GitHub does not recognise the licence because of that note.",
+      "evidenceNote": "Public code, MIT with a bundled GPLv2 reference archive, 1 star, 4 commits from 19 to 22 September 2026, no releases.",
+      "repo": "MSClub-smart/Eyefi-x2-receiver",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/MSClub-smart/Eyefi-x2-receiver"
+        },
+        {
+          "label": "eyefi-config (protocol reference)",
+          "url": "https://github.com/hansendc/eyefi-config"
+        },
+        {
+          "label": "wikipedia: eye-fi",
+          "url": "https://en.wikipedia.org/wiki/Eye-Fi"
+        }
+      ],
+      "reviewed": "2026-11-14",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": "2026-11-14",
+      "summary": "Eye-Fi announced on 30 June 2016 that its software would stop supporting X2 and older cards after 16 September 2016, and the company ceased business that year. Without Eye-Fi's servers the official software could no longer activate a card or receive its photos. Minsik Choi's EyeFiReceiver is a Python program for Windows that registers an X2 card through a card reader, sets the card's Wi-Fi network and receives its photos over Wi-Fi on the owner's PC."
+    },
+    {
+      "slug": "sengled-bulb-local-control",
+      "url": "https://unshittify.dev/p/sengled-bulb-local-control/",
+      "id": 158,
+      "title": "Sengled Bulb Local Control",
+      "seoTitle": "Sengled Bulb Local Control: a self-hosted server for Sengled Wi-Fi bulbs",
+      "device": "Sengled Wi-Fi bulbs",
+      "category": "home",
+      "ai": "none documented",
+      "evidence": "experimental",
+      "aiRole": "No AI use documented in the README, the protocol notes or the six commits.",
+      "caveats": "No adoption yet: no stars, no forks, six commits by one author. There is no licence file, and the README says \"No license granted\" and that the code is for personal use for now. The README names no bulb models. Each bulb must be factory reset and paired again to the owner's server. The owner has to run the Python server, generate TLS certificates and build the Android client in Android Studio; no built app is published. The protocol notes say the app-side findings come from static reading of the Sengled Home 2.8.3 app and \"have not been verified by runtime capture yet\". The README says Sengled's cloud shut down. Trade press reported long outages from June 2025 and the end of Sengled's Alexa skill on 1 August 2025; no statement from Sengled was found.",
+      "evidenceNote": "Public code, no licence, 0 stars, 6 commits on 15 and 16 October 2026, no releases.",
+      "repo": "sanmn19/sengled-bulb-local-control",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/sanmn19/sengled-bulb-local-control"
+        },
+        {
+          "label": "protocol notes",
+          "url": "https://github.com/sanmn19/sengled-bulb-local-control/blob/main/PROTOCOL.md"
+        },
+        {
+          "label": "lightnow on the outages",
+          "url": "https://www.lightnowblog.com/2025/08/sengled-smart-lamps-service-outages-alexa-skill-shut-down/"
+        }
+      ],
+      "reviewed": "2026-11-14",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": "2026-11-14",
+      "summary": "Sengled's Wi-Fi bulbs take their commands from Sengled's cloud, which suffered long outages from June 2025; the project's README says the cloud has shut down. sanmn19 wrote a replacement server in Python that answers the bulb's HTTP setup requests and runs the MQTT broker over TLS that the bulb connects to. During pairing the bulb is given the address of the owner's server. An Android client controls power, brightness, color and color temperature, with bulbs grouped by room."
+    },
+    {
+      "slug": "mysmartblinds-esp32-bridge",
+      "url": "https://unshittify.dev/p/mysmartblinds-esp32-bridge/",
+      "id": 159,
+      "title": "MySmartBlinds ESP Bridge",
+      "seoTitle": "MySmartBlinds ESP Bridge: old blind motors back in SmartThings and Alexa",
+      "device": "First-generation MySmartBlinds Bluetooth tilt motors",
+      "category": "home",
+      "ai": "none documented",
+      "evidence": "experimental",
+      "aiRole": "No AI use documented in the README, the guides or the 36 commits.",
+      "caveats": "No adoption yet: no stars and no forks. From the release notes: \"This initial community release is a beta; a clean public-channel installation on a separate user's hub has not yet been verified.\" It needs an ESP32 board, a SmartThings hub that supports LAN Edge drivers, and a JSON backup from the MySmartBlinds Android app for the motor pairing keys; iOS backups have not been validated. Hub to motor traffic is local, but remote access and Alexa depend on Samsung's SmartThings cloud and Amazon. The bridge uses local HTTP with shared default setup credentials and stores keys without encryption, so it belongs on a trusted home network. Tilt only. Temperature and light conversions are unconfirmed. The statement that MySmartBlinds ended its cloud support comes from the README; we did not find a vendor notice.",
+      "evidenceNote": "Public code, MIT, 0 stars, 36 commits all on 23 October 2026, v0.1.0 in the changelog, no GitHub release.",
+      "repo": "tylerdurden94/MySmartBlinds",
+      "links": [
+        {
+          "label": "repo",
+          "url": "https://github.com/tylerdurden94/MySmartBlinds"
+        },
+        {
+          "label": "beginner guide",
+          "url": "https://github.com/tylerdurden94/MySmartBlinds/blob/main/docs/BEGINNER_GUIDE.md"
+        }
+      ],
+      "reviewed": "2026-11-14",
+      "submittedBy": "unshittify",
+      "draft": false,
+      "added": "2026-11-14",
+      "summary": "The README says MySmartBlinds ended its cloud support, and the original MySmartBlinds Bridge needed that service for remote access and Alexa. Owners kept working blind motors and nearby Bluetooth control through the original app. tylerdurden94 published firmware for an ESP32 that talks to the motors over Bluetooth and a SmartThings Edge driver that talks to the ESP32 over the home network. Each blind becomes a SmartThings device with tilt control, battery level and routines, and Alexa works through the SmartThings skill."
     }
   ]
 }
